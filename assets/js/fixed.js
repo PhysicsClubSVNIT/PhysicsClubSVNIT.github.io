@@ -7,7 +7,7 @@ for(i=0;i<paths.length;i++){
 	paths[i].style.animation = 'animatepath 5s linear alternate infinite';
 
 }
-	document.getElementsByClassName('animate')[0].style.opacity = 1;
+document.getElementsByClassName('animate')[0].style.opacity = 1;
 
 
 function id(elemid){
@@ -16,11 +16,11 @@ function id(elemid){
 
 
 function removemenu(){
-    id("fullscreen").style.display = "none";	
+	id("fullscreen").style.display = "none";	
 }
 
 function closemenu(){
-    id("fullscreen").style.opacity = 0;
+	id("fullscreen").style.opacity = 0;
 	id('fullscreen').style.pointerEvents = 'none';
 	id('bar1').style.transform = 'translateX(0px)';
 	id('bar2').style.transform = 'translateX(0px)';
@@ -28,11 +28,11 @@ function closemenu(){
 	id('bar1-mob').style.transform = 'translateX(0px)';
 	id('bar2-mob').style.transform = 'translateX(0px)';
 	id('bar3-mob').style.transform = 'translateX(0px)';
-    setTimeout(function(){removemenu();}, 500);
+	setTimeout(function(){removemenu();}, 500);
 }
 
 function addmenu(){
-    id("fullscreen").style.opacity = 1;	
+	id("fullscreen").style.opacity = 1;	
 }
 
 function showmenu(){
@@ -49,11 +49,11 @@ function showmenu(){
 
 
 window.addEventListener('load',() =>{
-    try{id('loading').style.display = "none";
-    id('loading').style.pointerEvents = "none";
+	try{id('loading').style.display = "none";
+	id('loading').style.pointerEvents = "none";
 	id('loading').remove()}
-    catch(err){ }
-    document.body.style.overflowY= "auto";
+	catch(err){ }
+	document.body.style.overflowY= "auto";
 });
 
 /*

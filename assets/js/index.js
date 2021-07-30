@@ -1,90 +1,90 @@
 particlesJS('stateholder',{
-  "particles": {
-    "number": {
-      "value": 70,
-      "density": {
-        "enable": true,
-        "value_area": 1000
-      }
-    },
-    "color": {
-      "value": "#ffffff"
-    },
-    "shape": {
-      "type": "circle",
-      "stroke": {
-        "width": 0,
-        "color": "#000000"
-      },
-      "image": {
-        "src": "img/github.svg",
-        "width": 100,
-        "height": 100
-      }
-    },
-    "opacity": {
-      "value": 0.7536036686067957,
-      "random": false,
-      "anim": {
-        "enable": false
-      }
-    },
-    "size": {
-      "value": 3,
-      "random": true,
-      "anim": {
-        "enable": false
-      }
-    },
-    "line_linked": {
-      "enable": true,
-      "distance": 150,
-      "color": "#ffffff",
-      "opacity": 0.4,
-      "width": 1
-    },
-    "move": {
-      "enable": true,
-      "speed": 3,
-      "direction": "none",
-      "random": false,
-      "straight": false,
-      "out_mode": "out",
-      "bounce": false,
-      "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
-      }
-    }
-  },
-  "interactivity": {
-    "detect_on": "canvas",
-    "events": {
-      "onhover": {
-        "enable": false,
-        "mode": "bubble"
-      },
-      "onclick": {
-        "enable": false,
-        "mode": "push"
-      },
-      "resize": true
-    },
-    "modes": {
-      "bubble": {
-        "distance": 400,
-        "size": 4,
-        "duration": 3,
-        "opacity": 8,
-        "speed": 3
-      },
-      "push": {
-        "particles_nb": 4
-      }
-    }
-  },
-  "retina_detect": false
+	"particles": {
+		"number": {
+			"value": 70,
+			"density": {
+				"enable": true,
+				"value_area": 1000
+			}
+		},
+		"color": {
+			"value": "#ffffff"
+		},
+		"shape": {
+			"type": "circle",
+			"stroke": {
+				"width": 0,
+				"color": "#000000"
+			},
+			"image": {
+				"src": "img/github.svg",
+				"width": 100,
+				"height": 100
+			}
+		},
+		"opacity": {
+			"value": 0.7536036686067957,
+			"random": false,
+			"anim": {
+				"enable": false
+			}
+		},
+		"size": {
+			"value": 3,
+			"random": true,
+			"anim": {
+				"enable": false
+			}
+		},
+		"line_linked": {
+			"enable": true,
+			"distance": 150,
+			"color": "#ffffff",
+			"opacity": 0.4,
+			"width": 1
+		},
+		"move": {
+			"enable": true,
+			"speed": 3,
+			"direction": "none",
+			"random": false,
+			"straight": false,
+			"out_mode": "out",
+			"bounce": false,
+			"attract": {
+				"enable": false,
+				"rotateX": 600,
+				"rotateY": 1200
+			}
+		}
+	},
+	"interactivity": {
+		"detect_on": "canvas",
+		"events": {
+			"onhover": {
+				"enable": false,
+				"mode": "bubble"
+			},
+			"onclick": {
+				"enable": false,
+				"mode": "push"
+			},
+			"resize": true
+		},
+		"modes": {
+			"bubble": {
+				"distance": 400,
+				"size": 4,
+				"duration": 3,
+				"opacity": 8,
+				"speed": 3
+			},
+			"push": {
+				"particles_nb": 4
+			}
+		}
+	},
+	"retina_detect": false
 });
 
 
@@ -104,43 +104,43 @@ function chnoti(){
 //Remove noti if already reached new
 
 if (id('new').getBoundingClientRect().top <=0.65*screen.height) {
-closenoti();
+	closenoti();
 }
 
-		spaceship = id('spaceship')
+spaceship = id('spaceship')
 var xvalue = "center";
 
 spaceship_init = spaceship.getBoundingClientRect().top;
 
 var scrolltotop = document.scrollingElement.scrollTop;
-	
-	var factor = -0.2;
-	var yvalue = (scrolltotop - 600)* factor;
+
+var factor = -0.2;
+var yvalue = (scrolltotop - 600)* factor;
 	//spaceship.style.backgroundPosition = xvalue + " " + yvalue + "px";
 
 
-for(i = 0; i < whites.length; i++ ){
-	if(whites[i].getBoundingClientRect().top < window.innerHeight*0.8)
-	{
-		whites[i].style.opacity = 1;
-		whites[i].style.transform = 'translateY(0)';
-	}  
-}
+	for(i = 0; i < whites.length; i++ ){
+		if(whites[i].getBoundingClientRect().top < window.innerHeight*0.8)
+		{
+			whites[i].style.opacity = 1;
+			whites[i].style.transform = 'translateY(0)';
+		}  
+	}
 
-for (var i = offset.length - 1; i >= 0; i--) {
-	if(offset[i].getBoundingClientRect().top < window.innerHeight*0.8)
-	{
+	for (var i = offset.length - 1; i >= 0; i--) {
+		if(offset[i].getBoundingClientRect().top < window.innerHeight*0.8)
+		{
 	//offset[i].style.opacity = 1;
 	if(offset[i].getAttribute('id')!='pclogo'){
-	offset[i].style.transform  = 'translateY(0)';
-}
-else{
-	offset[i].style.transform  = 'translateY(0) translateX(-50%)';
-
-}
-
-offset[i].style.opacity = 1;
+		offset[i].style.transform  = 'translateY(0)';
 	}
+	else{
+		offset[i].style.transform  = 'translateY(0) translateX(-50%)';
+
+	}
+
+	offset[i].style.opacity = 1;
+}
 }
 
 requestAnimationFrame(chnoti);
@@ -221,7 +221,7 @@ window.addEventListener('load',()=>{
 	try{
 		id('l-holder')
 		if (id('new').getBoundingClientRect().top <=0.65*screen.height) {}
-		else{setTimeout(function(){opennoti();},1500);}
+			else{setTimeout(function(){opennoti();},1500);}
 	}
 	catch(e){}
 });
@@ -234,7 +234,7 @@ id('navbar').setAttribute('class','noblurbg');
 var scrolltotop = document.scrollingElement.scrollTop;
 if(screen.width >= 750){
 	var target2 = id("spaceship");
-var xvalue = "center";
+	var xvalue = "center";
 	var factor = -0.6;
 	var yvalue = (scrolltotop + spaceship_init)* factor;
 	//target2.style.backgroundPosition = xvalue + " " + yvalue + "px";
@@ -249,16 +249,16 @@ target = id("topcontent")
 function animationloop(){
 
 	spaceship = id('spaceship')
-var xvalue = "center";
+	var xvalue = "center";
 
 
-var scrolltotop = document.scrollingElement.scrollTop;
+	var scrolltotop = document.scrollingElement.scrollTop;
 	if(screen.width >= 750){
-	var factor = -0.6;
-	var yvalue = (scrolltotop + spaceship_init)* factor;
+		var factor = -0.6;
+		var yvalue = (scrolltotop + spaceship_init)* factor;
 	//spaceship.style.backgroundPosition = xvalue + " " + yvalue + "px";
 
-	}
+}
 
 var current_height = id("tit").getBoundingClientRect().top;
 
@@ -298,32 +298,32 @@ var current_height = id("tit").getBoundingClientRect().top;
 		}
 	}
 
-if (id('new').getBoundingClientRect().top <=0.65*screen.height) {
-	closenoti();
-}
+	if (id('new').getBoundingClientRect().top <=0.65*screen.height) {
+		closenoti();
+	}
 
-for(i = 0; i < whites.length; i++ ){
-	if(whites[i].getBoundingClientRect().top < window.innerHeight*0.8)
-	{
-		whites[i].style.opacity = 1;
-		whites[i].style.transform = 'translateY(0)';
-	}  
-}
+	for(i = 0; i < whites.length; i++ ){
+		if(whites[i].getBoundingClientRect().top < window.innerHeight*0.8)
+		{
+			whites[i].style.opacity = 1;
+			whites[i].style.transform = 'translateY(0)';
+		}  
+	}
 
-for (var i = offset.length - 1; i >= 0; i--) {
-	if(offset[i].getBoundingClientRect().top < window.innerHeight*0.8)
-	{
+	for (var i = offset.length - 1; i >= 0; i--) {
+		if(offset[i].getBoundingClientRect().top < window.innerHeight*0.8)
+		{
 	//offset[i].style.opacity = 1;
 	if(offset[i].getAttribute('id')!='pclogo'){
-	offset[i].style.transform  = 'translateY(0)';
-}
-else{
-	offset[i].style.transform  = 'translateY(0) translateX(-50%)';
-
-}
-
-offset[i].style.opacity = 1;
+		offset[i].style.transform  = 'translateY(0)';
 	}
+	else{
+		offset[i].style.transform  = 'translateY(0) translateX(-50%)';
+
+	}
+
+	offset[i].style.opacity = 1;
+}
 }
 
 
@@ -348,8 +348,8 @@ offset[i].style.opacity = 1;
 		id('title').style.color = "white";
 		id('tit').style.color = "transparent";
 	}
-*/
-requestAnimationFrame(animationloop);
+	*/
+	requestAnimationFrame(animationloop);
 }
 
 whites = document.getElementsByClassName('scrollR');
@@ -360,12 +360,12 @@ for (var i = offset.length - 1; i >= 0; i--) {
 	offset[i].style.transition = 'all 2s';
 	offset[i].style.opacity = 0;
 	if(offset[i].getAttribute('id')!='pclogo'){
-	offset[i].style.transform  = 'translateY(50px)';
-}
-else{
-	offset[i].style.transform  = 'translateY(50px) translateX(-50%)';
+		offset[i].style.transform  = 'translateY(50px)';
+	}
+	else{
+		offset[i].style.transform  = 'translateY(50px) translateX(-50%)';
 
-}
+	}
 }
 
 for (var i = whites.length - 1; i >= 0; i--) {
@@ -380,20 +380,20 @@ observer.observe();
 
 function opennoti(){
 	if(screen.width>451){
-      document.getElementById('bell').style.transform = 'translateX(0)';
-      document.getElementById('chwd').style.animation = 'clippath forwards 0.8s';
-  }
-  else{
-  	document.getElementById('noti').style.transform = 'translateY(0)';
-  }
+		document.getElementById('bell').style.transform = 'translateX(0)';
+		document.getElementById('chwd').style.animation = 'clippath forwards 0.8s';
+	}
+	else{
+		document.getElementById('noti').style.transform = 'translateY(0)';
+	}
 }
 
-  function closenoti(){
+function closenoti(){
 	if(screen.width>451){
-      document.getElementById('bell').style.transform = 'translateX(945%)';
-      document.getElementById('chwd').style.animation = 'clippathrem forwards 0.8s'
-      setTimeout(function(){document.getElementById('noti').style.visibility="hidden";},1350);
-  }else{
-  	document.getElementById('noti').style.transform = 'translateY(150%)';
-  }
+		document.getElementById('bell').style.transform = 'translateX(945%)';
+		document.getElementById('chwd').style.animation = 'clippathrem forwards 0.8s'
+		setTimeout(function(){document.getElementById('noti').style.visibility="hidden";},1350);
+	}else{
+		document.getElementById('noti').style.transform = 'translateY(150%)';
+	}
 }
