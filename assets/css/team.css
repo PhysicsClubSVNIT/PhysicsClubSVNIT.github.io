@@ -83,7 +83,19 @@ body{
 	margin-top: 25px;
 }
 
+.customico{
+	margin: 10px!important;
+}
+
 .fa-linkedin{
+	color: white;
+}
+
+.fa-twitter{
+	color: white;
+}
+
+.fa-envelope{
 	color: white;
 }
 
