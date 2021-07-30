@@ -1,0 +1,153 @@
+{
+	"members":[
+		
+		{
+			"name":"Siddharth Tiwari",
+			"batch":"2019-24",
+			"insta":"https://www.instagram.com/sid_y2k/",
+			"fb": "https://www.facebook.com/profile.php?id=100009034306703",
+			"image":"siddharth.jpg"
+		},
+
+		{
+			"name":"Shreyan Goswami",
+			"batch":"2019-24",
+			"insta":"https://www.instagram.com/shreyan.goswami/",
+			"fb":" ",
+			"image":"shreyan.jpg"
+		},
+
+		{
+			"name":"Hershini Gadaria",
+			"batch":"2019-24",
+			"insta":"https://www.instagram.com/hershey_ni/",
+			"fb":"https://www.facebook.com/hershini.gadaria.3",
+			"image":"hershini.jpg"
+		},
+
+		{
+			"name":"Bhavya Jaiman",
+			"batch":"2019-24",
+			"insta":"https://www.instagram.com/thebhavyajaiman/",
+			"fb":" ",
+			"image":"bhavya.jpg"
+		},
+
+		{
+			"name":"Adithya Rao",
+			"batch":"2019-24",
+			"insta":"https://www.instagram.com/rao__adithya/",
+			"fb":"https://www.facebook.com/adithyaa.rao",
+			"image":"adithya.jpg"
+		},
+
+		{
+			"name":"Surya Shankar",
+			"batch":"2018-23",
+			"insta":"https://www.instagram.com/_.surya_shankar._/",
+			"fb":" ",
+			"image":"surya.jpg"
+		},
+
+		{
+			"name":"Tiyasa Kar",
+			"batch":"2017-22",
+			"insta":" ",
+			"fb":"https://www.facebook.com/tiyasa.kar.12",
+			"image":"tiyasa.jpg"
+		},
+
+		{
+			"name":"Ramkumar Radhakrishnan",
+			"batch":"2017-22",
+			"insta":" ",
+			"fb":"https://www.facebook.com/ramkumar0808",
+			"image":"ram.jpg"
+		},
+
+		{
+			"name":"Rahul Nene",
+			"batch":"2017-22",
+			"insta": "https://www.instagram.com/rahultnene/",
+			"fb":"https://www.facebook.com/rahulnene99",
+			"image":"rahul.jpg"
+		},
+
+		{
+			"name":"Nithin Kumar",
+			"batch":"2017-22",
+			"insta":"https://www.instagram.com/my_day_my_pics/",
+			"fb":"https://www.facebook.com/m.nithin01031997",
+			"image":"nithin.jpg"
+		},
+
+		{
+			"name":"Deepak Kumar",
+			"batch":"2017-22",
+			"insta": "https://www.instagram.com/deepakd_kkumar/",
+			"fb":"https://www.facebook.com/deepakd.kkumar17",
+			"image":"deepak.jpg"
+		}
+
+	],
+
+
+	"exmembers":[
+		
+		{
+			"name":"Siddharth Tiwari",
+			"batch":"2019-24",
+			"insta":"https://www.instagram.com/sid_y2k/",
+			"fb": "https://www.facebook.com/profile.php?id=100009034306703",
+			"image":"siddharth.jpg"
+		},
+
+		{
+			"name":"Shreyan Goswami",
+			"batch":"2019-24",
+			"insta":"https://www.instagram.com/shreyan.goswami/",
+			"fb":" ",
+			"image":"shreyan.jpg"
+		},
+
+		{
+			"name":"Hershini Gadaria",
+			"batch":"2019-24",
+			"insta":"https://www.instagram.com/hershey_ni/",
+			"fb":"https://www.facebook.com/hershini.gadaria.3",
+			"image":"hershini.jpg"
+		},
+
+		{
+			"name":"Bhavya Jaiman",
+			"batch":"2019-24",
+			"insta":"https://www.instagram.com/thebhavyajaiman/",
+			"fb":" ",
+			"image":"bhavya.jpg"
+		},
+
+		{
+			"name":"Adithya Rao",
+			"batch":"2019-24",
+			"insta":"https://www.instagram.com/rao__adithya/",
+			"fb":"https://www.facebook.com/adithyaa.rao",
+			"image":"adithya.jpg"
+		},
+
+		{
+			"name":"Surya Shankar",
+			"batch":"2018-23",
+			"insta":"https://www.instagram.com/_.surya_shankar._/",
+			"fb":" ",
+			"image":"surya.jpg"
+		},
+
+		{
+			"name":"Tiyasa Kar",
+			"batch":"2017-22",
+			"insta":" ",
+			"fb":"https://www.facebook.com/tiyasa.kar.12",
+			"image":"tiyasa.jpg"
+		}
+	]
+}

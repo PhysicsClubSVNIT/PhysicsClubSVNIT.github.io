@@ -1,0 +1,119 @@
+---
+layout: fixed
+title: Contact | Physics Club NIT Surat
+navtitle: Contact
+extra_css:
+    - /assets/css/contact.css
+    - https://pro.fontawesome.com/releases/v5.10.0/css/all.css
+extra_js:
+    - https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
+    - /assets/js/contact.js
+---
+
+<div id="main-container">
+
+<div style="width: 100%; height: 12vh;"></div>
+<div class="whitehori">SEND US A MESSAGE</div>
+<div id="formdiv">
+<form name="contact" id="contact" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLScwCeroPTTrLFnFXQ80D5CAKSixVvPLANc7FeNhlVbg-pqD9w/formResponse?" target="hidden_iframe" onsubmit="submitted = true;">
+<div class="labelholder"><label>Name</label> </div> <div class="inputholder"><input type="text" name="entry.1632216977" id="entry.1632216977" required></div>
+<div class="labelholder"><label>Email</label> </div>  <div class="inputholder"> <input type="email" name="entry.961639452" id="entry.961639452" required></div>
+<div class="labelholder"><label>Institute</label> </div>  <div class="inputholder"> <select class="custom-select" name="entry.1805491781" id="entry.1805491781" size="1" required>
+<option value="NIT Surat">NIT Surat</option>
+<option value="Outside NIT Surat">Outside NIT Surat</option>
+</select></div>
+<div class="labelholder"><label>Message</label> </div>  <div class="inputholder"> <textarea name="entry.1769439812" id="entry.1769439812" rows="10" cols="25" required></textarea></div>
+ <div class="submitbutton"><input class="submit-button" type="submit" value="Submit"></div>
+</form>
+</div>
+<center> <div id="necessary">( All fields are necessary )</div> </center>
+
+<div id="sent">
+    Your message has been sent...
+</div>
+
+<div style="width: 100%; height: 10vh;"></div>
+
+<div class="whitehori">CONNECT WITH US</div>
+
+<div style="width: 100%; height: 5vh;"></div>
+
+<div class="center" id="center-social">
+    <div class="wrapper">
+        <a href="{{ site.data.social.facebook.link }}" target="_blank">
+            <div class="container container--facebook">
+                <div class="box box--left box--front">
+                    <i class="fab fa-facebook"></i>
+                    <span class="count">
+                             {{ site.data.social.facebook.id }}          
+                    </span>
+                </div>      
+                <span class="follow follow--left">
+                    Like
+                </span>
+            </div>
+        </a>
+
+        <a href="{{ site.data.social.twitter.link }}" target="_blank">
+            <div class="container container--twitter">
+                <div class="box box--middle">
+                    <i class="fab fa-twitter"></i>  
+                    <span class="count">
+                          {{ site.data.social.twitter.id }}           
+                    </span>
+                </div>
+                <span class="follow follow--middle">
+                    Follow
+                </span>
+            </div>
+        </a>
+
+        <a href="{{ site.data.social.youtube.link }}" target="_blank">
+            <div class="container container--youtube">
+                <div class="box box--middle">
+                    <i class="fab fa-youtube"></i>
+                    <span class="count">
+                           {{ site.data.social.youtube.id }}          
+                    </span>
+                </div>
+                <span class="follow follow--middle">
+                    Subscribe
+                </span>
+            </div>
+        </a>
+
+
+        <a href="{{ site.data.social.instagram.link }}" target="_blank">
+            <div class="container container--instagram">
+                <div class="box box--right">
+                    <i class="fab fa-instagram"></i>
+                    <span class="count">
+                        {{ site.data.social.instagram.id }}
+                    </span>
+                </div>
+                <span class="follow follow--right">
+                    Follow
+                </span>
+            </div>
+        </a>
+
+    </div>
+</div>
+
+<div style="width: 100%; height: 5vh;"></div>
+
+</div>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){}"></iframe>
+</div>
+
+<div id="footercont">
+    <div id="footmenucont">
+    <center>
+            <a class="footermenu" href="/index.html">HOME</a>
+            <a class="footermenu" href="/team.html">TEAM</a>
+            <a class="footermenu" href="/alumni.html">ALUMNI</a>
+            <a class="footermenu" href="/events.html">EVENTS</a>
+            <a class="footermenu" href="/contact.html">CONTACT</a>
+    </center>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+{
+	"index":[
+		{
+	"__content__": "Update fields for new event/notice",
+
+
+	"title":"Xyz",
+	"descr": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate porro, dignissimos, numquam voluptatibus consectetur tenetur deserunt suscipit libero molestiae soluta, quam illo neque quos odit perspiciatis eaque id quas ipsum.",
+	"poster": "070121",
+	"link": "mlskdlskf",
+	"linktitle": "View results here",
+	"date": "dd-mm-yyyy"
+		},
+
+		{
+		"__content__": "Name of HOD and statement",
+
+
+			"name":"Dr D. V. Shah",
+			"message":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate porro, dignissimos, numquam voluptatibus consectetur tenetur deserunt suscipit libero molestiae soluta, quam illo neque quos odit perspiciatis eaque id quas ipsum."
+		},
+
+		{
+		"__content__":"Name of faculty advisor and statement",
+
+
+			"name":"Dr K. N. Pathak",
+			"message":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate porro, dignissimos, numquam voluptatibus consectetur tenetur deserunt suscipit libero molestiae soluta, quam illo neque quos odit perspiciatis eaque id quas ipsum."
+		}
+]		
+}

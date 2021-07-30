@@ -1,0 +1,453 @@
+body{
+  background: black;
+}
+
+
+#title{
+  left: 37%!important;
+}
+
+#background{
+  scroll-behavior: smooth;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+/*background-image: linear-gradient(66deg, rgba(37, 37, 37, 0.05) 0%, rgba(37, 37, 37, 0.05) 33.333%,rgba(89, 89, 89, 0.05) 33.333%, rgba(89, 89, 89, 0.05) 66.666%,rgba(234, 234, 234, 0.05) 66.666%, rgba(234, 234, 234, 0.05) 99.999%),linear-gradient(130deg, rgba(104, 104, 104, 0.05) 0%, rgba(104, 104, 104, 0.05) 33.333%,rgba(246, 246, 246, 0.05) 33.333%, rgba(246, 246, 246, 0.05) 66.666%,rgba(178, 178, 178, 0.05) 66.666%, rgba(178, 178, 178, 0.05) 99.999%),linear-gradient(72deg, rgba(168, 168, 168, 0.05) 0%, rgba(168, 168, 168, 0.05) 33.333%,rgba(73, 73, 73, 0.05) 33.333%, rgba(73, 73, 73, 0.05) 66.666%,rgba(253, 253, 253, 0.05) 66.666%, rgba(253, 253, 253, 0.05) 99.999%),linear-gradient(139deg, rgba(241, 241, 241, 0.05) 0%, rgba(241, 241, 241, 0.05) 33.333%,rgba(109, 109, 109, 0.05) 33.333%, rgba(109, 109, 109, 0.05) 66.666%,rgba(100, 100, 100, 0.05) 66.666%, rgba(100, 100, 100, 0.05) 99.999%),linear-gradient(111deg, rgba(65, 65, 65, 0.05) 0%, rgba(65, 65, 65, 0.05) 33.333%,rgba(223, 223, 223, 0.05) 33.333%, rgba(223, 223, 223, 0.05) 66.666%,rgba(50, 50, 50, 0.05) 66.666%, rgba(50, 50, 50, 0.05) 99.999%),linear-gradient(90deg, rgb(41, 89, 88),rgb(80, 210, 116));
+  background-image: linear-gradient(0deg, rgb(164, 211, 160) 0%, rgb(164, 211, 160) 22%,rgb(141, 190, 127) 22%, rgb(141, 190, 127) 61%,rgb(117, 169, 93) 61%, rgb(117, 169, 93) 68%,rgb(94, 147, 60) 68%, rgb(94, 147, 60) 92%,rgb(70, 126, 26) 92%, rgb(70, 126, 26) 100%),linear-gradient(135deg, rgb(164, 211, 160) 0%, rgb(164, 211, 160) 22%,rgb(141, 190, 127) 22%, rgb(141, 190, 127) 61%,rgb(117, 169, 93) 61%, rgb(117, 169, 93) 68%,rgb(94, 147, 60) 68%, rgb(94, 147, 60) 92%,rgb(70, 126, 26) 92%, rgb(70, 126, 26) 100%),linear-gradient(90deg, rgb(164, 211, 160) 0%, rgb(164, 211, 160) 22%,rgb(141, 190, 127) 22%, rgb(141, 190, 127) 61%,rgb(117, 169, 93) 61%, rgb(117, 169, 93) 68%,rgb(94, 147, 60) 68%, rgb(94, 147, 60) 92%,rgb(70, 126, 26) 92%, rgb(70, 126, 26) 100%),linear-gradient(90deg, rgb(255, 159, 173),rgb(82, 81, 20)); background-blend-mode:overlay,overlay,overlay,normal;
+  background-image: linear-gradient(270deg, rgb(52, 52, 52),rgb(168, 168, 168)),linear-gradient(225deg, rgb(67, 25, 34) 0%, rgb(67, 25, 34) 45%,rgb(104, 41, 41) 45%, rgb(104, 41, 41) 62%,rgb(141, 58, 49) 62%, rgb(141, 58, 49) 68%,rgb(178, 74, 56) 68%, rgb(178, 74, 56) 77%,rgb(215, 91, 64) 77%, rgb(215, 91, 64) 92%,rgb(252, 107, 71) 92%, rgb(252, 107, 71) 100%),linear-gradient(315deg, rgb(67, 25, 34) 0%, rgb(67, 25, 34) 45%,rgb(104, 41, 41) 45%, rgb(104, 41, 41) 62%,rgb(141, 58, 49) 62%, rgb(141, 58, 49) 68%,rgb(178, 74, 56) 68%, rgb(178, 74, 56) 77%,rgb(215, 91, 64) 77%, rgb(215, 91, 64) 92%,rgb(252, 107, 71) 92%, rgb(252, 107, 71) 100%); background-blend-mode:overlay,overlay,normal;
+  background-image: repeating-linear-gradient(45deg, rgba(0,0,0,0.06) 0px, rgba(0,0,0,0.06) 19px,transparent 19px, transparent 38px,rgba(0,0,0,0.06) 38px, rgba(0,0,0,0.06) 57px,rgba(0,0,0,0.25) 57px, rgba(0,0,0,0.25) 76px,rgba(0,0,0,0.12) 76px, rgba(0,0,0,0.12) 95px,rgba(0,0,0,0.03) 95px, rgba(0,0,0,0.03) 114px,rgba(0,0,0,0.26) 114px, rgba(0,0,0,0.26) 133px,rgba(0,0,0,0.23) 133px, rgba(0,0,0,0.23) 152px,transparent 152px, transparent 171px,rgba(0,0,0,0.25) 171px, rgba(0,0,0,0.25) 190px,transparent 190px, transparent 209px,rgba(0,0,0,0.03) 209px, rgba(0,0,0,0.03) 228px,rgba(0,0,0,0.23) 228px, rgba(0,0,0,0.23) 247px,rgba(0,0,0,0.03) 247px, rgba(0,0,0,0.03) 266px),repeating-linear-gradient(135deg, transparent 0px, transparent 3px,rgba(0,0,0,0.09) 3px, rgba(0,0,0,0.09) 6px,rgba(0,0,0,0.03) 6px, rgba(0,0,0,0.03) 9px,rgba(0,0,0,0.09) 9px, rgba(0,0,0,0.09) 12px,rgba(0,0,0,0.09) 12px, rgba(0,0,0,0.09) 15px,rgba(0,0,0,0.06) 15px, rgba(0,0,0,0.06) 18px,rgba(0,0,0,0.01) 18px, rgba(0,0,0,0.01) 21px,rgba(0,0,0,0.02) 21px, rgba(0,0,0,0.02) 24px,transparent 24px, transparent 27px,rgba(0,0,0,0.02) 27px, rgba(0,0,0,0.02) 30px,transparent 30px, transparent 33px,rgba(0,0,0,0.02) 33px, rgba(0,0,0,0.02) 36px,rgba(0,0,0,0.06) 36px, rgba(0,0,0,0.06) 39px,rgba(0,0,0,0.07) 39px, rgba(0,0,0,0.07) 42px,rgba(0,0,0,0.1) 42px, rgba(0,0,0,0.1) 45px,rgba(0,0,0,0.01) 45px, rgba(0,0,0,0.01) 48px,rgba(0,0,0,0.01) 48px, rgba(0,0,0,0.01) 51px,rgba(0,0,0,0.1) 51px, rgba(0,0,0,0.1) 54px),repeating-linear-gradient(90deg, rgba(0,0,0,0.11) 0px, rgba(0,0,0,0.11) 19px,transparent 19px, transparent 38px,rgba(0,0,0,0.16) 38px, rgba(0,0,0,0.16) 57px,rgba(0,0,0,0.17) 57px, rgba(0,0,0,0.17) 76px,rgba(0,0,0,0.29) 76px, rgba(0,0,0,0.29) 95px,rgba(0,0,0,0.26) 95px, rgba(0,0,0,0.26) 114px,rgba(0,0,0,0.28) 114px, rgba(0,0,0,0.28) 133px,rgba(0,0,0,0.22) 133px, rgba(0,0,0,0.22) 152px,transparent 152px, transparent 171px,rgba(0,0,0,0.19) 171px, rgba(0,0,0,0.19) 190px,transparent 190px, transparent 209px,rgba(0,0,0,0.29) 209px, rgba(0,0,0,0.29) 228px,rgba(0,0,0,0.29) 228px, rgba(0,0,0,0.29) 247px),repeating-linear-gradient(0deg, rgba(0,0,0,0.29) 0px, rgba(0,0,0,0.29) 19px,transparent 19px, transparent 38px,rgba(0,0,0,0.2) 38px, rgba(0,0,0,0.2) 57px,rgba(0,0,0,0.03) 57px, rgba(0,0,0,0.03) 76px,rgba(0,0,0,0.26) 76px, rgba(0,0,0,0.26) 95px,rgba(0,0,0,0.06) 95px, rgba(0,0,0,0.06) 114px,rgba(0,0,0,0.29) 114px, rgba(0,0,0,0.29) 133px,rgba(0,0,0,0.19) 133px, rgba(0,0,0,0.19) 152px,transparent 152px, transparent 171px,rgba(0,0,0,0.11) 171px, rgba(0,0,0,0.11) 190px,transparent 190px, transparent 209px,rgba(0,0,0,0.1) 209px, rgba(0,0,0,0.1) 228px,rgba(0,0,0,0.04) 228px, rgba(0,0,0,0.04) 247px),linear-gradient(0deg, rgb(162, 223, 27),rgb(6, 172, 66));
+  background-image: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.11) 0px, rgba(0, 0, 0, 0.11) 12px, rgba(1, 1, 1, 0.16) 12px, rgba(1, 1, 1, 0.16) 24px, rgba(0, 0, 0, 0.14) 24px, rgba(0, 0, 0, 0.14) 36px, rgba(0, 0, 0, 0.23) 36px, rgba(0, 0, 0, 0.23) 48px, rgba(0, 0, 0, 0.12) 48px, rgba(0, 0, 0, 0.12) 60px, rgba(1, 1, 1, 0.07) 60px, rgba(1, 1, 1, 0.07) 72px, rgba(0, 0, 0, 0.21) 72px, rgba(0, 0, 0, 0.21) 84px, rgba(0, 0, 0, 0.24) 84px, rgba(0, 0, 0, 0.24) 96px, rgba(1, 1, 1, 0.23) 96px, rgba(1, 1, 1, 0.23) 108px, rgba(1, 1, 1, 0.07) 108px, rgba(1, 1, 1, 0.07) 120px, rgba(0, 0, 0, 0.01) 120px, rgba(0, 0, 0, 0.01) 132px, rgba(1, 1, 1, 0.22) 132px, rgba(1, 1, 1, 0.22) 144px, rgba(1, 1, 1, 0.24) 144px, rgba(1, 1, 1, 0.24) 156px, rgba(0, 0, 0, 0) 156px, rgba(0, 0, 0, 0) 168px, rgba(0, 0, 0, 0.12) 168px, rgba(0, 0, 0, 0.12) 180px), repeating-linear-gradient(90deg, rgba(1, 1, 1, 0.01) 0px, rgba(1, 1, 1, 0.01) 12px, rgba(1, 1, 1, 0.15) 12px, rgba(1, 1, 1, 0.15) 24px, rgba(0, 0, 0, 0.09) 24px, rgba(0, 0, 0, 0.09) 36px, rgba(0, 0, 0, 0.02) 36px, rgba(0, 0, 0, 0.02) 48px, rgba(0, 0, 0, 0.1) 48px, rgba(0, 0, 0, 0.1) 60px, rgba(1, 1, 1, 0.07) 60px, rgba(1, 1, 1, 0.07) 72px, rgba(1, 1, 1, 0.15) 72px, rgba(1, 1, 1, 0.15) 84px, rgba(0, 0, 0, 0.18) 84px, rgba(0, 0, 0, 0.18) 96px, rgba(1, 1, 1, 0.15) 96px, rgba(1, 1, 1, 0.15) 108px, rgba(1, 1, 1, 0.09) 108px, rgba(1, 1, 1, 0.09) 120px, rgba(1, 1, 1, 0.07) 120px, rgba(1, 1, 1, 0.07) 132px, rgba(1, 1, 1, 0.05) 132px, rgba(1, 1, 1, 0.05) 144px, rgba(0, 0, 0, 0.1) 144px, rgba(0, 0, 0, 0.1) 156px, rgba(1, 1, 1, 0.18) 156px, rgba(1, 1, 1, 0.18) 168px), repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.24) 0px, rgba(0, 0, 0, 0.24) 16px, rgba(1, 1, 1, 0.06) 16px, rgba(1, 1, 1, 0.06) 32px, rgba(0, 0, 0, 0.16) 32px, rgba(0, 0, 0, 0.16) 48px, rgba(1, 1, 1, 0) 48px, rgba(1, 1, 1, 0) 64px, rgba(1, 1, 1, 0.12) 64px, rgba(1, 1, 1, 0.12) 80px, rgba(1, 1, 1, 0.22) 80px, rgba(1, 1, 1, 0.22) 96px, rgba(0, 0, 0, 0.24) 96px, rgba(0, 0, 0, 0.24) 112px, rgba(0, 0, 0, 0.25) 112px, rgba(0, 0, 0, 0.25) 128px, rgba(1, 1, 1, 0.12) 128px, rgba(1, 1, 1, 0.12) 144px, rgba(0, 0, 0, 0.18) 144px, rgba(0, 0, 0, 0.18) 160px, rgba(1, 1, 1, 0.03) 160px, rgba(1, 1, 1, 0.03) 176px, rgba(1, 1, 1, 0.1) 176px, rgba(1, 1, 1, 0.1) 192px), repeating-linear-gradient(135deg, rgba(1, 1, 1, 0.18) 0px, rgba(1, 1, 1, 0.18) 3px, rgba(0, 0, 0, 0.09) 3px, rgba(0, 0, 0, 0.09) 6px, rgba(0, 0, 0, 0.08) 6px, rgba(0, 0, 0, 0.08) 9px, rgba(1, 1, 1, 0.05) 9px, rgba(1, 1, 1, 0.05) 12px, rgba(0, 0, 0, 0.01) 12px, rgba(0, 0, 0, 0.01) 15px, rgba(1, 1, 1, 0.12) 15px, rgba(1, 1, 1, 0.12) 18px, rgba(0, 0, 0, 0.05) 18px, rgba(0, 0, 0, 0.05) 21px, rgba(1, 1, 1, 0.16) 21px, rgba(1, 1, 1, 0.16) 24px, rgba(1, 1, 1, 0.07) 24px, rgba(1, 1, 1, 0.07) 27px, rgba(1, 1, 1, 0.23) 27px, rgba(1, 1, 1, 0.23) 30px, rgba(0, 0, 0, 0.2) 30px, rgba(0, 0, 0, 0.2) 33px, rgba(0, 0, 0, 0.18) 33px, rgba(0, 0, 0, 0.18) 36px, rgba(1, 1, 1, 0.12) 36px, rgba(1, 1, 1, 0.12) 39px, rgba(1, 1, 1, 0.13) 39px, rgba(1, 1, 1, 0.13) 42px, rgba(1, 1, 1, 0.2) 42px, rgba(1, 1, 1, 0.2) 45px, rgba(1, 1, 1, 0.18) 45px, rgba(1, 1, 1, 0.18) 48px, rgba(0, 0, 0, 0.2) 48px, rgba(0, 0, 0, 0.2) 51px, rgba(1, 1, 1, 0) 51px, rgba(1, 1, 1, 0) 54px, rgba(0, 0, 0, 0.03) 54px, rgba(0, 0, 0, 0.03) 57px, rgba(1, 1, 1, 0.06) 57px, rgba(1, 1, 1, 0.06) 60px, rgba(1, 1, 1, 0) 60px, rgba(1, 1, 1, 0) 63px, rgba(0, 0, 0, 0.1) 63px, rgba(0, 0, 0, 0.1) 66px, rgba(1, 1, 1, 0.19) 66px, rgba(1, 1, 1, 0.19) 69px), linear-gradient(90deg, rgb(239, 53, 115), rgb(79, 2, 93));
+  background-image: linear-gradient(90deg, rgb(52, 52, 52),rgb(168, 168, 168)),linear-gradient(45deg, rgb(67, 25, 34) 0%, rgb(67, 25, 34) 45%,rgb(104, 41, 41) 45%, rgb(104, 41, 41) 62%,rgb(141, 58, 49) 62%, rgb(141, 58, 49) 68%,rgb(178, 74, 56) 68%, rgb(178, 74, 56) 77%,rgb(215, 91, 64) 77%, rgb(215, 91, 64) 92%,rgb(252, 107, 71) 92%, rgb(252, 107, 71) 100%),linear-gradient(135deg, rgb(67, 25, 34) 0%, rgb(67, 25, 34) 45%,rgb(104, 41, 41) 45%, rgb(104, 41, 41) 62%,rgb(141, 58, 49) 62%, rgb(141, 58, 49) 68%,rgb(178, 74, 56) 68%, rgb(178, 74, 56) 77%,rgb(215, 91, 64) 77%, rgb(215, 91, 64) 92%,rgb(252, 107, 71) 92%, rgb(252, 107, 71) 100%); background-blend-mode:overlay,overlay,normal;
+  background-image: linear-gradient(90deg, rgb(168, 86, 201) 0%, rgb(168, 86, 201) 3%,rgb(140, 74, 173) 3%, rgb(140, 74, 173) 11%,rgb(112, 61, 145) 11%, rgb(112, 61, 145) 20%,rgb(85, 49, 118) 20%, rgb(85, 49, 118) 49%,rgb(57, 37, 90) 49%, rgb(57, 37, 90) 71%,rgb(29, 24, 62) 71%, rgb(29, 24, 62) 72%,rgb(1, 12, 34) 72%, rgb(1, 12, 34) 100%),linear-gradient(67.5deg, rgb(168, 86, 201) 0%, rgb(168, 86, 201) 3%,rgb(140, 74, 173) 3%, rgb(140, 74, 173) 11%,rgb(112, 61, 145) 11%, rgb(112, 61, 145) 20%,rgb(85, 49, 118) 20%, rgb(85, 49, 118) 49%,rgb(57, 37, 90) 49%, rgb(57, 37, 90) 71%,rgb(29, 24, 62) 71%, rgb(29, 24, 62) 72%,rgb(1, 12, 34) 72%, rgb(1, 12, 34) 100%),linear-gradient(112.5deg, rgb(168, 86, 201) 0%, rgb(168, 86, 201) 3%,rgb(140, 74, 173) 3%, rgb(140, 74, 173) 11%,rgb(112, 61, 145) 11%, rgb(112, 61, 145) 20%,rgb(85, 49, 118) 20%, rgb(85, 49, 118) 49%,rgb(57, 37, 90) 49%, rgb(57, 37, 90) 71%,rgb(29, 24, 62) 71%, rgb(29, 24, 62) 72%,rgb(1, 12, 34) 72%, rgb(1, 12, 34) 100%),linear-gradient(45deg, rgb(168, 86, 201) 0%, rgb(168, 86, 201) 3%,rgb(140, 74, 173) 3%, rgb(140, 74, 173) 11%,rgb(112, 61, 145) 11%, rgb(112, 61, 145) 20%,rgb(85, 49, 118) 20%, rgb(85, 49, 118) 49%,rgb(57, 37, 90) 49%, rgb(57, 37, 90) 71%,rgb(29, 24, 62) 71%, rgb(29, 24, 62) 72%,rgb(1, 12, 34) 72%, rgb(1, 12, 34) 100%),linear-gradient(90deg, rgb(95, 3, 74),rgb(35, 65, 96)); background-blend-mode:overlay,overlay,overlay,overlay,normal;
+  background: #353B3F;
+  background: #e6dada; 
+  background: -webkit-linear-gradient(to top, #e6dada, #274046); 
+  background: linear-gradient(to top, #e6dada, #274046);
+  background-image: linear-gradient(135deg, transparent 0%, transparent 50%,rgba(159, 159, 159,0.07) 50%, rgba(159, 159, 159,0.07) 77%,transparent 77%, transparent 100%),linear-gradient(90deg, transparent 0%, transparent 91%,rgba(159, 159, 159,0.07) 91%, rgba(159, 159, 159,0.07) 99%,transparent 99%, transparent 100%),linear-gradient(135deg, transparent 0%, transparent 24%,rgba(159, 159, 159,0.07) 24%, rgba(159, 159, 159,0.07) 63%,transparent 63%, transparent 100%),linear-gradient(0deg, transparent 0%, transparent 49%,rgba(159, 159, 159,0.07) 49%, rgba(159, 159, 159,0.07) 63%,transparent 63%, transparent 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));;
+  background-image: linear-gradient(306deg, rgba(94, 94, 94, 0.02) 0%, rgba(94, 94, 94, 0.02) 12%,rgba(20, 20, 20, 0.02) 12%, rgba(20, 20, 20, 0.02) 67%,rgba(98, 98, 98, 0.02) 67%, rgba(98, 98, 98, 0.02) 76%,rgba(247, 247, 247, 0.02) 76%, rgba(247, 247, 247, 0.02) 91%,rgba(44, 44, 44, 0.02) 91%, rgba(44, 44, 44, 0.02) 100%),linear-gradient(313deg, rgba(251, 251, 251, 0.02) 0%, rgba(251, 251, 251, 0.02) 33%,rgba(132, 132, 132, 0.02) 33%, rgba(132, 132, 132, 0.02) 43%,rgba(248, 248, 248, 0.02) 43%, rgba(248, 248, 248, 0.02) 58%,rgba(19, 19, 19, 0.02) 58%, rgba(19, 19, 19, 0.02) 89%,rgba(43, 43, 43, 0.02) 89%, rgba(43, 43, 43, 0.02) 100%),linear-gradient(236deg, rgba(4, 4, 4, 0.02) 0%, rgba(4, 4, 4, 0.02) 29%,rgba(242, 242, 242, 0.02) 29%, rgba(242, 242, 242, 0.02) 33%,rgba(38, 38, 38, 0.02) 33%, rgba(38, 38, 38, 0.02) 57%,rgba(138, 138, 138, 0.02) 57%, rgba(138, 138, 138, 0.02) 99%,rgba(210, 210, 210, 0.02) 99%, rgba(210, 210, 210, 0.02) 100%),linear-gradient(294deg, rgba(122, 122, 122, 0.02) 0%, rgba(122, 122, 122, 0.02) 45%,rgba(0, 0, 0, 0.02) 45%, rgba(0, 0, 0, 0.02) 58%,rgba(66, 66, 66, 0.02) 58%, rgba(66, 66, 66, 0.02) 68%,rgba(103, 103, 103, 0.02) 68%, rgba(103, 103, 103, 0.02) 84%,rgba(130, 130, 130, 0.02) 84%, rgba(130, 130, 130, 0.02) 100%),linear-gradient(252deg, rgba(84, 84, 84, 0.02) 0%, rgba(84, 84, 84, 0.02) 1%,rgba(241, 241, 241, 0.02) 1%, rgba(241, 241, 241, 0.02) 12%,rgba(90, 90, 90, 0.02) 12%, rgba(90, 90, 90, 0.02) 15%,rgba(92, 92, 92, 0.02) 15%, rgba(92, 92, 92, 0.02) 54%,rgba(134, 134, 134, 0.02) 54%, rgba(134, 134, 134, 0.02) 100%),linear-gradient(270deg, rgb(8, 8, 8),rgb(220, 220, 220));
+  */
+  background-image: linear-gradient(153deg, rgba(152, 152, 152, 0.03) 0%, rgba(152, 152, 152, 0.03) 9%,rgba(197, 197, 197, 0.03) 9%, rgba(197, 197, 197, 0.03) 21%,rgba(106, 106, 106, 0.03) 21%, rgba(106, 106, 106, 0.03) 32%,rgba(222, 222, 222, 0.03) 32%, rgba(222, 222, 222, 0.03) 72%,rgba(16, 16, 16, 0.03) 72%, rgba(16, 16, 16, 0.03) 92%,rgba(181, 181, 181, 0.03) 92%, rgba(181, 181, 181, 0.03) 97%,rgba(130, 130, 130, 0.03) 97%, rgba(130, 130, 130, 0.03) 100%),linear-gradient(39deg, rgba(237, 237, 237, 0.03) 0%, rgba(237, 237, 237, 0.03) 22%,rgba(126, 126, 126, 0.03) 22%, rgba(126, 126, 126, 0.03) 55%,rgba(196, 196, 196, 0.03) 55%, rgba(196, 196, 196, 0.03) 61%,rgba(121, 121, 121, 0.03) 61%, rgba(121, 121, 121, 0.03) 71%,rgba(133, 133, 133, 0.03) 71%, rgba(133, 133, 133, 0.03) 84%,rgba(132, 132, 132, 0.03) 84%, rgba(132, 132, 132, 0.03) 97%,rgba(185, 185, 185, 0.03) 97%, rgba(185, 185, 185, 0.03) 100%),linear-gradient(124deg, rgba(168, 168, 168, 0.03) 0%, rgba(168, 168, 168, 0.03) 7%,rgba(169, 169, 169, 0.03) 7%, rgba(169, 169, 169, 0.03) 19%,rgba(73, 73, 73, 0.03) 19%, rgba(73, 73, 73, 0.03) 50%,rgba(150, 150, 150, 0.03) 50%, rgba(150, 150, 150, 0.03) 67%,rgba(68, 68, 68, 0.03) 67%, rgba(68, 68, 68, 0.03) 81%,rgba(111, 111, 111, 0.03) 81%, rgba(111, 111, 111, 0.03) 91%,rgba(191, 191, 191, 0.03) 91%, rgba(191, 191, 191, 0.03) 100%),linear-gradient(95deg, rgba(147, 147, 147, 0.03) 0%, rgba(147, 147, 147, 0.03) 17%,rgba(79, 79, 79, 0.03) 17%, rgba(79, 79, 79, 0.03) 27%,rgba(28, 28, 28, 0.03) 27%, rgba(28, 28, 28, 0.03) 45%,rgba(27, 27, 27, 0.03) 45%, rgba(27, 27, 27, 0.03) 56%,rgba(228, 228, 228, 0.03) 56%, rgba(228, 228, 228, 0.03) 64%,rgba(38, 38, 38, 0.03) 64%, rgba(38, 38, 38, 0.03) 72%,rgba(42, 42, 42, 0.03) 72%, rgba(42, 42, 42, 0.03) 100%),linear-gradient(346deg, rgba(59, 59, 59, 0.03) 0%, rgba(59, 59, 59, 0.03) 16%,rgba(66, 66, 66, 0.03) 16%, rgba(66, 66, 66, 0.03) 20%,rgba(236, 236, 236, 0.03) 20%, rgba(236, 236, 236, 0.03) 41%,rgba(244, 244, 244, 0.03) 41%, rgba(244, 244, 244, 0.03) 55%,rgba(106, 106, 106, 0.03) 55%, rgba(106, 106, 106, 0.03) 61%,rgba(220, 220, 220, 0.03) 61%, rgba(220, 220, 220, 0.03) 63%,rgba(209, 209, 209, 0.03) 63%, rgba(209, 209, 209, 0.03) 100%),linear-gradient(90deg, rgb(97, 59, 187),rgb(17, 8, 13));
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  background-attachment: fixed, fixed;
+  width: calc(100vw + 50px);
+  position: relative;
+  top:  -10px;
+  left: -10px;
+  transition:  all 1s;
+}
+
+#main-container{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#container{
+  width: 91%;
+}
+
+.event{
+   display: grid;
+   width: 90%;
+  height: 60vh;
+  margin-top:40px;
+}
+
+.item{
+  height: 65vh;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  display: grid;
+  grid-template-columns: 1fr 1.7fr;
+  transition: all 0.75s;
+  /*filter: blur(3px);*/
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+.zoomout{
+    transform-origin: center center;
+    transform: scale(0.8);
+}
+
+.zoomnorm{
+    transform: scale(1);
+}
+
+.pointer{
+  height: 5vh;
+  width: 5vh;
+  position: relative;
+  top: 50%;
+  left: -95%;
+  background: white;
+  transform: rotate(45deg) translateY(-50%);
+clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+/*
+.date{
+  width: 15vw;
+  height: 3vh;
+  color: white;
+  font-size: calc(6px + 1vw);
+   position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+*/
+
+.poster{
+  height: 55vh;
+  margin-top: 5vh;
+  margin-left: 10px;
+}
+
+.info{
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-right: 50px;
+  padding-left: 20px;
+}
+
+.name{
+  font-size: calc(10px + 1.25vw);
+  color: white;
+  margin-bottom: 5px;
+  font-weight: bolder;
+  font-family: Lato;
+  letter-spacing: 2px;
+}
+
+.descr{
+  font-size: calc(6px + 0.5vw);
+  color: white;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+.link{
+  text-decoration: none;
+  font-size: calc(6px + 0.5vw);
+  color: white;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+
+.link:not(div){
+  background: linear-gradient(#1f1137, #150c25);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  transition: all 0.5s;
+}
+
+.link:not(div):hover{
+  background-size: 4px 50px;
+  color:  white;
+  box-shadow: 4px 4px 4px black;
+}
+
+
+.dotted{
+  height: 20vh;
+  width: 96%; 
+  border-left: 5px dashed white; 
+  background: transparent; 
+  position: relative; 
+  left: 3.72%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+/*
+
+@media screen and (min-width: 690px) and (max-width: 901px){
+
+  .event{
+    position: relative;
+    left: 15px;
+    width: 88%;
+    display: block;
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 75px;
+  }
+
+  .date{
+    top: 0;
+    width: inherit;
+    text-align: center;
+  }
+
+  .info{
+    justify-content: flex-start;
+  }
+
+}
+
+
+@media screen and (max-width: 691px){
+
+#container{
+  border-left: none;
+  width: 100%;
+}
+
+
+  .info{
+    justify-content: flex-start;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+  }
+
+  .event{
+    position: relative;
+    height: 90vh;
+    width: 95vw;
+    display: block;
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 75px;
+    left: 2.75vw;
+  }
+
+  .item{
+    display: block;
+    height: 90vh;
+    transform: scale(1.0);
+  }
+
+  .date{
+    width: 70vw;
+    top: 0;
+    width: inherit;
+    text-align: center;
+  }
+
+  .poster{
+  height: 45vh;
+  margin-top: 5vh;
+  margin-left: 0;
+}
+
+.dotted{
+  border-left: none;
+}
+
+}
+*/
+
+.event{
+  width: 80vw;
+  height:  80vh;
+  background: white;
+-webkit-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+  display: block;
+  position: relative;
+}
+
+.thumbnail {
+  float: left;
+  position: relative;
+  left: -20px;
+  top: -12.5vh;
+  height: 75vh;
+  width: 75vh;
+}
+
+img.left {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(6px 6px 7.5px rgba(0, 0, 0, 0.85));
+  transition: all 0.5s;
+}
+
+
+.right {
+  margin-left: calc(70vh + 25px);
+  margin-right: 20px;
+}
+
+.name{
+    padding-top: 15px;
+    color: black;
+    text-align: center;
+    font-size: calc(13px + 1.35vw);
+}
+
+.separator {
+  margin-top: 10px;
+  border: 1px solid #4B4B4B;
+}
+
+.descr{
+text-align: justify;
+  padding-top: 10px;
+  font-size: calc(2px + 1vw);
+  line-height: 150%;
+  color: black;
+  letter-spacing: auto;
+  height: 48vh;
+  overflow-y: scroll;
+}
+
+.descr::-webkit-scrollbar {
+  width: 7px;
+  z-index: 9000;
+}
+
+.descr::-webkit-scrollbar-track {
+  background: white;
+}
+.descr::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.descr::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.date{
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+  font-weight: bolder;
+  font-size: calc(13px + 2.35vw);
+  color: #C3C3C3;
+}
+
+.links{
+    position:  absolute;
+  bottom: 15px;
+  right:  20px;
+  text-align: right;
+}
+
+.link{
+  font-size: calc(2px + 1vw);
+  color: black;
+}
+
+#phys, #club{
+  color: transparent;
+  font-size: calc(50px + 12.5vw);
+  position:  fixed;
+  font-weight: 800;
+  font-family: Roboto Condensed, Rubik;
+  z-index: 0;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  user-select: none;
+}
+#phys{
+  top: 5vh;
+  left: 5vh;
+}
+
+#club{
+  bottom: 5vh;
+  right:  5vh;
+}
+
+#footer{
+  z-index: 10!important;
+  top: -20px!important;
+  padding-top: 20px;
+}
+
+#top{
+  position: fixed;
+  right: 40px;
+  bottom:  7.5vh;
+  border-radius: 50%;
+  border: 0px solid #fff;
+  background: transparent;
+  transition: all 0.5s;
+  filter:  invert(100%);
+}
+
+
+@media screen and (max-width:  901px){
+
+ .event{
+    height: 100vh;
+  }
+
+
+  .thumbnail{
+      height: 65vh;
+      width: 65vh;
+      left: 50%;
+      transform: translateX(-50%);
+      top: -20vh;
+  }
+
+  .right{
+    margin-left: 20px!important;
+    width: 92%;
+    position:  absolute;
+    margin-top: 45vh;
+  }
+
+  .descr{
+    height: auto;
+  }
+
+}
+
+@media screen and (max-width: 481px){
+
+.thumbnail{
+      height: 100vw;
+      width: 100vw;
+      top: -20vw;
+    }
+
+.event{
+    height: 120vh;
+    width: 112vw;
+    transform-origin: left center;
+
+  }
+
+  #container{
+    width: 95%;
+  }
+
+  .right{
+    margin-top: 80vw;
+    width: 92%;
+  }
+
+  .descr, .link{
+    font-size: calc(2px + 2vw);
+  }
+
+  .descr{
+    height:  calc(110vh - 100vw);
+  }
+
+  #top{
+    filter: invert(0%);
+    right: 10vw;
+    bottom:  10vw;
+    transform-origin: center center;
+    transform: scale(3);
+  }
+
+
+
+
+}

@@ -1,0 +1,18 @@
+{
+	"facebook":{
+		"id":"Physics Club SVNIT",
+		"link": "https://www.facebook.com/physicsclubsvnit/" 
+	},
+	"instagram":{
+		"id": "@physics_club_nit_surat",
+		"link": "https://www.instagram.com/physics_club_nit_surat/"
+	},
+	"twitter":{
+		"id": "@APDPhysicsClub",
+		"link": "https://twitter.com/APDPhysicsClub"
+	},
+	"youtube":{
+		"id": "Physics Club NIT Surat",
+		"link": "https://www.youtube.com/channel/UCH9gumUoTaLf6E6yKspU4Tg"
+	}
+}

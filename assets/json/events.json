@@ -1,0 +1,117 @@
+{
+	"events":[
+		
+		{"name":"Research Opportunities in Physics", 
+		"date":"19 June 2021", 
+		"poster":"150621", 
+		"descr":"It's that time of the year when we sit back and start planning for the upcoming academic year. Internship through portals or emailing professors? When and where to apply? CV? Writing a good SOP? We know it's very easy to get caught up in these questions and that's exactly why we encourage you to attend the webinar on 'Research Opportunities in Physics'.<br>Suraj Singh, Nidhi Mehandiratta and Devanshu Sharma will help you navigate through various opportunities available for Physics students. ", 
+		"reglink":"hello world", 
+		"youtube": "youtube"},
+
+		{"name":"N-Body Simulation", 
+		"date":"27-28 March 2021", 
+		"poster":"270321", 
+		"descr":"We are back with another workshop! This time, a 2 day certified workshop on N-body simulation.An N-body simulation approximates the motion of particles, often specifically particles that interact with one another through some type of physical forces. The types of particles that can be simulated using N-body methods range from celestial bodies to individual atoms in a gas cloud. Exciting, isn't it?!Join us on 27th March (3pm) and 28th March(9am) with Dr. Prakash Sarkar.<br>Prior knowledge of programming in C and familiarity with Numerical Methods will certainly help.", 
+		"reglink":" ", 
+		"youtube":" "},
+
+		{"name":"Pratyaksha",
+		"date":"13-14 March 2021",
+		"poster":"130321",
+		"descr":"Its time to put on your thinking hats and grab a painting brush cuz we are back with the second edition of our annual Physics fest PRATYAKSHA! Join us on 13th and 14th February for a weekend filled with fun physics-y events that are sure to not let your FOMO take over.",
+		"reglink":" ",
+		"youtube":" "},
+
+		{"name":"A logico-linguistic inquiry into the foundations of physics",
+		"date":"7 January 2021",
+		"poster":"070121",
+		"descr":"Are physical dimension and number distinct concepts? If yes, then on what logical grounds, does the physicist perform dimensional analysis by considering physical dimensions as numbers? If no, then why does the physicist use the words like mass, length, etc. instead of writing just numbers? If this question made you question the foundation of physics, be sure to join our first Science Sabha talk of 2021.Dr. Abhishek Majhi of Indian Statistical Institute, Kolkata will take up such questions in his talk on ' A logico-linguistic inquiry into the foundations of physics'.",
+		"reglink":" ",
+		"youtube":" "},
+
+		{"name":"How to be a bad experimentalist!",
+		"date":"23 December 2020",
+		"poster":"231220",
+		"descr":"We've all either seen or done the baking soda volcano project in school science fairs. Let's take that experimental spirit and notch it up to next level. Being an experimental physicist that is. This Wednesday evening, join us with Dr. Akashrup Banerjee where he'll talk about developing an experimental acumen and preparing oneself to be an experimentalist.",
+		"reglink": " ",
+		"youtube": " "},
+
+		{"name":"A talk on Radioastronomy and Astrophysics",
+		"date":"7 November 2020",
+		"poster":"071120",
+		"descr":" We are back with another Science Sabha talk! This Saturday evening , join us with Charitarth Vyas where he'll take up the topic of Radio Astronomy and Astrophysics.Charitarth Vyas is an alumnus of the Applied Physics Department, NIT Surat. He is also a DAAD Scholar working as a PhD student at the University of Bonn, Germany.",
+		"reglink":" ",
+		"youtube":" "},
+
+		{"name":"Researchathon",
+		"date":"12,13,20 September 2020",
+		"poster":"120920",
+		"descr":"Get ready to put your physics skills to the test! Physics Club NIT Surat presents to you the first 'Online Researchathon,' an event that will test your physics knowledge, problem-solving skills, and culminate with a 30 hour final round to test your research ability.",
+		"reglink":" ",
+		"youtube":" "},
+
+		{"name":"LabVIEW",
+		"date":"29-30 August 2020",
+		"poster":"290820",
+		"descr":"Want to add something worthy to your skillset? Well, we got you covered, with a completely online two day certified 𝙬𝙤𝙧𝙠𝙨𝙝𝙤𝙥 𝙤𝙣 𝙇𝙖𝙗𝙑𝙄𝙀𝙒. A software that is capable of any extensive hardware integration and gives you versatility, along with control and measurement, for developing a lot of engineering applications. Thanks to the graphical approach to programming, you don't even need to mug up codes!",
+		"reglink":" ",
+		"youtube":" "},
+
+		{"name":"Entangled Chess",
+		"date":"8 February 2020",
+		"poster":"080220",
+		"descr":"MINDBEND 2020 in association with the Applied Physics Department and Physics Club SVNIT presenting you with ENTANGLED CHESS - Playing chess with a touch of quantum instinct. Register for the event and get a new experience of playing chess in Physicists way.",
+		"reglink":" ",
+		"youtube":" "},
+
+		{"name":"Pratyaksha",
+		"date":"24-25 January 2020",
+		"poster":"240120",
+		"descr":"The physics club have come up with some  exciting events that will bring out the scientist in you. Physics club is organizing its first ever annual fest 'PRATYAKSHA' on 25th January, 2020 at the Applied Physics department. Hurry up folks to register for the events and enjoy the actual beauty of science.",
+		"reglink":" ",
+		"youtube":" "},
+
+		{"name":"Piercing the invisible cosmos | Detecting the undetectable",
+		"date":"8 October 2019",
+		"poster":"181019",
+		"descr":"Detecting the undetectable will be an Introduction to experimental high energy physics. How do we test and validate the theories? Experimental High energy physics is a way to study the nature and behaviour of the elementary particles of the universe and an attempt to solve some of the unsolved mysteries of the universe.<br>Piercing the Invisible cosmos will cover up Radio astronomy  With radio astronomy, we study astronomical phenomena that are often invisible or hidden in other portions of the electromagnetic spectrum. From detecting the black hole image to predicting the gravitational wave events, radio astronomy is key behind such groundbreaking discoveries.",
+		"reglink":" ",
+		"youtube":" "},
+
+		{"name":"An approach to the Theory Of Everything",
+		"date":"17 October 2019",
+		"poster":"171019",
+		"descr":"Our history of understanding physical laws has been a history of unification. The first example is probably Newton's gravitational law which says that the equation used for describing the force that a planet exerts on another planet is the same for for that on an apple. Then came up unified fields like the Quantumelectrodynamics ... and so on and so forth. So gear up for the talk by Tiyasa Kar on 17 October 2019 where you will be taken for a ride to 'Theory of Everything'.",
+		"reglink":" ",
+		"youtube":" "},
+
+		{"name":"The birth of mass",
+		"date":"16 October 2019",
+		"poster":"161019",
+		"descr":"On July 4, 2012 the world was gathered for two power point presentations at CERN,Geneva. The world witnessed the presence of GOD PARTICLE that was detected at the Large Hadron Colliders. Gear up fellas! for the talk on The Birth of Mass by Ramkumar Radhakrishnan in which he would discuss the emergence of God particle and how the fate of the universe is decided by it.",
+		"reglink":" ",
+		"youtube":" "},
+
+		{"name":"Flexible electronics and their applications",
+		"date":"14 October 2019",
+		"poster":"141019",
+		"descr":"What if Electronics is flexible ? What if you had flexible display screens, flexible solar cells, flexible health care devices and many more devices which we encounter in daily life were made flexible. You guys getting shocked?",
+		"reglink":" ",
+		"youtube":" "},
+
+		{"name":"Rocket science and orbital mechanics",
+		"date":"11 October 2019",
+		"poster":"111019",
+		"descr":"Werhner von Braun designed the most powerful rocket ever that sent humanity on Lunar surafce. Starting from Wright Brothers to Apollo missions, humanity learnt how to extend atmospheric flights to interplanetary missions. Join us to learn formulations governing rockets, propulsion systems on a rocket and a little bit of spacecraft dynamics.",
+		"reglink":" ",
+		"youtube":" "},
+
+		{"name":"General Relativity",
+		"date":"10 October 2019",
+		"poster":"101019",
+		"descr":"Einstein shook the pillars of physics with the formulation of his field equations. This talk will explore how these equations are formulated, interpreted, and applied to understand the contents of our universe.",
+		"reglink":" ",
+		"youtube":" "}
+
+	]
+}

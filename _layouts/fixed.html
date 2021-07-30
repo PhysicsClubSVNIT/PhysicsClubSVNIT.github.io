@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="icon" href="/assets/favi.ico">
+    <link rel="stylesheet" type="text/css" href="/assets/css/fixed.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    {% for css_name in page.extra_css %}
+    <link rel="stylesheet" href="{{ css_name }}">
+    {% endfor %}
+</head>
+<body>
+<!--div class="loading" id="loading">
+  <div class="loadholder">
+<div class="spinner">
+  <div class="double-bounce1"></div>
+  <div class="double-bounce2"></div>
+</div>
+</div>
+</div>
+</div-->
+    <div class="loading" id="loading">
+        <div class="loadholder">
+            <svg class="animate" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <filter id="drop-shadow-filter-0" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="drop-shadow 1 0 0 6 1 rgba(44,72,196,1)">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+      <feOffset dx="0" dy="0"/>
+      <feComponentTransfer result="offsetblur">
+        <feFuncA id="spread-ctrl" type="linear" slope="2"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(44,72,196,1)"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="drop-shadow-filter-1" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="drop-shadow 1 0 0 6 1 rgba(44,72,196,1)">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+      <feOffset dx="0" dy="0"/>
+      <feComponentTransfer result="offsetblur">
+        <feFuncA id="spread-ctrl" type="linear" slope="2"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(44,72,196,1)"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="drop-shadow-filter-2" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="drop-shadow 1 0 0 6 1 rgba(44,72,196,1)">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+      <feOffset dx="0" dy="0"/>
+      <feComponentTransfer result="offsetblur">
+        <feFuncA id="spread-ctrl" type="linear" slope="2"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(44,72,196,1)"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="drop-shadow-filter-3" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="drop-shadow 1 0 0 6 1 rgba(44,72,196,1)">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+      <feOffset dx="0" dy="0"/>
+      <feComponentTransfer result="offsetblur">
+        <feFuncA id="spread-ctrl" type="linear" slope="2"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(44,72,196,1)"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="-53.016" y="-0.914" width="559.415" height="516.453" style=""/>
+  <path style="fill: rgba(216, 216, 216, 0); stroke-width: 2px; filter: url(#drop-shadow-filter-1); stroke: rgb(255, 0, 191);" d="M 207.579 307 C 289.38 307 340.505 215.333 299.605 142 C 258.705 68.667 156.455 68.667 115.555 142 C 110.259 151.496 106.365 161.757 104 172.445"/>
+  <path style="fill: rgba(216, 216, 216, 0); stroke-width: 2px; filter: url(#drop-shadow-filter-1); stroke: rgb(255, 0, 191);" d="M 211.617 278.676 C 265.517 276.31 300.833 215.555 277.997 161.544 C 251.362 98.547 171.273 110.749 155.057 143.782"/>
+  <path style="fill: rgba(216, 216, 216, 0); stroke-width: 2px; filter: url(#drop-shadow-filter-3); stroke: rgb(255, 0, 191);" d="M 315.415 160.334 C 414.994 160.334 477.23 260.75 427.441 341.081 C 381.754 414.793 270.652 422.344 213.964 355.589" transform="matrix(-0.743145, 0.669131, -0.669131, -0.743145, 762.218557, 269.080012)"/>
+  <path style="fill: rgba(216, 216, 216, 0); stroke-width: 2px; filter: url(#drop-shadow-filter-1); stroke: rgb(255, 0, 191);" d="M 323.036 185.879 C 399.768 185.879 447.725 264.211 409.358 326.875 C 374.154 384.377 288.543 390.268 244.862 338.194" transform="matrix(-0.743145, 0.669131, -0.669131, -0.743145, 769.244945, 264.471991)"/>
+  <path style="fill: rgba(216, 216, 216, 0); stroke-width: 2px; filter: url(#drop-shadow-filter-1); stroke: rgb(255, 0, 191);" d="M 172.424 148.776 L 172.424 426.661 L 200.761 426.661 L 200.761 253.873"/>
+  <path style="fill: rgba(216, 216, 216, 0); stroke-width: 2px; filter: url(#drop-shadow-filter-0); stroke: rgb(255, 0, 191);" d="M 245.166 45.084 C 413.34 45.084 518.449 227.138 434.362 372.781 C 395.337 440.374 323.216 482.013 245.166 482.013" transform="matrix(0.996195, 0.087153, -0.087153, 0.996195, 23.775808, -19.223366)" bx:origin="-0.06 0.498"/>
+  <path style="fill: rgba(216, 216, 216, 0); stroke-width: 2px; filter: url(#drop-shadow-filter-2); stroke: rgb(255, 0, 191);" d="M 14.696 185.653 C 176.121 185.653 275.315 360.647 193.244 500.64 C 155.155 565.611 85.54 605.636 10.622 605.636" transform="matrix(-0.768775, 0.63952, -0.63952, -0.768775, 500.503919, 549.008781)" bx:origin="0.662 0.427"/>
+</svg>
+</div>
+</div>
+
+
+    <div id="fullscreen" class="hover">
+        <div id="menuholder">
+                <button class="close" onclick=closemenu()>&#10005;</button><br>
+                <button class = "mb" onclick="location.href='/index.html';">HOME</button><br>
+                <button class = "mb" onclick="location.href='/team.html';">TEAM</button><br>
+                <button class = "mb" onclick="location.href='/alumni.html';">ALUMNI</button><br>
+                <button class = "mb" onclick="location.href='/events.html';">EVENTS</button><br>
+                <button class = "mb" onclick="location.href='/contact.html';">CONTACT</button>
+        </div>
+    </div>
+
+    <div id="navbar" class="blurback">
+        <div id="logos">
+            <a href="/index.html"><img class="pc" src="/assets/images/pc.png" alt="Physics Club logo" ></a><a target="_blank" href="https://www.svnit.ac.in/web/department/applied_physics/applied_physics_dept.php"><img class="pc" src="/assets/images/dop.png"></a><a target="_blank" href="https://www.svnit.ac.in/index.php"><img class="pc" src="/assets/images/svnit.png"></a>
+        </div>
+        <div id="title">{{ page.navtitle }}</div>
+        <div id="hamcont">
+            <button onclick=showmenu()>
+            <div id="ham">
+            <div class="bar" id="bar1"></div>
+            <div class="bar" id="bar2"></div>
+            <div class="bar" id="bar3"></div>
+            </div>
+            </button>
+        </div>
+    </div>
+
+    <div id="hamcont-mobile">
+            <button onclick=showmenu()>
+            <div id="ham">
+            <div class="bar" id="bar1-mob"></div>
+            <div class="bar" id="bar2-mob"></div>
+            <div class="bar" id="bar3-mob"></div>
+            </div>
+            </button>
+        </div>
+
+    {{ content }}
+
+    <div id="footer">
+        <div id="social">
+        <center>
+            <a target="_blank" href="{{ site.data.social.facebook.link }}" class="fa fa-facebook"></a>
+            <a target="_blank" href="{{ site.data.social.twitter.link }}" class="fa fa-twitter"></a>
+            <a target="_blank" href="{{ site.data.social.instagram.link }}" class="fa fa-instagram"></a>
+        </center>
+        </div>
+        <div id="footmenu">
+        <center>
+            <a class="footermenu" href="/index.html">HOME</a>
+            <a class="footermenu" href="/team.html">TEAM</a>
+            <a class="footermenu" href="/alumni.html">ALUMNI</a>
+            <a class="footermenu" href="/events.html">EVENTS</a>
+            <a class="footermenu" href="/contact.html">CONTACT</a>
+        </center>
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript" src="/assets/js/fixed.js"></script>
+<script type="text/javascript" src="https://unpkg.com/scrollreveal"></script>
+{% for js_name in page.extra_js %}
+    <script type="text/javascript" src="{{ js_name }}"></script>
+{% endfor %}
+</html>
