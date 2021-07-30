@@ -1,12 +1,12 @@
 {
 	"HOD":
-		{
-			"name":"Dr D. V. Shah",
-			"message":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate porro, dignissimos, numquam voluptatibus consectetur tenetur deserunt suscipit libero molestiae soluta, quam illo neque quos odit perspiciatis eaque id quas ipsum."
-		},
+	{
+		"name":"Dr D. V. Shah",
+		"message":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate porro, dignissimos, numquam voluptatibus consectetur tenetur deserunt suscipit libero molestiae soluta, quam illo neque quos odit perspiciatis eaque id quas ipsum."
+	},
 	"Fac":
-		{
-			"name":"Dr K. N. Pathak",
-			"message":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate porro, dignissimos, numquam voluptatibus consectetur tenetur deserunt suscipit libero molestiae soluta, quam illo neque quos odit perspiciatis eaque id quas ipsum."
-		}		
+	{
+		"name":"Dr K. N. Pathak",
+		"message":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate porro, dignissimos, numquam voluptatibus consectetur tenetur deserunt suscipit libero molestiae soluta, quam illo neque quos odit perspiciatis eaque id quas ipsum."
+	}		
 }

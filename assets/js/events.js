@@ -5,11 +5,11 @@ var notblurred = [];
 var isnotblur;
 
 if( screen.width >= 691){
-init();
+    init();
 
-ScrollReveal({ reset: true, delay: 100, opacity: 0, viewFactor:0.1, viewOffset: {
-    top: 50
-} }).reveal('.event');
+    ScrollReveal({ reset: true, delay: 100, opacity: 0, viewFactor:0.1, viewOffset: {
+        top: 50
+    } }).reveal('.event');
 
 }
 else{
@@ -23,27 +23,27 @@ observer.triggerLoad(coolImage);
 
 
 function zoomin(el){
-        el.setAttribute('class', 'item zoomnorm')
+    el.setAttribute('class', 'item zoomnorm')
 }
 
 
 function zoomout(el){
-        el.setAttribute('class', 'item zoomout');
+    el.setAttribute('class', 'item zoomout');
 }
 
 function init(){
 
-items = document.getElementsByClassName('item');
+    items = document.getElementsByClassName('item');
 
-for(i=0; i < items.length; i++){
+    for(i=0; i < items.length; i++){
 
-    if(items[i].getBoundingClientRect().top <0.65*screen.height && items[i].getBoundingClientRect().top >0.1*screen.height){
+        if(items[i].getBoundingClientRect().top <0.65*screen.height && items[i].getBoundingClientRect().top >0.1*screen.height){
             items[i].setAttribute('class','item zoomnorm');
             break;
         }
         else{
         }
-        }
+    }
 
 
 }
@@ -62,16 +62,16 @@ function totopbutton(){
         id('top').style.pointerEvents = 'none';
     }
 
-if(window.innerWidth > 481){
-    if(id('footer').getBoundingClientRect().top < 0.9*window.innerHeight){
-        id('top').style.bottom = '25vh';
+    if(window.innerWidth > 481){
+        if(id('footer').getBoundingClientRect().top < 0.9*window.innerHeight){
+            id('top').style.bottom = '25vh';
+        }
+        else{
+            id('top').style.bottom = '7.5vh';
+        }
     }
     else{
-        id('top').style.bottom = '7.5vh';
-    }
-}
-else{
-     if(id('footer').getBoundingClientRect().top < 0.9*window.innerHeight){
+       if(id('footer').getBoundingClientRect().top < 0.9*window.innerHeight){
         id('top').style.bottom = '33vh';
     }
     else{
@@ -79,7 +79,7 @@ else{
     }
 }
 
-    requestAnimationFrame(totopbutton)
+requestAnimationFrame(totopbutton)
 }
 
 

@@ -17,88 +17,88 @@ extra_js:
     <div id="darken">
         <center>
             <div id="titleholder">
-               <div id="we">We are the</div>
-               <div id="tit" class="tit">Physics Club <font id="of" class="of">of</font> NIT Surat</div>
-           </div>
-       </center>
-   </div>
-   <div class="gradient"></div>
-   </div>
+             <div id="we">We are the</div>
+             <div id="tit" class="tit">Physics Club <font id="of" class="of">of</font> NIT Surat</div>
+         </div>
+     </center>
+ </div>
+ <div class="gradient"></div>
+</div>
 
-   <div id="content">
+<div id="content">
     <div class="white-hori"><div class="scrollR"><span>A CLUB TO</span><br>CELEBRATE</div></div>
-        <center>
-            <div id="lineholder">
+    <center>
+        <div id="lineholder">
             <div id="darkenline">
-            <div id="spaceship">
-            <div id="line" class="scrollR"><center>We are a community to celebrate the grandiose of the universe,<br>
-                aiming at cultivating the love for physics and kindling the interest via science communication,
-            conducting culturo-intellectual events like talks, workshops, quizzes, seminars and many more...</center>
-        </div>
-        </div>
+                <div id="spaceship">
+                    <div id="line" class="scrollR"><center>We are a community to celebrate the grandiose of the universe,<br>
+                        aiming at cultivating the love for physics and kindling the interest via science communication,
+                    conducting culturo-intellectual events like talks, workshops, quizzes, seminars and many more...</center>
+                </div>
+            </div>
         </div>
         <div class="gradient"></div>
-        </div><br>
+    </div><br>
+</center>
+<div class="white-hori" id="white2"><div class="scrollR"><span>FOR THE COLLECTIVE</span><br>PROGRESS</div></div>
+<div id="stateholder">
+    <div id="state">
+        <img id="pclogo" class="offsetdown" src="/assets/images/pc.png">
+        <center><div id="statements" >
+            <div id="hod" class="offsetdown statement">
+                <center><img src="\assets\images\hod.jpg" class="prof" id="image-hod"></center>
+                <div class="designation">
+                    <center>
+                        <div class="name" id="name-hod">{{ site.data.index.HOD.name }}</div>
+                        <div class="posit" id="posit-hod">
+                            <center>Head,<br>Department Of Physics</center>
+                        </div>
+                    </center>
+                </div>
+                <div class="state" id="state-hod">{{ site.data.index.HOD.message }}</div>
+            </div>
+            <div id="fac" class="offsetdown statement">
+                <center><img src="\assets\images\fac.jpg" class="prof" id="image-fac"></center>
+                <div class="designation">
+                    <center>
+                        <div class="name" id="name-fac">{{ site.data.index.Fac.name }}</div>
+                        <div class="posit" id="posit-fac">
+                            <center>Faculty advisor,<br>Physics Club</center>
+                        </div>
+                    </center>
+                </div>
+                <div class="state" id="state-fac">{{ site.data.index.Fac.message }}</div>
+            </div>
+        </div>
     </center>
-        <div class="white-hori" id="white2"><div class="scrollR"><span>FOR THE COLLECTIVE</span><br>PROGRESS</div></div>
-                <div id="stateholder">
-                    <div id="state">
-                <img id="pclogo" class="offsetdown" src="/assets/images/pc.png">
-                  <center><div id="statements" >
-                        <div id="hod" class="offsetdown statement">
-                            <center><img src="\assets\images\hod.jpg" class="prof" id="image-hod"></center>
-                            <div class="designation">
-                                <center>
-                                    <div class="name" id="name-hod">{{ site.data.index.HOD.name }}</div>
-                                    <div class="posit" id="posit-hod">
-                                        <center>Head,<br>Department Of Physics</center>
-                                    </div>
-                                </center>
-                            </div>
-                            <div class="state" id="state-hod">{{ site.data.index.HOD.message }}</div>
-                        </div>
-                        <div id="fac" class="offsetdown statement">
-                            <center><img src="\assets\images\fac.jpg" class="prof" id="image-fac"></center>
-                            <div class="designation">
-                                <center>
-                                    <div class="name" id="name-fac">{{ site.data.index.Fac.name }}</div>
-                                    <div class="posit" id="posit-fac">
-                                        <center>Faculty advisor,<br>Physics Club</center>
-                                    </div>
-                                </center>
-                            </div>
-                            <div class="state" id="state-fac">{{ site.data.index.Fac.message }}</div>
-                        </div>
-                    </div>
-                </center>
+</div>
+</div>
+<div style="width: 100%; height: 10vh; background: transparent;"></div>
+{% if site.data.events.upcomingevents[0].name != " " %}
+{% if site.data.events.upcomingevents[0].name != "" %}
+<div id="new"></div>
+<div class="white-hori" id="white3"><div class="scrollR"><span>WE'VE GOT YOU SOMETHING</span><br>&nbsp;NEW!</div></div>
+<div id="new"></div>
+<div id="newholder">
+    <center>
+        <div id="l-holder" class="offsetdown">
+            <img src="/assets/posters/placeholder.jpg" data-src="/assets/posters/{{ site.data.events.upcomingevents[0].poster }}.png" id="l-image"  class="offsetdown lozad">
+            <div id="l-content" class="offsetdown">
+                <div id="l-title" class="offsetdown">{{ site.data.events.upcomingevents[0].name }}</div>
+                <div id="l-date" class="offsetdown">{{ site.data.events.upcomingevents[0].date }}</div>
+                <div id="l-descr" class="offsetdown">{{ site.data.events.upcomingevents[0].descr }} <br><br> 
+                    <a id="l-reg" target="_blank" href="{{ site.data.events.upcomingevents[0].reglink }}">Register Now!!</a>
+                </div>
             </div>
-            </div>
-                    <div style="width: 100%; height: 10vh; background: transparent;"></div>
-                {% if site.data.events.upcomingevents[0].name != " " %}
-                    {% if site.data.events.upcomingevents[0].name != "" %}
-                    <div id="new"></div>
-                <div class="white-hori" id="white3"><div class="scrollR"><span>WE'VE GOT YOU SOMETHING</span><br>&nbsp;NEW!</div></div>
-                <div id="new"></div>
-                    <div id="newholder">
-                            <center>
-                        <div id="l-holder" class="offsetdown">
-                            <img src="/assets/posters/placeholder.jpg" data-src="/assets/posters/{{ site.data.events.upcomingevents[0].poster }}.png" id="l-image"  class="offsetdown lozad">
-                            <div id="l-content" class="offsetdown">
-                                <div id="l-title" class="offsetdown">{{ site.data.events.upcomingevents[0].name }}</div>
-                                <div id="l-date" class="offsetdown">{{ site.data.events.upcomingevents[0].date }}</div>
-                                <div id="l-descr" class="offsetdown">{{ site.data.events.upcomingevents[0].descr }} <br><br> 
-                                    <a id="l-reg" target="_blank" href="{{ site.data.events.upcomingevents[0].reglink }}">Register Now!!</a>
-                                </div>
-                            </div>
-                        </div>
-                            </center>
-                    </div>
-                    {% endif %}
-                    {% endif %}
-            </div>
-        <!--div id="noti" class="noticlose"><button id="noticlose" onclick=closenoti()>&#10005;</button><div id="innoti" onclick="location.href='#new';closenoti()">We have got something new for you!!! Click here to view</div></div-->
+        </div>
+    </center>
+</div>
+{% endif %}
+{% endif %}
+</div>
+<!--div id="noti" class="noticlose"><button id="noticlose" onclick=closenoti()>&#10005;</button><div id="innoti" onclick="location.href='#new';closenoti()">We have got something new for you!!! Click here to view</div></div-->
 
-  <div id="noti">
+<div id="noti">
   <div id="bell"><svg id="bellsvg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15.137 3.945c-.644-.374-1.041-1.07-1.04-1.82v-.003c0-1.172-.939-2.122-2.097-2.122s-2.097.95-2.097 2.122v.003c.001.751-.396 1.446-1.041 1.82-4.667 2.712-1.985 11.715-6.862 13.306v1.749h20v-1.749c-4.877-1.591-2.195-10.594-6.863-13.306zm-6.728 12.055h-1.882c1.245-2.741.879-9.012 3.873-10.655-1.761 2.067-.95 7.504-1.991 10.655zm3.591-13c-.552 0-1-.448-1-1 0-.551.448-1 1-1s1 .449 1 1c0 .552-.448 1-1 1zm-3 18h6c0 1.598-1.393 3-2.971 3-1.579 0-3.029-1.402-3.029-3z"/></svg>
   </div>
   <div id="chwd" ><div id="notitext" onclick='location.href="#new";closenoti();'><div id="noticont">We have got something new for you!!! Click here to view</div></div><div id="close" onclick=closenoti()>&#10005;</div></div></div>

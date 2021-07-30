@@ -3,72 +3,72 @@ layout: fixed
 title: Team | Physics Club NIT Surat
 navtitle: Team 
 extra_css:
-    - https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css
-    - /assets/css/team.css
+- https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css
+- /assets/css/team.css
 extra_js:
-    - https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js
-    - /assets/js/team.js
+- https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js
+- /assets/js/team.js
 ---
 
 <div id="main-container">
-<div id="phys">PHYSICS</div>
-<div id="club">CLUB</div>
-<div style="width: 100%; height: 1vh;"></div>
+    <div id="phys">PHYSICS</div>
+    <div id="club">CLUB</div>
+    <div style="width: 100%; height: 1vh;"></div>
 
 
-{% assign category = site.data.team[0] %}
+    {% assign category = site.data.team[0] %}
 
-<div style="width: 100%; height: 5vh;"></div>
+    <div style="width: 100%; height: 5vh;"></div>
 
-{% for batch in category.batches %}
+    {% for batch in category.batches %}
 
-<div class="horizontal">BATCH {{ batch.batch | upcase }}</div>
+    <div class="horizontal">BATCH {{ batch.batch | upcase }}</div>
 
-<div style="width: 100%; height: 1vh;"></div>
+    <div style="width: 100%; height: 1vh;"></div>
 
-<div class="holder">
+    <div class="holder">
 
-    <div class="splide slider">
-        <div class="splide__track">
-            <div class="splide__list">
-                {% for member in batch.members %}
+        <div class="splide slider">
+            <div class="splide__track">
+                <div class="splide__list">
+                    {% for member in batch.members %}
 
-                <div class="splide__slide">
-                    <div class="member">
-                        <center>
-                            <img class="image" data-splide-lazy="/assets/Team/{{ member.image }}">
-                            <div class="name">{{ member.name }}</div>
-                            <div class="soc">
-                                {% if member.insta %}
-                                <span class="insta"><a target="_blank" class="customico fa fa-instagram" href="{{ member.insta }}"></a></span>
-                                {% endif %}
-                                {% if member.fb %}
-                                <span class="facebook"><a target="_blank" class="customico fa fa-facebook" href = "{{ member.fb }}"></a></span>
-                                {% endif %}
-                                {% if member.linkedin %}
-                                <span class="linkedin"><a target="_blank" class="customico fa fa-linkedin" href = "{{ member.linkedin }}"></a></span>
-                                {% endif %}
-                                {% if member.twitter %}
-                                <span class="twitter"><a target="_blank" class="customico fa fa-twitter" href = "{{ member.twitter }}"></a></span>
-                                {% endif %}
-                                {% if member.mail %}
-                                <span class="mail"><a target="_blank" class="customico fa fa-envelope" href = "mailto:{{ member.mail }}" rel="noopener noreferrer"></a></span>
-                                {% endif %}
-                            </div>
-                        </center>
+                    <div class="splide__slide">
+                        <div class="member">
+                            <center>
+                                <img class="image" data-splide-lazy="/assets/Team/{{ member.image }}">
+                                <div class="name">{{ member.name }}</div>
+                                <div class="soc">
+                                    {% if member.insta %}
+                                    <span class="insta"><a target="_blank" class="customico fa fa-instagram" href="{{ member.insta }}"></a></span>
+                                    {% endif %}
+                                    {% if member.fb %}
+                                    <span class="facebook"><a target="_blank" class="customico fa fa-facebook" href = "{{ member.fb }}"></a></span>
+                                    {% endif %}
+                                    {% if member.linkedin %}
+                                    <span class="linkedin"><a target="_blank" class="customico fa fa-linkedin" href = "{{ member.linkedin }}"></a></span>
+                                    {% endif %}
+                                    {% if member.twitter %}
+                                    <span class="twitter"><a target="_blank" class="customico fa fa-twitter" href = "{{ member.twitter }}"></a></span>
+                                    {% endif %}
+                                    {% if member.mail %}
+                                    <span class="mail"><a target="_blank" class="customico fa fa-envelope" href = "mailto:{{ member.mail }}" rel="noopener noreferrer"></a></span>
+                                    {% endif %}
+                                </div>
+                            </center>
+                        </div>
                     </div>
+
+                    {% endfor %}                             
+
                 </div>
-
-                {% endfor %}                             
-
             </div>
         </div>
     </div>
-</div>
 
-{% endfor %}
+    {% endfor %}
 
-<div style="width: 100%; height: 5vh;"></div>
+    <div style="width: 100%; height: 5vh;"></div>
 
 
 </div>

@@ -29,51 +29,51 @@ extra_js:
                     <div class="separator"></div>
                     <p class="descr" id = "{{ event.poster }}descidid">{{ event.descr }} </p>
                 </div>
-             <div class="date" id = "{{ event.poster }}dateidid">{{ event.date | upcase }}</div>
-             <div class="links">
-             {% if event.reglink != " " %}
-             <a class = "link" target="_blank" href = "{{ event.reglink }}" id = "{{ event.poster }}reglidid">Register here!!</a>
-             {% endif %}
-             {% if event.reglink == " " %}
-             <div class="link" id = "{{ event.poster }}regcidid">Registrations Closed</div>
-             {% endif %}
-         </div>
-     </div>
+                <div class="date" id = "{{ event.poster }}dateidid">{{ event.date | upcase }}</div>
+                <div class="links">
+                   {% if event.reglink != " " %}
+                   <a class = "link" target="_blank" href = "{{ event.reglink }}" id = "{{ event.poster }}reglidid">Register here!!</a>
+                   {% endif %}
+                   {% if event.reglink == " " %}
+                   <div class="link" id = "{{ event.poster }}regcidid">Registrations Closed</div>
+                   {% endif %}
+               </div>
+           </div>
 
 
-             {% endfor %}
+           {% endfor %}
 
-            <div class="whitehori">PAST EVENTS</div>
+           <div class="whitehori">PAST EVENTS</div>
 
-             {% endif %}
+           {% endif %}
 
 
-    
-            {% for event in site.data.events.events %}
+           
+           {% for event in site.data.events.events %}
 
-            <div class="event" id = "{{ event.poster }}evntidid">
-                <div class="thumbnail">
-                    <img class="left lozad" src="assets/posters/placeholder.jpg" data-src="/assets/posters/{{ event.poster }}.png" />
-                </div>
-                <div class="right">
-                    <div class="name" id = "{{ event.poster }}nameidid">{{ event.name | upcase }}</div>
-                    <div class="separator"></div>
-                    <p class="descr" id = "{{ event.poster }}descidid">{{ event.descr }} </p>
-                </div>
-             <div class="date" id = "{{ event.poster }}dateidid">{{ event.date | upcase }}</div>
-             <div class="links">
-             {% if event.youtube != " " %}
-             <div style="height:5px; width: 100%;"></div>
-             <a class = "link" target="_blank" href = "{{ event.youtube }}" id = "{{ event.poster }}youtidid">Youtube recording</a>
-             {% endif %}
+           <div class="event" id = "{{ event.poster }}evntidid">
+            <div class="thumbnail">
+                <img class="left lozad" src="assets/posters/placeholder.jpg" data-src="/assets/posters/{{ event.poster }}.png" />
             </div>
-         </div>
+            <div class="right">
+                <div class="name" id = "{{ event.poster }}nameidid">{{ event.name | upcase }}</div>
+                <div class="separator"></div>
+                <p class="descr" id = "{{ event.poster }}descidid">{{ event.descr }} </p>
+            </div>
+            <div class="date" id = "{{ event.poster }}dateidid">{{ event.date | upcase }}</div>
+            <div class="links">
+               {% if event.youtube != " " %}
+               <div style="height:5px; width: 100%;"></div>
+               <a class = "link" target="_blank" href = "{{ event.youtube }}" id = "{{ event.poster }}youtidid">Youtube recording</a>
+               {% endif %}
+           </div>
+       </div>
 
-         {% endfor %}
+       {% endfor %}
 
 
-     </div>
-     <abbr title="Go To Top"><svg id="top" xmlns="http://www.w3.org/2000/svg" width="4vw" height="4vw" viewBox="0 0 24 24"><path onclick="window.scrollTo(0,0)" d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 7.58l5.995 5.988-1.416 1.414-4.579-4.574-4.59 4.574-1.416-1.414 6.006-5.988z"/>
-     </svg></abbr>
- </div>
+   </div>
+   <abbr title="Go To Top"><svg id="top" xmlns="http://www.w3.org/2000/svg" width="4vw" height="4vw" viewBox="0 0 24 24"><path onclick="window.scrollTo(0,0)" d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 7.58l5.995 5.988-1.416 1.414-4.579-4.574-4.59 4.574-1.416-1.414 6.006-5.988z"/>
+   </svg></abbr>
+</div>
 </div>

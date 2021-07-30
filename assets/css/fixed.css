@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|BioRhyme|Lato|Roboto+Condensed|Rubik');
 
 * {
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
-    -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important; 
-    outline: none !important;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
+	-webkit-focus-ring-color: rgba(255, 255, 255, 0) !important; 
+	outline: none !important;
 } 
 
 
@@ -31,445 +31,454 @@ body{
 }
 
 .spinner {
-  width: 40px;
-  height: 40px;
+	width: 40px;
+	height: 40px;
 
-  position: relative;
-  margin: 100px auto;
-  transform: scale(2);
+	position: relative;
+	margin: 100px auto;
+	transform: scale(2);
 }
 
 .double-bounce1, .double-bounce2 {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background-color: white;
-  opacity: 0.6;
-  position: absolute;
-  top: 0;
-  left: 0;
-  
-  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
-  animation: sk-bounce 2.0s infinite ease-in-out;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-color: white;
+	opacity: 0.6;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	-webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+	animation: sk-bounce 2.0s infinite ease-in-out;
 }
 
 .double-bounce2 {
-  -webkit-animation-delay: -1.0s;
-  animation-delay: -1.0s;
+	-webkit-animation-delay: -1.0s;
+	animation-delay: -1.0s;
 }
 
 @-webkit-keyframes sk-bounce {
-  0%, 100% { -webkit-transform: scale(0.0) }
-  50% { -webkit-transform: scale(1.0) }
+	0%, 100% { -webkit-transform: scale(0.0) }
+	50% { -webkit-transform: scale(1.0) }
 }
 
 @keyframes sk-bounce {
-  0%, 100% { 
-    transform: scale(0.0);
-    -webkit-transform: scale(0.0);
-  } 50% { 
-    transform: scale(1.0);
-    -webkit-transform: scale(1.0);
-  }
-}
-
-.animate{
-	width: min(75vw,75vh);
-	opacity: 0;
-}
-
-::-webkit-scrollbar {
-  width: 7px;
-  z-index: 9000;
-}
-
-::-webkit-scrollbar-track {
-	background: black;
-}
-::-webkit-scrollbar-thumb {
-  background: gray;
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
-::-moz-selection { /* Code for Firefox */
-  color: #0502f8;
-  background: black;
-}
-
-::selection {
-  color: #0502f8;
-  background: black;
-}
-
-
-body{
-	background-color: white;
-	font-family: Montserrat, Open Sans;
-	font-size: calc(6px + 2vw);	
-	overflow-X: hidden;
-	overflow-y: hidden;
-}
-
-#fullscreen {
-	position: fixed;
-	top: 0;
-	left: 0;
-	background-color: rgba(255, 255, 255, 0.95);
-	width: 100vw;
-	height: 100vh;
-	opacity: 0;
-	display: block;
-	transition: opacity 0.5s;
-	z-index: 200;
-	pointer-events: none;
-}
-
-.hover{
-	border: 1px solid rgba( 255, 255, 255, 0.18 );
-	box-shadow: 2px 2px 5px rgba( 255, 255, 255, 0.18 );
-}
-
-
-#menuholder{
-	background-color: transparent;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translateX(-50%) translateY(-50%);
-	text-align: center;
-}
-
-.mb{
-	padding: 10px;
-	width: 200px;
-	font-size: 20px;
-	font-family: Montserrat;
-	letter-spacing: 5px;
-	line-height: 1.5;
-	color: black;
-	border: 0px;
-	background-color: transparent;
-	font-weight: bold;
-	transition: all 0.5s;
-}
-
-.mb:hover{
-	background-color: #cfcfcf;
-}
-
-.close{
-	font-size: 25px;
-	width: 55px;
-	height: 55px;
-	border-radius: 50%;
-	border: 2px solid black;
-	background: transparent;
-	border: 2px solid white;
-	text-decoration: none;
-	color: black;
-	cursor: pointer;
-}
-
-.close:hover{
-	-webkit-animation: rotatex 0.1s linear;
-	        animation: rotatex 0.1s linear;
-}
-
-@-webkit-keyframes rotatex{
-	from{
-		transform: rotate(0deg);
-		transform-origin: center center;
+	0%, 100% { 
+		transform: scale(0.0);
+		-webkit-transform: scale(0.0);
+		} 50% { 
+			transform: scale(1.0);
+			-webkit-transform: scale(1.0);
+		}
 	}
-	to{
-		transform: rotate(90deg);
-		transform-origin: center center;
+
+	.animate{
+		width: min(75vw,75vh);
+		opacity: 0;
 	}
-}
 
-@keyframes rotatex{
-	from{
-		transform: rotate(0deg);
-		transform-origin: center center;
+	::-webkit-scrollbar {
+		width: 7px;
+		z-index: 9000;
 	}
-	to{
-		transform: rotate(90deg);
-		transform-origin: center center;
+
+	::-webkit-scrollbar-track {
+		background: black;
 	}
-}
+	::-webkit-scrollbar-thumb {
+		background: gray;
+		border-radius: 10px;
+	}
 
-#navbar{
-	display: -ms-grid;
-	display: grid;
-	-ms-grid-columns: (1fr)[3];
-	grid-template-columns: repeat(3, 1fr);
-	height: calc(50px + 2vh);
-	width: calc(100vw + 7px);
-	position: fixed;
-	top: -7px;
-	left: -7px;
-	background-color: rgba(255, 255, 255, 0.25);
-	z-index: 100;
-	transition: all 0.5s;
-}
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		background: #555;
+	}
 
-.blurback{
-	-webkit-backdrop-filter:  blur(4px);
-	        backdrop-filter:  blur(4px);
-}
+	::-moz-selection { /* Code for Firefox */
+		color: #0502f8;
+		background: black;
+	}
 
-#logos{
-	height: 100%;
-	width: 33%;
-	display: flex;
-	justify-content: flex-start;
-	background-color: transparent;
-	position: absolute;
-	left: 7px;
-	top: 7px;
-}
-
-.pc{
-	height: 50px;
-	width: 50px;
-	border-radius: 50%;
-	border: 2px solid white;
-	margin-right: 10px;
-}
-
-#title{
-	font-family: Montserrat;
-	font-weight: bold;
-	font-size: calc(10px + 4.5vw);
-	white-space: nowrap;
-	transform: scale(0.35);
-	color: white;
-	height: inherit;
-	background-color: transparent;
-	position: absolute;
-	top: -7%;	
-	left: 29%;
-	width: 33%;
-	pointer-events: none;
-	width: 33%;
-	user-select: none;
-}
-
-#hamcont{
-	display: flex;
-	justify-content: flex-end;
-	height: inherit;
-	background-color: transparent;
-	width: 33%;
-	position: absolute;
-	right: 28px;
-	top: 7px;
-}
-
-#hamcont> button{
-	border: 0px;
-	background-color: transparent;
-	cursor: pointer;
-}
-
-#ham{
-	width: 35px;
-	height: 35px;
-	background-color: transparent;
-	margin: 25%;
-	display: inline-block;
-}
-
-#ham:focus{
-	outline:  none;
-}
-
-.bar{
-	width: 30px;
-	height: 4px;
-	margin: 4px;
-	background: white;
-}
-
-#bar1, #bar1-mob{
-	transform: translateX(0px);
-	transition: all 0.1s;
-}
-
-#bar2, #bar2-mob{
-	transform: translateX(0px);
-	transition: all 0.5s;
-}
-
-#bar3, #bar3-mob{
-	transform: translateX(0px);
-	transition: all 1s;
-}
-
-#footer{
-	height: 12vh;
-	width: 104vw;
-	background: black;
-	border-top:  10px solid black;
-	display: -ms-grid;
-	display: grid;
-	-ms-grid-columns: 1fr 1.5fr;
-	grid-template-columns: 1fr 1.5fr;
-	position: relative;
-	left: -10px;  
-	top: 10px;  
-}
-
-#social{
-	background-color: black;
-	border-right: 2px solid gray;
-	height: 12vh;
-}
-
-.fa{
-	margin: 20px;
-	text-decoration: none;
-	transform: scale(0.9);
-	transition: all 0.5s;
-}
-
-.fa:hover {
-  opacity: 0.7;
-  transform: scale(1);
-}
-
-.fa-facebook {
-  background: transparent;
-  color: white;
-}
-
-.fa-twitter {
-  background: transparent;
-  color: white;
-}
-
-.fa-instagram {
-  background: transparent;
-  color: white;
-}
-
-#footmenu{
-	background-color: black;
-	height: 11vh;
-	position: relative;
-	top: 1vh;
-}
-
-.footermenu{
-	position:relative;
-	text-decoration: none;
-	text-transform: capitalize;
-	font-size: calc(5px + 1vw);
-	letter-spacing: 2.5px;
-	color: white;
-	margin-left:20px;
-}
-
-@media screen and (max-width: 901px){
-
-#footer{
-	display: inline-block;
-}
-}
-
-/*For Mobile*/
-#hamcont-mobile{
-	display: none;
-	position: fixed;
-	width: 50px;
-	height: 50px;
-	top: 3vh;
-	right: 3vh;
-	border-radius: 50%;
-	background: white;
-	width: ;
-	z-index: 199;
-	overflow: hidden;
-}
-
-#hamcont-mobile> button{
-	position: relative;
-	right: 8px;
-	top: 1px;
-	border: 0px;
-	background-color: transparent;
-	cursor: pointer;
-	overflow: hidden;
-}
-
-@media screen and (max-width: 451px){
-
-#footer{
-	display: inline-block;
-}
-
-#navbar{
-	display: none;
-}
-
-#hamcont-mobile{
-	display: block;
-}
-
-.bar{
-	background-color: black;
-}
-}
-
-.horizontal {
-  overflow: hidden;
-  text-align: center;
- 	color: white;
- 	font-family: Lato;
- 	font-size: calc(15px + 1.25vw);
- 	z-index: 100;
-}
+	::selection {
+		color: #0502f8;
+		background: black;
+	}
 
 
-.horizontal:before,
-.horizontal:after {
-  background-color: white;
-  content: "";
-  display: inline-block;
-  height: 2px;
-  position: relative;
-  vertical-align: middle;
-  width: 50%;
-}
+	body{
+		background-color: white;
+		font-family: Montserrat, Open Sans;
+		font-size: calc(6px + 2vw);	
+		overflow-X: hidden;
+		overflow-y: hidden;
+	}
 
-.horizontal:before {
-  right: 0.5em;
-  margin-left: -50%;
-}
+	#fullscreen {
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-color: rgba(255, 255, 255, 0.95);
+		width: 100vw;
+		height: 100vh;
+		opacity: 0;
+		display: block;
+		transition: opacity 0.5s;
+		z-index: 200;
+		pointer-events: none;
+	}
 
-.horizontal:after {
-  left: 0.5em;
-  margin-right: -50%;
-}
+	.hover{
+		border: 1px solid rgba( 255, 255, 255, 0.18 );
+		box-shadow: 2px 2px 5px rgba( 255, 255, 255, 0.18 );
+	}
 
-@media screen and (max-width: 500px){
-	.footermenu{
-		font-size: calc(6px + 1.2vw);
-left:-10px
+
+	#menuholder{
+		background-color: transparent;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		text-align: center;
+	}
+
+	.mb{
+		padding: 10px;
+		width: 200px;
+		font-size: 20px;
+		font-family: Montserrat;
+		letter-spacing: 5px;
+		line-height: 1.5;
+		color: black;
+		border: 0px;
+		background-color: transparent;
+		font-weight: bold;
+		transition: all 0.5s;
+	}
+
+	.mb:hover{
+		background-color: #cfcfcf;
+	}
+
+	.close{
+		font-size: 25px;
+		width: 55px;
+		height: 55px;
+		border-radius: 50%;
+		border: 2px solid black;
+		background: transparent;
+		border: 2px solid white;
+		text-decoration: none;
+		color: black;
+		cursor: pointer;
+	}
+
+	.close:hover{
+		-webkit-animation: rotatex 0.1s linear;
+		animation: rotatex 0.1s linear;
+	}
+
+	@-webkit-keyframes rotatex{
+		from{
+			transform: rotate(0deg);
+			transform-origin: center center;
+		}
+		to{
+			transform: rotate(90deg);
+			transform-origin: center center;
+		}
+	}
+
+	@keyframes rotatex{
+		from{
+			transform: rotate(0deg);
+			transform-origin: center center;
+		}
+		to{
+			transform: rotate(90deg);
+			transform-origin: center center;
+		}
+	}
+
+	#navbar{
+		display: -ms-grid;
+		display: grid;
+		-ms-grid-columns: (1fr)[3];
+		grid-template-columns: repeat(3, 1fr);
+		height: calc(50px + 2vh);
+		width: calc(100vw + 7px);
+		position: fixed;
+		top: -7px;
+		left: -7px;
+		background-color: rgba(255, 255, 255, 0.25);
+		z-index: 100;
+		transition: all 0.5s;
+	}
+
+	.blurback{
+		-webkit-backdrop-filter:  blur(4px);
+		backdrop-filter:  blur(4px);
+	}
+
+	#logos{
+		height: 100%;
+		width: 33%;
+		display: flex;
+		justify-content: flex-start;
+		background-color: transparent;
+		position: absolute;
+		left: 7px;
+		top: 7px;
+	}
+
+	.pc{
+		height: 50px;
+		width: 50px;
+		border-radius: 50%;
+		border: 2px solid white;
+		margin-right: 10px;
+	}
+
+	#title{
+		font-family: Montserrat;
+		font-weight: bold;
+		font-size: calc(10px + 4.5vw);
+		white-space: nowrap;
+		transform: scale(0.35);
+		color: white;
+		height: inherit;
+		background-color: transparent;
+		position: absolute;
+		top: -7%;	
+		left: 29%;
+		width: 33%;
+		pointer-events: none;
+		width: 33%;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+
+	#hamcont{
+		display: flex;
+		justify-content: flex-end;
+		height: inherit;
+		background-color: transparent;
+		width: 33%;
+		position: absolute;
+		right: 28px;
+		top: 7px;
+	}
+
+	#hamcont> button{
+		border: 0px;
+		background-color: transparent;
+		cursor: pointer;
+	}
+
+	#ham{
+		width: 35px;
+		height: 35px;
+		background-color: transparent;
+		margin: 25%;
+		display: inline-block;
+	}
+
+	#ham:focus{
+		outline:  none;
+	}
+
+	.bar{
+		width: 30px;
+		height: 4px;
+		margin: 4px;
+		background: white;
+	}
+
+	#bar1, #bar1-mob{
+		transform: translateX(0px);
+		transition: all 0.1s;
+	}
+
+	#bar2, #bar2-mob{
+		transform: translateX(0px);
+		transition: all 0.5s;
+	}
+
+	#bar3, #bar3-mob{
+		transform: translateX(0px);
+		transition: all 1s;
+	}
+
+	#footer{
+		height: 12vh;
+		width: 104vw;
+		background: black;
+		border-top:  10px solid black;
+		display: -ms-grid;
+		display: grid;
+		-ms-grid-columns: 1fr 1.5fr;
+		grid-template-columns: 1fr 1.5fr;
+		position: relative;
+		left: -10px;  
+		top: 10px;  
+	}
+
+	#social{
+		background-color: black;
+		border-right: 2px solid gray;
+		height: 12vh;
 	}
 
 	.fa{
-		transform: scale(1.5);
-		transform-origin: center center;
+		margin: 20px;
+		text-decoration: none;
+		transform: scale(0.9);
+		transition: all 0.5s;
 	}
-}
 
-@keyframes animatepath {
-	to{
-    stroke-dashoffset: 0;
+	.fa:hover {
+		opacity: 0.7;
+		transform: scale(1);
 	}
-}
+
+	.fa-facebook {
+		background: transparent;
+		color: white;
+	}
+
+	.fa-twitter {
+		background: transparent;
+		color: white;
+	}
+
+	.fa-instagram {
+		background: transparent;
+		color: white;
+	}
+
+	#footmenu{
+		background-color: black;
+		height: 11vh;
+		position: relative;
+		top: 1vh;
+	}
+
+	.footermenu{
+		position:relative;
+		text-decoration: none;
+		text-transform: capitalize;
+		font-size: calc(5px + 1vw);
+		letter-spacing: 2.5px;
+		color: white;
+		margin-left:20px;
+	}
+
+	@media screen and (max-width: 901px){
+
+		#footer{
+			display: inline-block;
+		}
+	}
+
+	/*For Mobile*/
+	#hamcont-mobile{
+		display: none;
+		position: fixed;
+		width: 50px;
+		height: 50px;
+		top: 3vh;
+		right: 3vh;
+		border-radius: 50%;
+		background: white;
+		width: ;
+		z-index: 199;
+		overflow: hidden;
+	}
+
+	#hamcont-mobile> button{
+		position: relative;
+		right: 8px;
+		top: 1px;
+		border: 0px;
+		background-color: transparent;
+		cursor: pointer;
+		overflow: hidden;
+	}
+
+	@media screen and (max-width: 451px){
+
+		#footer{
+			display: inline-block;
+		}
+
+		#navbar{
+			display: none;
+		}
+
+		#hamcont-mobile{
+			display: block;
+		}
+
+		.bar{
+			background-color: black;
+		}
+	}
+
+	.horizontal {
+		overflow: hidden;
+		text-align: center;
+		color: white;
+		font-family: Lato;
+		font-size: calc(15px + 1.25vw);
+		z-index: 100;
+	}
+
+
+	.horizontal:before,
+	.horizontal:after {
+		background-color: white;
+		content: "";
+		display: inline-block;
+		height: 2px;
+		position: relative;
+		vertical-align: middle;
+		width: 50%;
+	}
+
+	.horizontal:before {
+		right: 0.5em;
+		margin-left: -50%;
+	}
+
+	.horizontal:after {
+		left: 0.5em;
+		margin-right: -50%;
+	}
+
+	@media screen and (max-width: 500px){
+		.footermenu{
+			font-size: calc(6px + 1.2vw);
+			left:-10px
+		}
+
+		.fa{
+			transform: scale(1.5);
+			transform-origin: center center;
+		}
+	}
+
+	@-webkit-keyframes animatepath {
+		to{
+			stroke-dashoffset: 0;
+		}
+	}
+
+	@keyframes animatepath {
+		to{
+			stroke-dashoffset: 0;
+		}
+	}
