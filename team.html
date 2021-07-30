@@ -45,8 +45,14 @@ extra_js:
                                 {% if member.fb %}
                                 <span class="facebook"><a target="_blank" class="customico fa fa-facebook" href = "{{ member.fb }}"></a></span>
                                 {% endif %}
-                                {% if member.linked %}
-                                <span class="linkedin"><a target="_blank" class="customico fa fa-linkedin" href = "{{ member.linked }}"></a></span>
+                                {% if member.linkedin %}
+                                <span class="linkedin"><a target="_blank" class="customico fa fa-linkedin" href = "{{ member.linkedin }}"></a></span>
+                                {% endif %}
+                                {% if member.twitter %}
+                                <span class="twitter"><a target="_blank" class="customico fa fa-twitter" href = "{{ member.twitter }}"></a></span>
+                                {% endif %}
+                                {% if member.mail %}
+                                <span class="mail"><a target="_blank" class="customico fa fa-envelope" href = "mailto:{{ member.mail }}" rel="noopener noreferrer"></a></span>
                                 {% endif %}
                             </div>
                         </center>

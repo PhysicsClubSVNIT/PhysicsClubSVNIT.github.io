@@ -6,6 +6,38 @@
 		"batches":[
 
 			{
+				"batch": "2020-25",
+
+				"members":[
+					
+					{
+						"name": "Rohan Umesh",
+						"batch": "2020-25",
+						"insta": "https://www.instagram.com/221btogo/",
+						"linkedin": "https://www.linkedin.com/in/rohan-umesh-75a389211/",
+						"image": "rohan.jpg"
+					},
+
+					{
+						"name": "Pulkit mundotiya",
+						"insta": "https://www.instagram.com/pulkit8800/",
+						"fb":"https://www.facebook.com/pulkit.mundotiya",
+						"linkedin": "https://www.linkedin.com/in/pulkit-mundotiya-53ab06203/",
+						"image": "pulkit.jpg"
+					},
+
+					{
+						"name": "Disha Hegde",
+						"insta": "https://www.instagram.com/disharhegde/",
+						"linkedin": "https://www.linkedin.com/in/disha-hegde/",
+						"mail": "disharhegde@gmail.com",
+						"image": "disha.jpg"
+					}
+
+				]
+			},
+
+			{
 
 				"batch": "2019-24",
 
@@ -16,7 +48,10 @@
 						"batch":"2019-24",
 						"insta":"https://www.instagram.com/sid_y2k/",
 						"fb": "https://www.facebook.com/profile.php?id=100009034306703",
-						"image":"siddharth.jpg"
+						"image":"siddharth.jpg",
+						"linkedin": "https://www.linkedin.com/in/siddharth-kumar-tiwari",
+						"twitter": "https://twitter.com/sid_y2k",
+						"mail": "sidkt2015@gmail.com"
 					},
 
 					{
@@ -38,7 +73,16 @@
 						"name":"Bhavya Jaiman",
 						"batch":"2019-24",
 						"insta":"https://www.instagram.com/thebhavyajaiman/",
-						"image":"bhavya.jpg"
+						"image":"bhavya.jpg",
+						"linkedin":"https://www.linkedin.com/in/bhavyajaiman/",
+						"twitter":"https://twitter.com/bhavyajaiman",
+						"mail":"i19ph032@phy.svnit.ac.in"
+					},
+
+					{
+						"name": "Aum Patel",
+						"batch": "2019-24",
+						"image": "aum.jpg"
 					},
 
 					{
@@ -47,7 +91,7 @@
 						"insta":"https://www.instagram.com/rao__adithya/",
 						"fb":"https://www.facebook.com/adithyaa.rao",
 						"image":"adithya.jpg",
-						"linked":"link"
+						"linkedin":"link"
 					}
 				]
 			},
@@ -86,7 +130,11 @@
 						"batch":"2017-22",
 						"fb":"https://www.facebook.com/ramkumar0808",
 						"image":"ram.jpg",
-						"linked": "linkedin"
+						"linkedin": "https://www.linkedin.com/in/ramkumar-radhakrishnan-1a8572174/",
+						"twitter": "https://twitter.com/rramkumar1997",
+						"insta": "https://www.instagram.com/rramkumar.radhakrishnan/",
+						"mail": "rramkumar081997@gmail.com"
+
 					},
 
 					{
@@ -148,7 +196,7 @@
 						"name":"Foram Fanasia",
 						"batch":"2018-23",
 						"fb":"https://www.facebook.com/",
-						"image":"placeholder.jpg"
+						"image":"foram.jpg"
 					}
 				]
 			},
@@ -163,7 +211,7 @@
 						"name":"Parth Thakar",
 						"batch":"201-23",
 						"fb":"https://www.facebook.com/",
-						"image":"placeholder.jpg"
+						"image":"parth.jpg"
 					}
 				]
 			}
