@@ -175,6 +175,12 @@
 
 
 
+
+
+
+
+
+
 	{
 		"type":"Alumni",
 
@@ -187,16 +193,16 @@
 				"members":[
 
 					{
-						"name":"Shashank",
+						"name":"Shashank Kashyap",
 						"batch":"2018-23",
-						"fb":"https://www.facebook.com/",
+						"insta":"https://instagram.com/shashankkashyap16",
 						"image":"placeholder.jpg"
 					},
 
 					{
 						"name":"Foram Fanasia",
 						"batch":"2018-23",
-						"fb":"https://www.facebook.com/",
+						"insta":"https://instagram.com/caesar.saladxx",
 						"image":"foram.jpg"
 					}
 				]
@@ -211,7 +217,8 @@
 					{
 						"name":"Parth Thakar",
 						"batch":"201-23",
-						"fb":"https://www.facebook.com/",
+						"fb":"https://www.facebook.com/parth.thakkar.77715",
+						"insta":"https://www.instagram.com/parthakkar.pt/",
 						"image":"parth.jpg"
 					}
 				]
