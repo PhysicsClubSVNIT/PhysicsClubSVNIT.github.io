@@ -318,13 +318,16 @@ body{
 		width: 104vw;
 		background: black;
 		border-top:  10px solid black;
+		position: relative;
+		left: -10px;  
+		top: 10px;  
+	}
+
+	#soc-menu{
 		display: -ms-grid;
 		display: grid;
 		-ms-grid-columns: 1fr 1.5fr;
 		grid-template-columns: 1fr 1.5fr;
-		position: relative;
-		left: -10px;  
-		top: 10px;  
 	}
 
 	#social{
