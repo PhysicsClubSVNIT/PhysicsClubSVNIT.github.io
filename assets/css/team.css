@@ -18,7 +18,9 @@ body{
 	background: #353B3F;
 	background: #e6dada; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to top, #e6dada, #274046);
-	background-attachment: fixed;
+	background-image: repeating-linear-gradient(135deg, rgba(255,255,255,0.04) 0px, rgba(255,255,255,0.04) 2px,transparent 2px, transparent 4px),linear-gradient(0deg, rgb(224,152,195),rgb(4, 2, 73));
+	background-image: repeating-linear-gradient(90deg, hsla(284,43%,48%,0.05) 0px, hsla(284,43%,48%,0.05) 1px,transparent 1px, transparent 11px,hsla(284,43%,48%,0.05) 11px, hsla(284,43%,48%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(225deg, hsla(284,43%,48%,0.05) 0px, hsla(284,43%,48%,0.05) 1px,transparent 1px, transparent 11px,hsla(284,43%,48%,0.05) 11px, hsla(284,43%,48%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(284,43%,48%,0.05) 0px, hsla(284,43%,48%,0.05) 1px,transparent 1px, transparent 11px,hsla(284,43%,48%,0.05) 11px, hsla(284,43%,48%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(284,43%,48%,0.05) 0px, hsla(284,43%,48%,0.05) 1px,transparent 1px, transparent 11px,hsla(284,43%,48%,0.05) 11px, hsla(284,43%,48%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(180deg, rgb(60, 9, 75),rgb(139, 70, 200));
+	background-attachment: scroll;
 }
 
 .holder{
@@ -185,4 +187,15 @@ body{
 .alumni{
 	background: #076585!important;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to top, #fff, #076585)!important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-image: repeating-linear-gradient(135deg, rgba(0,0,0,0.08),rgba(0,0,0,0.07),rgba(0,0,0,0.09),rgba(0,0,0,0.09),rgba(0,0,0,0.05),rgba(0,0,0,0.03),rgba(0,0,0,0.02),transparent,rgba(0,0,0,0.06),rgba(0,0,0,0.05),rgba(0,0,0,0.1),rgba(0,0,0,0.02),rgba(0,0,0,0.08) 3px),linear-gradient(180deg, rgb(69, 81, 123),rgb(219, 84, 251))!important;
+}
+
+#pcback{
+	width: min(80vh,80vw);
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	mix-blend-mode: soft-light;
+	filter: blur(2px) brightness(1);
 }

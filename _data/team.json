@@ -82,7 +82,10 @@
 					{
 						"name": "Aum Patel",
 						"batch": "2019-24",
-						"image": "aum.jpg"
+						"image": "aum.jpg",
+						"fb": "https://m.facebook.com/100004745610161/",
+						"insta": "https://www.instagram.com/aumpatel.18/",
+						"mail":"aumcpatel@gmail.com"
 					},
 
 					{
@@ -215,7 +218,7 @@
 				"members":[
 
 					{
-						"name":"Parth Thakar",
+						"name":"Parth Thakkar",
 						"batch":"201-23",
 						"fb":"https://www.facebook.com/parth.thakkar.77715",
 						"insta":"https://www.instagram.com/parthakkar.pt/",
