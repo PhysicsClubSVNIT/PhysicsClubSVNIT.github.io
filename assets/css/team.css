@@ -37,7 +37,7 @@ body{
 	transform: scale(0.95);
 	transition: all 0.25s;
 	margin: 10px;
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 0.8);
 	filter: brightness(50%) blur(0);
 	margin-bottom: 20px;
 }
