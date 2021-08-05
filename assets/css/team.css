@@ -201,3 +201,8 @@ body{
 	mix-blend-mode: soft-light;
 	filter: blur(2px) brightness(1);
 }
+
+#logolinks{  
+    position: relative;
+    top: 50px;
+}
