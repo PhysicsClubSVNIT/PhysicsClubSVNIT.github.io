@@ -1,4 +1,4 @@
 ---
-redirect_to: /
+redirect_to: / 
 ---
 PHYSICS CLUB SVNIT
