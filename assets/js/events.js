@@ -64,7 +64,7 @@ function totopbutton(){
 
     if(window.innerWidth > 481){
         if(id('footer').getBoundingClientRect().top < 0.9*window.innerHeight){
-            id('top').style.bottom = '55vh';
+            id('top').style.bottom = '60vh';
         }
         else{
             id('top').style.bottom = '7.5vh';
@@ -72,7 +72,7 @@ function totopbutton(){
     }
     else{
        if(id('footer').getBoundingClientRect().top < 0.9*window.innerHeight){
-        id('top').style.bottom = '63vh';
+        id('top').style.bottom = '68vh';
     }
     else{
         id('top').style.bottom = '10vw';
