@@ -482,3 +482,22 @@ body{
 			stroke-dashoffset: 0;
 		}
 	}
+
+	#logolinks{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+		background-color: black;
+		padding-bottom: 5vh;
+
+	}
+
+	.links{
+		width: calc(100px + 5vw);
+		margin-right: 5vw;
+		margin-left: 5vw;
+		border-radius: 50%;
+		border: 2px solid white;
+	}
