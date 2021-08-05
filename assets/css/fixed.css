@@ -493,7 +493,8 @@ body{
 		align-content: center;
 		align-items: center;
 		background-color: black;
-		padding: 5vh;
+		padding-top: 5vh;
+		padding-bottom: 5vh;
 	}
 
 	.uni{
