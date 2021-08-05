@@ -1,4 +1,4 @@
 ---
-redirect_to: /home
+redirect_to: / 
 ---
 PHYSICS CLUB NIT SURAT
