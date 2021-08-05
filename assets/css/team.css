@@ -20,7 +20,7 @@ body{
 	background: linear-gradient(to top, #e6dada, #274046);
 	background-image: repeating-linear-gradient(135deg, rgba(255,255,255,0.04) 0px, rgba(255,255,255,0.04) 2px,transparent 2px, transparent 4px),linear-gradient(0deg, rgb(224,152,195),rgb(4, 2, 73));
 	background-image: repeating-linear-gradient(90deg, hsla(284,43%,48%,0.05) 0px, hsla(284,43%,48%,0.05) 1px,transparent 1px, transparent 11px,hsla(284,43%,48%,0.05) 11px, hsla(284,43%,48%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(225deg, hsla(284,43%,48%,0.05) 0px, hsla(284,43%,48%,0.05) 1px,transparent 1px, transparent 11px,hsla(284,43%,48%,0.05) 11px, hsla(284,43%,48%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(284,43%,48%,0.05) 0px, hsla(284,43%,48%,0.05) 1px,transparent 1px, transparent 11px,hsla(284,43%,48%,0.05) 11px, hsla(284,43%,48%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(284,43%,48%,0.05) 0px, hsla(284,43%,48%,0.05) 1px,transparent 1px, transparent 11px,hsla(284,43%,48%,0.05) 11px, hsla(284,43%,48%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(180deg, rgb(60, 9, 75),rgb(139, 70, 200));
-	background-attachment: scroll;
+	background-attachment: fixed;
 }
 
 .holder{
