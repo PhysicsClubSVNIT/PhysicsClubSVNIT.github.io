@@ -475,13 +475,19 @@ body{
 	}
 
 	@-webkit-keyframes animatepath {
-		to{
+		90%{
+			stroke-dashoffset: 0;
+		}
+		100%{
 			stroke-dashoffset: 0;
 		}
 	}
 
 	@keyframes animatepath {
-		to{
+		90%{
+			stroke-dashoffset: 0;
+		}
+		100%{
 			stroke-dashoffset: 0;
 		}
 	}

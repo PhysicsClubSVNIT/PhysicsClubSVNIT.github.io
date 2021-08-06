@@ -4,7 +4,7 @@ for(i=0;i<paths.length;i++){
 	length = paths[i].getTotalLength();
 	paths[i].style.strokeDasharray = length;
 	paths[i].style.strokeDashoffset = length;
-	paths[i].style.animation = 'animatepath 5s linear alternate infinite';
+	paths[i].style.animation = 'animatepath 5s cubic-bezier(0.45, 0.05, 0.55, 0.95) alternate infinite';
 
 }
 document.getElementsByClassName('animate')[0].style.opacity = 1;
