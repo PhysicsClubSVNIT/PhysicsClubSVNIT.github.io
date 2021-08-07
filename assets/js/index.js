@@ -1,4 +1,6 @@
-particlesJS('stateholder',{
+bgs = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg', '11.jpg', '12.jpg'];
+
+particlesJS('particles',{
 	"particles": {
 		"number": {
 			"value": 70,
@@ -59,14 +61,14 @@ particlesJS('stateholder',{
 		}
 	},
 	"interactivity": {
-		"detect_on": "canvas",
+		"detect_on": "window",
 		"events": {
 			"onhover": {
-				"enable": false,
+				"enable": true,
 				"mode": "bubble"
 			},
 			"onclick": {
-				"enable": false,
+				"enable": true,
 				"mode": "push"
 			},
 			"resize": true
@@ -199,8 +201,7 @@ id('navbar').setAttribute('class',' ');
 
 //choose background
 
-var num = Math.ceil(12*Math.random());
-var bg = '/assets/images/' + num + '.jpg';
+var bg = '/assets/images/' + bgs[Math.floor(Math.random() * bgs.length)];
 let image = document.createElement('img');
 image.src = bg;
 image.addEventListener('load', (event)=> {
@@ -392,7 +393,7 @@ function closenoti(){
 	if(screen.width>451){
 		document.getElementById('bell').style.transform = 'translateX(945%)';
 		document.getElementById('chwd').style.animation = 'clippathrem forwards 0.8s'
-		setTimeout(function(){document.getElementById('noti').style.visibility="hidden";},1350);
+		setTimeout(function(){document.getElementById('noti').style.visibility="hidden";},1000);
 	}else{
 		document.getElementById('noti').style.transform = 'translateY(150%)';
 	}

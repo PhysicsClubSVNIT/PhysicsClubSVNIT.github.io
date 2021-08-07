@@ -142,17 +142,23 @@ html{
 }
 
 #state{
-	position: absolute;
+	position: relative;
 	width: 100%;
 	top: 0;
 	left: 0;
 }
 
+#particles{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
 #statements{
 	position: relative;
 	margin-top: 2vh;
-	height: calc(80vh + 100px);
-
 }
 
 @media screen and (min-width: 901px){
@@ -194,7 +200,6 @@ html{
 	padding: 20px;
 	overflow: clip;
 	margin:  30px;
-	height: calc(60vh + 100px);
 }
 
 .designation{
@@ -260,7 +265,7 @@ html{
 }
 
 #l-descr{
-	font-size: calc(4px + 1vw);
+	font-size: calc(4px + 0.75vw);
 	color: white;
 	letter-spacing: 2px;
 	text-shadow: 3px 3px 3px rgba(0,0,0,1) ;
@@ -373,8 +378,7 @@ html{
 	background-repeat: no-repeat;
 	background-position: center;
 	position: relative;
-	height: calc(135vh + 100px);
-
+	padding-bottom: 20vh;
 }
 
 #white3{
@@ -400,6 +404,7 @@ html{
 @media screen and (max-width: 901px){
 	#stateholder{
 		height: calc(220vh + 100px);
+		padding-bottom: 0;
 	}
 
 	#pclogo{

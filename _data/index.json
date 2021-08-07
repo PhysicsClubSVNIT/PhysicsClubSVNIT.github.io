@@ -1,12 +1,16 @@
 {
+
+	"about": "A club that focusses in bringing out the various insights and a wide spectrum of Physics. It is a platform for someone who is interested or passionate to pursue his/her career in pure sciences , especially Physics, in the technical institution.",
+	
 	"HOD":
 	{
 		"name":"Dr D. V. Shah",
-		"message":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate porro, dignissimos, numquam voluptatibus consectetur tenetur deserunt suscipit libero molestiae soluta, quam illo neque quos odit perspiciatis eaque id quas ipsum."
+		"message": " "
 	},
 	"Fac":
 	{
 		"name":"Dr K. N. Pathak",
-		"message":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate porro, dignissimos, numquam voluptatibus consectetur tenetur deserunt suscipit libero molestiae soluta, quam illo neque quos odit perspiciatis eaque id quas ipsum."
-	}		
+		"message": " "
+	}	
+
 }
