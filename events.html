@@ -32,7 +32,7 @@ extra_js:
                 </div>
                 <div class="date" id = "{{ event.poster }}dateidid">{{ event.date | upcase }}</div>
                 <div class="links">
-                   {% if event.reglink != " " %}
+                   {% if event.reglink != 'javascript: void(0)' %}
                    <a class = "link" target="_blank" href = "{{ event.reglink }}" id = "{{ event.poster }}reglidid">Register here!!</a>
                    {% endif %}
                    {% if event.reglink == 'javascript: void(0)' %}
