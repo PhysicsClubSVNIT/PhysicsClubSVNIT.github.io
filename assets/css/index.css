@@ -409,7 +409,6 @@ html{
 
 @media screen and (max-width: 901px){
 	#stateholder{
-		height: calc(220vh + 100px);
 		padding-bottom: 0;
 	}
 
