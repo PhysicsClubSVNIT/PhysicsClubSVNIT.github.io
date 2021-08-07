@@ -109,7 +109,7 @@ if (id('new').getBoundingClientRect().top <=0.65*screen.height) {
 	closenoti();
 }
 
-spaceship = id('spaceship')
+/*spaceship = id('spaceship')
 var xvalue = "center";
 
 spaceship_init = spaceship.getBoundingClientRect().top;
@@ -120,7 +120,7 @@ var factor = -0.2;
 var yvalue = (scrolltotop - 600)* factor;
 	//spaceship.style.backgroundPosition = xvalue + " " + yvalue + "px";
 
-
+*/
 	for(i = 0; i < whites.length; i++ ){
 		if(whites[i].getBoundingClientRect().top < window.innerHeight*0.8)
 		{
@@ -184,7 +184,7 @@ else{
 //ScrollEvent
 
 
-var spaceship_init = id('spaceship').getBoundingClientRect().top;
+//var spaceship_init = id('spaceship').getBoundingClientRect().top;
 
 requestAnimationFrame(animationloop)
 
@@ -232,7 +232,7 @@ id('title').style.color = "transparent";
 id('navbar').style.background = "transparent";
 id('navbar').setAttribute('class','noblurbg');
 
-var scrolltotop = document.scrollingElement.scrollTop;
+/*var scrolltotop = document.scrollingElement.scrollTop;
 if(screen.width >= 750){
 	var target2 = id("spaceship");
 	var xvalue = "center";
@@ -240,7 +240,7 @@ if(screen.width >= 750){
 	var yvalue = (scrolltotop + spaceship_init)* factor;
 	//target2.style.backgroundPosition = xvalue + " " + yvalue + "px";
 
-}
+}*/
 
 target = id("topcontent")
 
@@ -249,7 +249,7 @@ target = id("topcontent")
 
 function animationloop(){
 
-	spaceship = id('spaceship')
+	/*spaceship = id('spaceship')
 	var xvalue = "center";
 
 
@@ -259,7 +259,7 @@ function animationloop(){
 		var yvalue = (scrolltotop + spaceship_init)* factor;
 	//spaceship.style.backgroundPosition = xvalue + " " + yvalue + "px";
 
-}
+}*/
 
 var current_height = id("tit").getBoundingClientRect().top;
 
