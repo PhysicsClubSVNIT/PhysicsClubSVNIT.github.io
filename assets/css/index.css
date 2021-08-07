@@ -409,7 +409,7 @@ html{
 
 @media screen and (max-width: 901px){
 	#stateholder{
-		padding-bottom: 0;
+		padding-bottom: 10vh;
 	}
 
 	#pclogo{
