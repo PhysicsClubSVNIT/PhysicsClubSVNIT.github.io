@@ -396,7 +396,7 @@ body{
 		top: 3vh;
 		right: 3vh;
 		border-radius: 50%;
-		background: white;
+		background: linear-gradient(white,white);
 		width: ;
 		z-index: 199;
 		overflow: hidden;
