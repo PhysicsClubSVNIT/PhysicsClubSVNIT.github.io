@@ -109,18 +109,7 @@ if (id('new').getBoundingClientRect().top <=0.65*screen.height) {
 	closenoti();
 }
 
-/*spaceship = id('spaceship')
-var xvalue = "center";
 
-spaceship_init = spaceship.getBoundingClientRect().top;
-
-var scrolltotop = document.scrollingElement.scrollTop;
-
-var factor = -0.2;
-var yvalue = (scrolltotop - 600)* factor;
-	//spaceship.style.backgroundPosition = xvalue + " " + yvalue + "px";
-
-*/
 	for(i = 0; i < whites.length; i++ ){
 		if(whites[i].getBoundingClientRect().top < window.innerHeight*0.8)
 		{
@@ -184,8 +173,6 @@ else{
 //ScrollEvent
 
 
-//var spaceship_init = id('spaceship').getBoundingClientRect().top;
-
 requestAnimationFrame(animationloop)
 
 
@@ -208,16 +195,6 @@ image.addEventListener('load', (event)=> {
 	id('topcontent').style.backgroundImage = `url(${bg})`;
 });
 
-
-/*function closenoti(){
-	id('noti').setAttribute('class','noticlose');
-}
-
-function opennoti(){
-	id('noti').setAttribute('class','notiopen');
-
-}*/
-
 window.addEventListener('load',()=>{
 	try{
 		id('l-holder')
@@ -232,34 +209,12 @@ id('title').style.color = "transparent";
 id('navbar').style.background = "transparent";
 id('navbar').setAttribute('class','noblurbg');
 
-/*var scrolltotop = document.scrollingElement.scrollTop;
-if(screen.width >= 750){
-	var target2 = id("spaceship");
-	var xvalue = "center";
-	var factor = -0.6;
-	var yvalue = (scrolltotop + spaceship_init)* factor;
-	//target2.style.backgroundPosition = xvalue + " " + yvalue + "px";
-
-}*/
-
 target = id("topcontent")
 
 
 //animationloop
 
 function animationloop(){
-
-	/*spaceship = id('spaceship')
-	var xvalue = "center";
-
-
-	var scrolltotop = document.scrollingElement.scrollTop;
-	if(screen.width >= 750){
-		var factor = -0.6;
-		var yvalue = (scrolltotop + spaceship_init)* factor;
-	//spaceship.style.backgroundPosition = xvalue + " " + yvalue + "px";
-
-}*/
 
 var current_height = id("tit").getBoundingClientRect().top;
 
@@ -327,29 +282,6 @@ var current_height = id("tit").getBoundingClientRect().top;
 }
 }
 
-
-/*
-	if (current_height >req_height) {
-		id('tit').style.color = "white";
-		id('title').style.color = "transparent";
-		var beg = "scale(";
-		var val = 0.32 + 0.68*(current_height - req_height)/(initial_height - req_height);
-		var end = ")"
-		inner = beg + val + end;
-		id('tit').style.transform = inner;
-		id("of").style.opacity = (current_height - req_height)/(initial_height - req_height) ;
-		id("we").style.opacity = (current_height - req_height)/(initial_height - req_height) ;
-		val = (current_height - req_height)/(initial_height - req_height);
-		inner = beg + val + end;
-		id("of").style.transform = inner;
-		id('navbar').setAttribute('class', '');
-		id('navbar').style.background = "transparent";
-	}
-	else{
-		id('title').style.color = "white";
-		id('tit').style.color = "transparent";
-	}
-	*/
 	requestAnimationFrame(animationloop);
 }
 
