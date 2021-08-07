@@ -35,7 +35,7 @@ extra_js:
                    {% if event.reglink != " " %}
                    <a class = "link" target="_blank" href = "{{ event.reglink }}" id = "{{ event.poster }}reglidid">Register here!!</a>
                    {% endif %}
-                   {% if event.reglink == " " %}
+                   {% if event.reglink == 'javascript: void(0)' %}
                    <div class="link" id = "{{ event.poster }}regcidid">Registrations Closed</div>
                    {% endif %}
                </div>
