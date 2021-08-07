@@ -170,6 +170,10 @@ html{
 		grid-template-columns: repeat(2, 1fr);
 	}
 
+	#state{
+		padding-bottom: 20vh;
+	}
+
 	#hod {
 		margin-right: 7.5vw;
 		margin-left: 15vw;
@@ -332,17 +336,21 @@ html{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100vh;
 	width: calc(100vw + 10px);
 	position:relative;
 }
 
 #darkenline{
-	height: 100vh;
+	min-height: 100vh;
+	padding-top: 20vh;
+	padding-bottom: 20vh;
 	width: calc(100vw + 10px);
 	position:relative;
 	background: rgba(0, 0, 0, 0.65);
-
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
 }
 
 #spaceship{
@@ -378,7 +386,7 @@ html{
 	background-repeat: no-repeat;
 	background-position: center;
 	position: relative;
-	padding-bottom: 20vh;
+	padding-bottom: 0;
 }
 
 #white3{

@@ -30,9 +30,7 @@ extra_js:
     <center>
         <div id="lineholder">
             <div id="darkenline">
-                <div id="spaceship">
-                    <div id="line" class="scrollR"><center>{{ site.data.index.about }}</center>
-                </div>
+                <div id="line" class="scrollR"><center>{{ site.data.index.about }}</center>
             </div>
         </div>
         <div class="gradient"></div>
@@ -87,7 +85,7 @@ extra_js:
                 <div id="l-title" class="offsetdown">{{ site.data.events.upcomingevents[0].name }}</div>
                 <div id="l-date" class="offsetdown">{{ site.data.events.upcomingevents[0].date }}</div>
                 <div id="l-descr" class="offsetdown">{{ site.data.events.upcomingevents[0].descr }} <br><br> 
-                    <a id="l-reg" target="_blank" href="{{ site.data.events.upcomingevents[0].reglink }}">Register Now!!</a>
+                    <a id="l-reg" target="_blank" href="{{ site.data.events.upcomingevents[0].reglink }}">{{ site.data.events.upcomingevents[0].linktitle }}</a>
                 </div>
             </div>
         </div>
