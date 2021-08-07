@@ -339,7 +339,7 @@ html{
 }
 
 #darkenline{
-	min-height: 100vh;
+	min-height: 80vh;
 	padding-top: 20vh;
 	padding-bottom: 20vh;
 	width: calc(100vw + 10px);
