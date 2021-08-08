@@ -412,7 +412,7 @@ body{
 		overflow: hidden;
 	}
 
-	@media screen and (max-width: 451px){
+	@media screen and (max-width: 500px){
 
 		#footer{
 			display: inline-block;

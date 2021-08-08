@@ -753,7 +753,7 @@ html{
 		
 	}
 
-	@media screen and (max-width: 451px){
+	@media screen and (max-width: 481px){
 
 		#topcontent{
 			transform-origin: bottom center;
@@ -836,6 +836,9 @@ html{
 	#innoti{
 		font-size: calc(7px + 0.6vw);
 		}*/
+	}
+
+	@media screen and (max-width: 500px){
 
 		#bell{
 			transform: translateX(0);
