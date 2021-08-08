@@ -1,5 +1,7 @@
 bgs = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg','7.jpg', '9.jpg', '11.jpg', '12.jpg', '13.jpg'];
 
+isnoti = true;
+
 particlesJS('particles',{
 	"particles": {
 		"number": {
@@ -105,7 +107,7 @@ if ( screen.width <= 501) {
 function chnoti(){	
 //Remove noti if already reached new
 
-if (id('new').getBoundingClientRect().top <=0.65*screen.height) {
+if (isnoti && id('new').getBoundingClientRect().top <=0.65*screen.height) {
 	closenoti();
 }
 
@@ -197,11 +199,11 @@ image.addEventListener('load', (event)=> {
 
 window.addEventListener('load',()=>{
 	try{
-		id('l-holder')
-		if (id('new').getBoundingClientRect().top <=0.65*screen.height) {}
+		id('l-holder').getBoundingClientRect().top;
+		if (id('new').getBoundingClientRect().top <=0.65*screen.height) { isnoti = false;}
 			else{setTimeout(function(){opennoti();},1500);}
 	}
-	catch(e){}
+	catch(e){id('noti').style.display = 'none'; isnoti = false; document.getElementsByClassName('stategrad')[0].style.display = 'none';}
 });
 
 
@@ -254,7 +256,7 @@ var current_height = id("tit").getBoundingClientRect().top;
 		}
 	}
 
-	if (id('new').getBoundingClientRect().top <=0.65*screen.height) {
+	if ( isnoti && id('new').getBoundingClientRect().top <=0.65*screen.height) {
 		closenoti();
 	}
 

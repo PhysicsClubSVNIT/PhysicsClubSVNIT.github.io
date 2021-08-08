@@ -385,6 +385,15 @@ body{
 		#soc-menu{
 			display: inline-block;
 		}
+
+		
+		#social{
+			border: none;
+		}
+
+		#soc-menu{
+			width: 100%;
+		}
 	}
 
 	/*For Mobile*/
