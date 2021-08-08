@@ -96,7 +96,7 @@ particlesJS('particles',{
 
 //Mobile Devices...
 
-if ( screen.width <= 451) {
+if ( screen.width <= 501) {
 	
 
 	id('of').innerHTML = '<br>of<br>';
@@ -312,7 +312,7 @@ observer.observe();
 
 
 function opennoti(){
-	if(screen.width>451){
+	if(screen.width>500){
 		document.getElementById('bell').style.transform = 'translateX(0)';
 		document.getElementById('chwd').style.animation = 'clippath forwards 0.8s';
 	}
@@ -322,7 +322,7 @@ function opennoti(){
 }
 
 function closenoti(){
-	if(screen.width>451){
+	if(screen.width>500){
 		document.getElementById('bell').style.transform = 'translateX(945%)';
 		document.getElementById('chwd').style.animation = 'clippathrem forwards 0.8s'
 		setTimeout(function(){document.getElementById('noti').style.visibility="hidden";},1000);

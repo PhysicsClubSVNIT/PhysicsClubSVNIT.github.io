@@ -19,10 +19,10 @@ for(i=0; i< sliders.length; i++){
             1000:{
                 perPage: 3,
             },
-            760: {
+            750: {
                 perPage: 2,
             },
-            450: {
+            500: {
                 perPage: 1,
             },
         }} ).mount();
@@ -46,10 +46,10 @@ for(i=0; i< alumsliders.length; i++){
             1000:{
                 perPage: 3,
             },
-            760: {
+            750: {
                 perPage: 2,
             },
-            450: {
+            500: {
                 perPage: 1,
             },
         }} ).mount();
