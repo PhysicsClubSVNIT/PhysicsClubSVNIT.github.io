@@ -24,7 +24,7 @@ extra_js:
 </div>
 
 <div id="content">
-    <div class="white-hori"><div class="scrollR"><span>A CLUB TO</span><br>CELEBRATE</div></div>
+    <div class="white-hori" id="chtop"><div class="scrollR"><span>A CLUB TO</span><br>CELEBRATE</div></div>
     <center>
         <div id="lineholder">
             <div id="darkenline">
@@ -120,7 +120,7 @@ extra_js:
 }(document, 'script', 'facebook-jssdk'));}
 
 function loop(){
-   if( document.getElementById('topcontent').getBoundingClientRect().bottom > window.innerHeight ){loadfb()}
+   if( document.getElementById('chtop').getBoundingClientRect().top < 0 ){loadfb()}
    else{requestAnimationFrame(loop);}
 }
 
