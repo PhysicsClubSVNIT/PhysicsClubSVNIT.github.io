@@ -11,6 +11,21 @@
     {% for css_name in page.extra_css %}
     <link rel="stylesheet" href="{{ css_name }}">
     {% endfor %}
+
+
+    <style>
+    #fb-root > div.fb_dialog.fb_dialog_advanced.fb_shrink_active {
+       right: initial !important;
+       left: 18pt;
+       z-index: 9999999 !important;
+   }
+   .fb-customerchat.fb_invisible_flow.fb_iframe_widget iframe {
+       right: initial !important;
+       left: 18pt !important;
+   }
+</style>
+
+
 </head>
 <body>
     <div class="loading" id="loading">
@@ -124,28 +139,28 @@
 
 <div id="footer">
     <div id="soc-menu">
-    <div id="social">
-        <center>
-            <a target="_blank" href="{{ site.data.social.facebook.link }}" class="fa fa-facebook"></a>
-            <a target="_blank" href="{{ site.data.social.twitter.link }}" class="fa fa-twitter"></a>
-            <a target="_blank" href="{{ site.data.social.instagram.link }}" class="fa fa-instagram"></a>
-        </center>
+        <div id="social">
+            <center>
+                <a target="_blank" href="{{ site.data.social.facebook.link }}" class="fa fa-facebook"></a>
+                <a target="_blank" href="{{ site.data.social.twitter.link }}" class="fa fa-twitter"></a>
+                <a target="_blank" href="{{ site.data.social.instagram.link }}" class="fa fa-instagram"></a>
+            </center>
+        </div>
+        <div id="footmenu">
+            <center>
+                <a class="footermenu" href="/">HOME</a>
+                <a class="footermenu" href="/team">TEAM</a>
+                <a class="footermenu" href="/alumni">ALUMNI</a>
+                <a class="footermenu" href="/events">EVENTS</a>
+                <a class="footermenu" href="/contact">CONTACT</a>
+            </center>
+        </div>
     </div>
-    <div id="footmenu">
-        <center>
-            <a class="footermenu" href="/">HOME</a>
-            <a class="footermenu" href="/team">TEAM</a>
-            <a class="footermenu" href="/alumni">ALUMNI</a>
-            <a class="footermenu" href="/events">EVENTS</a>
-            <a class="footermenu" href="/contact">CONTACT</a>
-        </center>
-    </div>
-</div>
 
-<div id="logolinks">
-    <a target="_blank" href="https://www.svnit.ac.in/web/department/applied_physics/applied_physics_dept.php">
-        <img class="uni" src="/assets/images/dop.png">
-    </a>
+    <div id="logolinks">
+        <a target="_blank" href="https://www.svnit.ac.in/web/department/applied_physics/applied_physics_dept.php">
+            <img class="uni" src="/assets/images/dop.png">
+        </a>
     <!--a target="_blank" href="https://www.svnit.ac.in/index.php">
         <img class="uni" src="/assets/images/svnit.png">
     </a-->
@@ -159,10 +174,10 @@
     FB.init({
       xfbml            : true,
       version          : 'v3.2'
-    });
-  };
+  });
+};
 
-  (function(d, s, id) {
+(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
@@ -172,21 +187,9 @@
 
 <!-- Your customer chat code -->
 <div class="fb-customerchat"
-  attribution=setup_tool
-  page_id="104505301207688"  minimized="true">
+attribution=setup_tool
+page_id="104505301207688">
 </div>
-
-<style>
-  #fb-root > div.fb_dialog.fb_dialog_advanced.fb_shrink_active {
-     right: initial !important;
-     left: 18pt;
-     z-index: 9999999 !important;
-  }
-  .fb-customerchat.fb_invisible_flow.fb_iframe_widget iframe {
-     right: initial !important;
-     left: 18pt !important;
-  }
-</style>
 
 </body>
 <script type="text/javascript" src="/assets/js/fixed.js"></script>
