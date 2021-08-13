@@ -120,7 +120,7 @@ extra_js:
 }(document, 'script', 'facebook-jssdk'));}
 
 function loop(){
-   if( id('topcontent').getBoundinClientRect().top > window.innerHeight ){loadfb();}
+   if( document.getElementById('topcontent').getBoundinClientRect().top > window.innerHeight ){loadfb();}
    else{requestAnimationframe(loop);}
 }
 
