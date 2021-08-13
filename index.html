@@ -120,7 +120,7 @@ extra_js:
 }(document, 'script', 'facebook-jssdk'));}
 
 function loop(){
-   if( document.getElementById('chtop').getBoundingClientRect().top < 0 ){loadfb()}
+   if( document.getElementById('chtop').getBoundingClientRect().top < 0.45*window.innerHeight ){loadfb()}
    else{requestAnimationFrame(loop);}
 }
 
