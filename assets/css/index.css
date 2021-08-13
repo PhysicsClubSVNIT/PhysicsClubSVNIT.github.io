@@ -7,17 +7,7 @@ html{
 	scroll-behavior: smooth;
 }
 
-#fb-root > div.fb_dialog.fb_dialog_advanced.fb_shrink_active {
-     right: initial !important;
-     left: 18pt;
-     z-index: 9999999 !important;
-  }
-  .fb-customerchat.fb_invisible_flow.fb_iframe_widget iframe {
-     right: initial !important;
-     left: 18pt !important;
-  }
 
-  
 #topcontent{
 	height: calc(100vh + 10px);
 	width: calc(100vw + 10px);
