@@ -268,7 +268,7 @@ html{
 }
 
 #l-descr{
-	font-size: calc(4px + 0.75vw);
+	font-size: calc(2px + 0.5vw);
 	color: white;
 	letter-spacing: 2px;
 	text-shadow: 3px 3px 3px rgba(0,0,0,1) ;
