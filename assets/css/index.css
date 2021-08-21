@@ -253,7 +253,7 @@ html{
 
 #l-title{
 	font-family: Lato;
-	font-size: calc(15px + 3.5vw);
+	font-size: calc(15px + 2.5vw);
 	color: white;
 	letter-spacing: 4px;
 	text-shadow: 3px 3px 3px rgba(0,0,0,1) ;
@@ -268,7 +268,7 @@ html{
 }
 
 #l-descr{
-	font-size: calc(2px + 0.5vw);
+	font-size: calc(2px + 0.75vw);
 	color: white;
 	letter-spacing: 2px;
 	text-shadow: 3px 3px 3px rgba(0,0,0,1) ;
