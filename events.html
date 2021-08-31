@@ -67,7 +67,21 @@ extra_js:
             <div class="links">
                {% if event.youtube != " " %}
                <div style="height:5px; width: 100%;"></div>
+
+               {% if event.multiple %}
+
+               <div class="multihold">
+                    <a class = "link" id="{{ event.poster }}youtidid" onclick="dropmenu('{{ event.poster}}');">Youtube recordings</a>
+                    <div class="multilinks" id="{{ event.poster }}">
+                    {% for link in event.youtube %}
+                    <div class="linkholder"><a class = "link-multi" target="_blank" href = "{{ link }}">Session {{ forloop.index }}</a></div>
+                    {% endfor %}
+                    <div class="linkholder"><a class="link-multi" onclick="closemenu('{{ event.poster }}')"><b> &#10005; </b></a></div>
+                    </div>
+                </div>
+               {% else %}
                <a class = "link" target="_blank" href = "{{ event.youtube }}" id = "{{ event.poster }}youtidid">Youtube recording</a>
+               {% endif %}
                {% endif %}
            </div>
        </div>

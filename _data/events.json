@@ -1,6 +1,6 @@
 {	"upcomingevents":[
 	{
-		"name":"Journey of the Humble Nucleus", 
+		"name":" ", 
 		"date":"28 August 2021", 
 		"poster":"280821", 
 		"descr":"The question – ‘What is everything in the universe made of?’ has kept scientists busy for ages. We have all studied about the indivisible atoms of Democritus, Thomson’s plum pudding model, the discovery of the nucleus by Rutherford, and Bohr’s elegant atomic model. What happened after that? What do we know about the core and center of the atom: the nucleus? From the fall of Democritus, to breaking the unbreakable, how far have we come in understanding the structure of the nucleon and what are the mysteries and anomalies that still linger on?<br> Don’t you worry, the wait is over! We’ve got you covered on this and much more, in the first talk of the Sarabhai Online Lecture Series. <br>Join us with Dr. Soumya Bagchi, as he takes us through the “Journey of the Humble Nucleus.” <br>Dr. Soumya Bagchi is an Assistant Professor of Physics at IIT(ISM)-Dhanbad and an experimental nuclear physicist by profession. He is working on various research projects in collaboration with RIKEN (Japan), GSI (Germany), and RCNP (Japan).",
@@ -9,11 +9,24 @@
 	}
 ],
 "events":[
+	{
+		"name":"Journey of the Humble Nucleus", 
+		"date":"28 August 2021", 
+		"poster":"280821", 
+		"descr":"The question – ‘What is everything in the universe made of?’ has kept scientists busy for ages. We have all studied about the indivisible atoms of Democritus, Thomson’s plum pudding model, the discovery of the nucleus by Rutherford, and Bohr’s elegant atomic model. What happened after that? What do we know about the core and center of the atom: the nucleus? From the fall of Democritus, to breaking the unbreakable, how far have we come in understanding the structure of the nucleon and what are the mysteries and anomalies that still linger on?<br> Don’t you worry, the wait is over! We’ve got you covered on this and much more, in the first talk of the Sarabhai Online Lecture Series. <br>Join us with Dr. Soumya Bagchi, as he takes us through the “Journey of the Humble Nucleus.” <br>Dr. Soumya Bagchi is an Assistant Professor of Physics at IIT(ISM)-Dhanbad and an experimental nuclear physicist by profession. He is working on various research projects in collaboration with RIKEN (Japan), GSI (Germany), and RCNP (Japan).",
+		"youtube":"https://www.youtube.com/watch?v=4XxbYfJO3yY"
+	}, 
+
 	{"name":" Mathematica", 
 		"date":"07-08 August 2021", 
 		"poster":"070821", 
 		"descr":"The new semester is already here, and what better way to start a semester than learning a new skill? Here’s your chance to add another arrow in the quiver! A completely online two day certified Workshop on Mathematica, mathematical computing software widely admired for both its technical prowess and elegant ease of use; Mathematica provides a single integrated, continually expanding system that covers the breadth and depth of technical computing.", 
-	"youtube": " "},
+		"multiple": "true",
+	"youtube": [
+		"https://www.youtube.com/watch?v=FyfKsnH69tA",
+		"https://www.youtube.com/watch?v=YCtN6G6sKoE",
+		"https://www.youtube.com/watch?v=I63zcYXTW7A"
+	]},
 	
 	{"name":"Research Opportunities in Physics", 
 		"date":"19 June 2021", 
@@ -24,8 +37,12 @@
 	{"name":"N-Body Simulation", 
 		"date":"27-28 March 2021", 
 		"poster":"270321", 
+		"multiple": "true",
 		"descr":"We are back with another workshop! This time, a 2 day certified workshop on N-body simulation.An N-body simulation approximates the motion of particles, often specifically particles that interact with one another through some type of physical forces. The types of particles that can be simulated using N-body methods range from celestial bodies to individual atoms in a gas cloud. Exciting, isn't it?!Join us on 27th March (3pm) and 28th March(9am) with Dr. Prakash Sarkar.<br>Prior knowledge of programming in C and familiarity with Numerical Methods will certainly help.", 
-	"youtube":" "},
+	"youtube":[
+		"https://www.youtube.com/watch?v=wtEGTAcTSF8",
+		"https://www.youtube.com/watch?v=WQj99zyw8zk"
+	]},
 
 	{"name":"Pratyaksha",
 		"date":"13-14 March 2021",
@@ -55,13 +72,21 @@
 		"date":"12,13,20 September 2020",
 		"poster":"120920",
 		"descr":"Get ready to put your physics skills to the test! Physics Club NIT Surat presents to you the first 'Online Researchathon,' an event that will test your physics knowledge, problem-solving skills, and culminate with a 30 hour final round to test your research ability.",
-	"youtube":"https://youtu.be/AUpI9OARpbg"},
+		"multiple":"true",
+	"youtube":[
+		"https://www.youtube.com/watch?v=AUpI9OARpbg&t=19s",
+		"https://www.youtube.com/watch?v=byhJ9QQv8vY",
+	]},
 
 	{"name":"LabVIEW",
 		"date":"29-30 August 2020",
 		"poster":"290820",
 		"descr":"Want to add something worthy to your skillset? Well, we got you covered, with a completely online two day certified 𝙬𝙤𝙧𝙠𝙨𝙝𝙤𝙥 𝙤𝙣 𝙇𝙖𝙗𝙑𝙄𝙀𝙒. A software that is capable of any extensive hardware integration and gives you versatility, along with control and measurement, for developing a lot of engineering applications. Thanks to the graphical approach to programming, you don't even need to mug up codes!",
-	"youtube":"https://youtu.be/Gjhb1r7pwOg"},
+		"multiple":"true",
+	"youtube":[
+		"https://www.youtube.com/watch?v=Gjhb1r7pwOg&t=3s",
+		"https://www.youtube.com/watch?v=XJJxjQD3Dh8"
+	]},
 
 	{"name":"Entangled Chess",
 		"date":"8 February 2020",

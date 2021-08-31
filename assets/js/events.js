@@ -90,3 +90,12 @@ requestAnimationFrame(totopbutton)
 id('top').style.opacity = 0;
 id('top').style.pointerEvents = 'none';
 
+
+function dropmenu(elemid){
+    id(elemid).style.transform = 'scaleY(1)';
+    
+}
+
+function closemenu(elemid){
+    id(elemid).style.transform = 'scaleY(0)';
+}
