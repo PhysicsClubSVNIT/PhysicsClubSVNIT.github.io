@@ -62,7 +62,6 @@ body{
   z-index: 1;
 }
 
-
 .zoomout{
   transform: scale(0.75);
 }
