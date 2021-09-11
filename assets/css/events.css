@@ -89,6 +89,7 @@ img.left {
   left: -56.25px;
   transform-origin: center top;
   transform: scale(1.15);  
+  padding-bottom: 20px;
 }
 
 /*
