@@ -1,10 +1,10 @@
 {	"upcomingevents":[
 	{
 		"name":" ", 
-		"date":"11 September 2021", 
-		"poster":"110921", 
-		"descr": "Do we really know why planets revolve around the sun? What exactly is the dimension space-time? Many brilliant minds have pondered over this question and we have had theories that put common sense to question with discovery of the 4th dimension of space-time. From Newton’s Universal Gravitation theorem to Einstein’s General Relativity, the research in this topic has come a long way. But what are those disruptions in this dimension that cause planetary motion? How have scientists been able to prove the existence of such microscopic disruptions in the huge universe? <br><br> Join us for the 2nd talk of Sarabhai Online Lecture Series to explore the answers to all these questions along with Dr. C.S. Unnikrishnan as he talks about “Gravitational Waves: The New Wave in Physics, Technology and Astronomy”.<br><br>Dr. C.S. Unnikrishnan is a Professor of Physics at TIFR-Mumbai and was a visiting researcher at the Kastler-Brossel Laboratory, ENS in Paris and the University of Paris Nord with his main research interests being experimental and theoretical studies of foundational aspects of gravity, quantum mechanics, and the quantum vacuum, and studies of atom-light and atom-surface interactions employing laser-cooled atoms.",
-		"reglink":"https://docs.google.com/forms/d/e/1FAIpQLScbsL8P6ki9BY6kmkEiOyS1Ym-L1wwI_N2uEr1ykR1cKLsebA/viewform?usp=sf_link", 
+		"date":"09 October 2021", 
+		"poster":"091021", 
+		"descr": "Do you know that a neutron star contains more material than the sun, yet it is small enough to fit within a city? And the density of the core of a neutron star exceeds that of an atomic nucleus? Well, neutron stars are the ancient remnants of stars that have reached the end of their evolutionary journey through space and time. These fascinating objects are born from once massive stars that grew four to eight times the size of our sun, before exploding in catastrophic supernovae. Perhaps, every branch of physics can find application in neutron stars, which can emit all wavelengths from radio to gamma-rays, and also gravitational waves. But what makes neutron stars so exotic, so special that without their existence, life on earth would never have been possible? Why are physicists and astronomers all excited about these monsters, and what makes them natural laboratories for testing aspects of extreme physics? <br>Join us for the 3rd talk of the Sarabhai Online Lecture Series, to explore the answers to all these questions, with Dr Sudip Bhattacharyya as he talks about '<b>The Exotic World of Neutron Stars'</b>.<br>Dr Sudip Bhattacharyya is a professor in the Department of Astronomy and Astrophysics (DAA) at Tata Institute of Fundamental Research (TIFR). His main research topics are the Properties and evolution of millisecond pulsars and continuous gravitational radiation from them, Extreme aspects of neutron stars and black holes using X-ray satellite data, Numerical computation of rapidly spinning neutron star structures, etc.",
+		"reglink":"forms.gle/eKnRxkdMoLKSMh5S7", 
 		"linktitle": "Register Now!!"
 	}
 ],
@@ -14,7 +14,11 @@
 		"date":"11 September 2021", 
 		"poster":"110921", 
 		"descr": "Do we really know why planets revolve around the sun? What exactly is the dimension space-time? Many brilliant minds have pondered over this question and we have had theories that put common sense to question with discovery of the 4th dimension of space-time. From Newton’s Universal Gravitation theorem to Einstein’s General Relativity, the research in this topic has come a long way. But what are those disruptions in this dimension that cause planetary motion? How have scientists been able to prove the existence of such microscopic disruptions in the huge universe? <br><br> Join us for the 2nd talk of Sarabhai Online Lecture Series to explore the answers to all these questions along with Dr. C.S. Unnikrishnan as he talks about “Gravitational Waves: The New Wave in Physics, Technology and Astronomy”.<br><br>Dr. C.S. Unnikrishnan is a Professor of Physics at TIFR-Mumbai and was a visiting researcher at the Kastler-Brossel Laboratory, ENS in Paris and the University of Paris Nord with his main research interests being experimental and theoretical studies of foundational aspects of gravity, quantum mechanics, and the quantum vacuum, and studies of atom-light and atom-surface interactions employing laser-cooled atoms.",
-		"youtube":" "
+		"multiple":"true",
+		"youtube":[
+			"https://youtu.be/3eFELQN4sd0",
+			"https://youtu.be/oCeVzmxUtJ4"
+		]
 	},
 
 	{
