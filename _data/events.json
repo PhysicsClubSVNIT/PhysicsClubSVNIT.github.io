@@ -1,6 +1,6 @@
 {	"upcomingevents":[
 	{
-		"name":"Observing Black Holes and understanding their imprints", 
+		"name":" ", 
 		"date":"23 October 2021", 
 		"poster":"231021", 
 		"descr": "Did you know there is something in the universe which can be as massive as billion times the solar mass, is born from the death of a star and to which even the light bows down!....yes the BLACK HOLES. From the wildest imagination of great minds to an actual photograph, black holes have been the most mysterious objects in the last century. Wanna know how these enigmatic objects are observed in the real world? What are the various imprints of the black holes and how these signatures can be used to probe physics of a black hole?<br><br>Join us for the 4th talk of the Sarabhai Online Lecture Series, to explore the answers to all these questions, with Dr. Manoneeta Chakraborty (IIT Indore) as she talks about 'Observing Black Holes and understanding their imprints'.",
@@ -10,11 +10,19 @@
 ],
 "events":[
 	{
+		"name":"Observing Black Holes and understanding their imprints", 
+		"date":"23 October 2021", 
+		"poster":"231021", 
+		"descr": "Did you know there is something in the universe which can be as massive as billion times the solar mass, is born from the death of a star and to which even the light bows down!....yes the BLACK HOLES. From the wildest imagination of great minds to an actual photograph, black holes have been the most mysterious objects in the last century. Wanna know how these enigmatic objects are observed in the real world? What are the various imprints of the black holes and how these signatures can be used to probe physics of a black hole?<br><br>Join us for the 4th talk of the Sarabhai Online Lecture Series, to explore the answers to all these questions, with Dr. Manoneeta Chakraborty (IIT Indore) as she talks about 'Observing Black Holes and understanding their imprints'.",
+		"youtube":"https://youtu.be/DBeTDokS828", 
+	},
+
+	{
 		"name":"The Exotic World of Neutron Stars", 
 		"date":"09 October 2021", 
 		"poster":"091021", 
 		"descr": "Do you know that a neutron star contains more material than the sun, yet it is small enough to fit within a city? And the density of the core of a neutron star exceeds that of an atomic nucleus? Well, neutron stars are the ancient remnants of stars that have reached the end of their evolutionary journey through space and time. These fascinating objects are born from once massive stars that grew four to eight times the size of our sun, before exploding in catastrophic supernovae. Perhaps, every branch of physics can find application in neutron stars, which can emit all wavelengths from radio to gamma-rays, and also gravitational waves. But what makes neutron stars so exotic, so special that without their existence, life on earth would never have been possible? Why are physicists and astronomers all excited about these monsters, and what makes them natural laboratories for testing aspects of extreme physics? <br>Join us for the 3rd talk of the Sarabhai Online Lecture Series, to explore the answers to all these questions, with Dr Sudip Bhattacharyya as he talks about '<b>The Exotic World of Neutron Stars'</b>.<br>Dr Sudip Bhattacharyya is a professor in the Department of Astronomy and Astrophysics (DAA) at Tata Institute of Fundamental Research (TIFR). His main research topics are the Properties and evolution of millisecond pulsars and continuous gravitational radiation from them, Extreme aspects of neutron stars and black holes using X-ray satellite data, Numerical computation of rapidly spinning neutron star structures, etc.",
-		"youtube": " "
+		"youtube": "https://youtu.be/3e-c1J5PS0Y"
 	},
 
 	{
