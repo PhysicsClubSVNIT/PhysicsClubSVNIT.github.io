@@ -1,6 +1,6 @@
 {	"upcomingevents":[
 	{
-		"name":"Phases of QCD and applications to neutron stars", 
+		"name":" ", 
 		"date":"13 November 2021", 
 		"poster":"131121", 
 		"descr": "In the past 4 talks we went from the Humble nucleus to the violent black holes, Now it’s time to get smaller! Let’s go quantum! <br><br> Quantum chromodynamics (QCD) is the theory of the strong interaction between quarks and gluons, the fundamental particles that make up composite hadrons such as the proton, neutron and pion. The theory is an important part of the Standard Model of particle physics and is backed by many experimental evidences over the years. The theoretical results of QCD can even be used to explain and predict properties of neutron stars. <br><br> Join us for the 5th talk of the Sarabhai Online Lecture Series,  with Dr.Andreas Schmitt as he talks about <b>'Phases of QCD and applications to neutron stars'</b>.",
@@ -9,6 +9,14 @@
 	}
 ],
 "events":[
+	{
+		"name":"Phases of QCD and applications to neutron stars", 
+		"date":"13 November 2021", 
+		"poster":"131121", 
+		"descr": "In the past 4 talks we went from the Humble nucleus to the violent black holes, Now it’s time to get smaller! Let’s go quantum! <br><br> Quantum chromodynamics (QCD) is the theory of the strong interaction between quarks and gluons, the fundamental particles that make up composite hadrons such as the proton, neutron and pion. The theory is an important part of the Standard Model of particle physics and is backed by many experimental evidences over the years. The theoretical results of QCD can even be used to explain and predict properties of neutron stars. <br><br> Join us for the 5th talk of the Sarabhai Online Lecture Series,  with Dr.Andreas Schmitt as he talks about <b>'Phases of QCD and applications to neutron stars'</b>.",
+		"youtube":" "
+	},
+
 	{
 		"name":"Observing Black Holes and understanding their imprints", 
 		"date":"23 October 2021", 
