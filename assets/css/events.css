@@ -181,6 +181,7 @@ blablablablablablablabla
   background: transparent;
   transition: all 0.5s;
   filter:  invert(100%);
+  cursor: pointer;
 }
 
 .link{
