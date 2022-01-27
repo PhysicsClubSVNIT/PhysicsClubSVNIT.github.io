@@ -7,13 +7,13 @@ var isnotblur;
 if( screen.width >= 691){
     init();
 
-    ScrollReveal({ reset: true, delay: 100, opacity: 0, viewFactor:0.1, viewOffset: {
+    ScrollReveal({ reset: true, delay: 100, opacity: 1, viewFactor:0.1, viewOffset: {
         top: 50
     } }).reveal('.event');
 
 }
 else{
-    ScrollReveal({ reset: true, delay: 100, opacity: 0}).reveal('.item');
+    ScrollReveal({ reset: true, delay: 100, opacity: 1}).reveal('.item');
 }
 
 const observer = lozad(); 
