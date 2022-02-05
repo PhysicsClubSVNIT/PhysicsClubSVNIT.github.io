@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#000000">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="icon" href="/assets/favi.ico">
+    <!-- <link rel="stylesheet" type="text/css" href="/assets/css/fixed.css"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="/assets/lightgallery-2.0.1/dist/css/lightgallery-bundle.min.css">
+
+    <style>
+      .grid{
+        position:relative;
+        left:50%;
+        transform:translate(-50%,0);
+        width: 80%;
+      }
+
+      .grid_item{
+        cursor:pointer;
+      }
+
+      body{
+      }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="loading" id="loading">
+        <div class="loadholder">
+            <svg class="animate" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+              <defs>
+                <filter id="drop-shadow-filter-0" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="drop-shadow 1 0 0 6 1 rgb(0, 153, 204)">
+                  <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+                  <feOffset dx="0" dy="0"/>
+                  <feComponentTransfer result="offsetblur">
+                    <feFuncA id="spread-ctrl" type="linear" slope="2"/>
+                </feComponentTransfer>
+                <feFlood flood-color="rgb(0, 153, 204)"/>
+                <feComposite in2="offsetblur" operator="in"/>
+                <feMerge>
+                    <feMergeNode/>
+                    <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+            </filter>
+            <filter id="drop-shadow-filter-1" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="drop-shadow 1 0 0 6 1 rgb(0, 153, 204)">
+              <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+              <feOffset dx="0" dy="0"/>
+              <feComponentTransfer result="offsetblur">
+                <feFuncA id="spread-ctrl" type="linear" slope="2"/>
+            </feComponentTransfer>
+            <feFlood flood-color="rgb(0, 153, 204)"/>
+            <feComposite in2="offsetblur" operator="in"/>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="drop-shadow-filter-2" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="drop-shadow 1 0 0 6 1 rgb(0, 153, 204)">
+          <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+          <feOffset dx="0" dy="0"/>
+          <feComponentTransfer result="offsetblur">
+            <feFuncA id="spread-ctrl" type="linear" slope="2"/>
+        </feComponentTransfer>
+        <feFlood flood-color="rgb(0, 153, 204)"/>
+        <feComposite in2="offsetblur" operator="in"/>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+    <filter id="drop-shadow-filter-3" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="drop-shadow 1 0 0 6 1 rgb(0, 153, 204)">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+      <feOffset dx="0" dy="0"/>
+      <feComponentTransfer result="offsetblur">
+        <feFuncA id="spread-ctrl" type="linear" slope="2"/>
+    </feComponentTransfer>
+    <feFlood flood-color="rgb(0, 153, 204)"/>
+    <feComposite in2="offsetblur" operator="in"/>
+    <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+</filter>
+</defs>
+<rect x="-53.016" y="-0.914" width="559.415" height="516.453" style=""/>
+<path style="fill: rgba(216, 216, 216, 0); stroke-width: 2px; filter: url(#drop-shadow-filter-1); stroke: rgb(132, 83, 227);" d="M 207.579 307 C 289.38 307 340.505 215.333 299.605 142 C 258.705 68.667 156.455 68.667 115.555 142 C 110.259 151.496 106.365 161.757 104 172.445"/>
+<path style="fill: rgba(216, 216, 216, 0); stroke-width: 2px; filter: url(#drop-shadow-filter-1); stroke: rgb(132, 83, 227);" d="M 211.617 278.676 C 265.517 276.31 300.833 215.555 277.997 161.544 C 251.362 98.547 171.273 110.749 155.057 143.782"/>
+<path style="fill: rgba(216, 216, 216, 0); stroke-width: 2px; filter: url(#drop-shadow-filter-3); stroke: rgb(132, 83, 227);" d="M 315.415 160.334 C 414.994 160.334 477.23 260.75 427.441 341.081 C 381.754 414.793 270.652 422.344 213.964 355.589" transform="matrix(-0.743145, 0.669131, -0.669131, -0.743145, 762.218557, 269.080012)"/>
+<path style="fill: rgba(216, 216, 216, 0); stroke-width: 2px; filter: url(#drop-shadow-filter-1); stroke: rgb(132, 83, 227);" d="M 323.036 185.879 C 399.768 185.879 447.725 264.211 409.358 326.875 C 374.154 384.377 288.543 390.268 244.862 338.194" transform="matrix(-0.743145, 0.669131, -0.669131, -0.743145, 769.244945, 264.471991)"/>
+<path style="fill: rgba(216, 216, 216, 0); stroke-width: 2px; filter: url(#drop-shadow-filter-1); stroke: rgb(132, 83, 227);" d="M 172.424 148.776 L 172.424 426.661 L 200.761 426.661 L 200.761 253.873"/>
+<path style="fill: rgba(216, 216, 216, 0); stroke-width: 2px; filter: url(#drop-shadow-filter-0); stroke: rgb(132, 83, 227);" d="M 245.166 45.084 C 413.34 45.084 518.449 227.138 434.362 372.781 C 395.337 440.374 323.216 482.013 245.166 482.013" transform="matrix(0.996195, 0.087153, -0.087153, 0.996195, 23.775808, -19.223366)" bx:origin="-0.06 0.498"/>
+<path style="fill: rgba(216, 216, 216, 0); stroke-width: 2px; filter: url(#drop-shadow-filter-2); stroke: rgb(132, 83, 227);" d="M 14.696 185.653 C 176.121 185.653 275.315 360.647 193.244 500.64 C 155.155 565.611 85.54 605.636 10.622 605.636" transform="matrix(-0.768775, 0.63952, -0.63952, -0.768775, 500.503919, 549.008781)" bx:origin="0.662 0.427"/>
+</svg>
+</div>
+</div>
+
+<div id="fullscreen" class="hover">
+    <div id="menuholder">
+        <button class="close" onclick=closemenu()>&#10005;</button><br>
+        <button class = "mb" onclick="location.href='/';">HOME</button><br>
+        <button class = "mb" onclick="location.href='/team';">TEAM</button><br>
+        <button class = "mb" onclick="location.href='/alumni';">ALUMNI</button><br>
+        <button class = "mb" onclick="location.href='/events';">EVENTS</button><br>
+        <button class = "mb" onclick="location.href='/contact';">CONTACT</button>
+    </div>
+</div> -->
+
+<div id="lightgallery" class="grid" data-masonry='{ "itemSelector": ".grid-item", "gutter": 2,
+"percentPosition": true}'>
+
+    
+{% directory path: {{page.var1}} %}
+
+<div data-src={{ file.url }}>
+   {% assign test = forloop.index | modulo: 7 %}
+  {% case test %}
+      {% when 1, 2, 3 %}
+          <img  src= {{ file.url }}  class="grid-item" style="object-fit: cover; width: 16%; margin-bottom:2px">
+      {% when 4 ,5, 6 %}
+          <img  src= {{ file.url }}  class="grid-item" style="object-fit: cover; width: 32%; margin-bottom:2px">
+      {% else%}
+          <img  src= {{ file.url }}  class="grid-item" style="object-fit: cover; width: 48%; margin-bottom:2px"> 
+      {% endcase %}
+  
+
+</div>
+
+{% enddirectory %}
+</div>
+
+</body>
+
+<script src="/assets/lightgallery-2.0.1/dist/lightgallery.umd.js"></script>
+
+<script src="/assets/lightgallery-2.0.1/dist/plugins/fullscreen/lg-fullscreen.min.js"></script>
+
+<script src="/assets/lightgallery-2.0.1/dist/plugins/zoom/lg-zoom.min.js"></script>
+
+<script src="/assets/lightgallery-2.0.1/dist/plugins/thumbnail/lg-thumbnail.min.js"></script>
+
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+<script>
+    lightGallery(document.getElementById('lightgallery'),{
+  plugins: [lgFullscreen, lgZoom, lgThumbnail]});
+</script>
+
+</html>
