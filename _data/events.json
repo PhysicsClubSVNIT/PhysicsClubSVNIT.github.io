@@ -10,11 +10,27 @@
 ],
 "events":[
 	{
+		"name": "Gravitational waves: A window to an unforeseen universe",
+		"date": "28 February 2022",
+		"poster": "280222",
+		"descr": "'Gravitational wave is the rhythm of the universe'<br><br>Gravitational waves help us to understand what the universe speaks. On the occasion of this year's National Science Day , we are honoured to have Dr. Debarati Chatterjee, an eminent theoretical astrophysicist, associate professor at IUCAA Pune and Chair of LIGO-India Education and Public Outreach, talk about 'Gravitational waves: A window to an unforeseen universe'.",
+		"youtube": " "
+	},
+
+	{
+		"name": "Pratyaksha 2022",
+		"date": "19-20 February 2022",
+		"poster": "190222",
+		"descr": "The Physics Club, SVNIT presents to you our trademark event, Pratyaksha. The event will span 2 days, the 19th and 20th of February, 2022.<br><br>Our first event, at 10:30 AM on 19th February is 'Explain in 3 Levels' , a test of your oratory and understanding skills as you explain the complex physical phenomena in 3 different levels, each progressing from a child's level to an undergraduate level.<br>The second event, something you all are familiar with, is the 'General quiz' , which will test the limits of your knowledge, so make sure to brush up your general knowledge and get a chance to win this amazing quiz. The prelims will be held at 4:00 PM on 19th February and shortlisted teams will compete with each other on 20th February!!<br>And at last, you can sit back and enjoy the 'Orientation' as we share our experiences in Physics Club and explain the various fun activities we organize here at college. We are sure that this is going to spark your interest in Physics Club and will encourage all of you to join us in finding fun behind the equations that describe our universe!!",
+		"youtube": "https://youtu.be/2uhgzFLVGj0"
+	},
+
+	{
 		"name": "A journey through fascinated Materials",
 		"date": "11 December 2021",
 		"poster": "111221",
 		"descr": "We are always surrounded by so many kinds of material. Although they are all made up of the same stuff- electrons, protons and neutrons, they still differ very much in their properties. Today we are able to understand the properties of materials at fundamental level and make various artificial materials due to remarkable developments in material sciences such as X-ray diffraction, scanning probe microscopy, lithography, etc. Want to know the types of materials?  What are their key applications? And how to tailor them?",
-		"youtube": " "
+		"youtube": "https://youtu.be/nUjyN9LDddo"
 	},
 
 	{
@@ -88,7 +104,7 @@
 		"https://www.youtube.com/watch?v=WQj99zyw8zk"
 	]},
 
-	{"name":"Pratyaksha",
+	{"name":"Pratyaksha 2021",
 		"date":"13-14 March 2021",
 		"poster":"130321",
 		"descr":"Its time to put on your thinking hats and grab a painting brush cuz we are back with the second edition of our annual Physics fest PRATYAKSHA! Join us on 13th and 14th February for a weekend filled with fun physics-y events that are sure to not let your FOMO take over.",
@@ -138,7 +154,7 @@
 		"descr":"MINDBEND 2020 in association with the Applied Physics Department and Physics Club SVNIT presenting you with ENTANGLED CHESS - Playing chess with a touch of quantum instinct. Register for the event and get a new experience of playing chess in Physicists way.",
 	"youtube":" "},
 
-	{"name":"Pratyaksha",
+	{"name":"Pratyaksha 2020",
 		"date":"24-25 January 2020",
 		"poster":"240120",
 		"descr":"The physics club have come up with some  exciting events that will bring out the scientist in you. Physics club is organizing its first ever annual fest 'PRATYAKSHA' on 25th January, 2020 at the Applied Physics department. Hurry up folks to register for the events and enjoy the actual beauty of science.",
