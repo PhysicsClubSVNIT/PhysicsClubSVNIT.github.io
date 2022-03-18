@@ -107,13 +107,6 @@
 					},
 
 					{
-						"name":"Bhavya Jaiman",
-						"batch":"2019-24",
-						"image":"bhavya.jpg",
-						"linkedin":"https://www.linkedin.com/in/bhavyajaiman/",
-					},
-
-					{
 						"name": "Aum Patel",
 						"batch": "2019-24",
 						"image": "aum.jpg",
@@ -229,6 +222,21 @@
 						"image":"foram.jpg"
 					}
 				]
+			},
+
+			{
+				"batch": "2019-24",
+
+				"members":[
+					{
+						"name":"Bhavya Jaiman",
+						"batch":"2019-24",
+						"image":"bhavya.jpg",
+						"linkedin":"https://www.linkedin.com/in/bhavyajaiman/",
+					}
+
+				]
+
 			}
 
 		]
