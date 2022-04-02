@@ -1,6 +1,6 @@
 {	"upcomingevents":[
 	{
-		"name":"ORIGIN", 
+		"name":" ", 
 		"date":"26-27 March 2022", 
 		"poster":"260322", 
 		"descr": "Hey there! Do you feel the online semester has been boring and unproductive so far? Don't you worry, we are here with an opportunity for you to expand your skillset - a two-day offline workshop on <b>ORIGIN</b>! <br><br> Origin is the data analysis and graphing software of choice for over half a million scientists and engineers in commercial industries, academia, and government laboratories worldwide.<br><br>The workshop is aimed at introducing beginners to the Origin software and will be held offline in 3 sessions over the course of 2 days.<br><br><b>Instructor: </b>Dr. Himanshu Pandey,<br>Dept. of Physics, NIT Surat",
@@ -9,6 +9,14 @@
 	}
 ],
 "events":[
+	{
+		"name": "ORIGIN",
+		"date": "26-27 March 2022",
+		"poster": "260322",
+		"descr": "A two-day offline workshop on <b>ORIGIN</b>, a data analysis and graphing software of choice for over half a million scientists and engineers in commercial industries, academia, and government laboratories worldwide.<br><br>The workshop is aimed at introducing beginners to the Origin software and will be held offline in 3 sessions over the course of 2 days.<br><br><b>Instructor: </b>Dr. Himanshu Pandey,<br>Dept. of Physics, NIT Surat",
+		"youtube": " "
+	},
+
 	{
 		"name": "Gravitational waves: A window to an unforeseen universe",
 		"date": "28 February 2022",
