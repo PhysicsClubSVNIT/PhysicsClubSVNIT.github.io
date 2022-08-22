@@ -5,74 +5,7 @@
 
 		"batches":[
 
-			{
-
-				"batch": "2017-22",
-
-				"members":[
-
-					{
-						"name":"Tiyasa Kar",
-						"batch":"2017-22",
-						"fb":"https://www.facebook.com/tiyasa.kar.12",
-						"image":"tiyasa.jpg",
-						"mail":"tiyasakar.102@gmail.com"
-					},
-
-					{
-						"name":"Ramkumar Radhakrishnan",
-						"batch":"2017-22",
-						"fb":"https://www.facebook.com/ramkumar0808",
-						"image":"ram.jpg",
-						"linkedin": "https://www.linkedin.com/in/ramkumar-radhakrishnan-1a8572174/",
-						"twitter": "https://twitter.com/rramkumar1997",
-						"insta": "https://www.instagram.com/rramkumar.radhakrishnan/",
-						"mail": "rramkumar081997@gmail.com"
-
-					},
-
-					{
-						"name":"Rahul Nene",
-						"batch":"2017-22",
-						"insta": "https://www.instagram.com/rahultnene/",
-						"fb":"https://www.facebook.com/rahulnene99",
-						"image":"rahul.jpg"
-					},
-
-					{
-						"name":"Nithin Kumar",
-						"batch":"2017-22",
-						"insta":"https://www.instagram.com/my_day_my_pics/",
-						"fb":"https://www.facebook.com/m.nithin01031997",
-						"image":"nithin.jpg"
-					},
-
-					{
-						"name":"Deepak Kumar",
-						"batch":"2017-22",
-						"insta": "https://www.instagram.com/deepakd_kkumar/",
-						"fb":"https://www.facebook.com/deepakd.kkumar17",
-						"image":"deepak.jpg"
-					}
-				]
-			},
-
-			{
-
-				"batch": "2018-23",
-
-				"members":[
-
-					{
-						"name":"Surya Shankar",
-						"batch":"2018-23",
-						"insta":"https://www.instagram.com/_.surya_shankar._/",
-						"image":"surya.jpg"
-					}
-
-				]
-			},
-
+			
 			{
 
 				"batch": "2019-24",
@@ -148,15 +81,6 @@
 					},
 
 					{
-						"name": "Pilla Jhahnavi",
-						"insta": "https://www.instagram.com/jhahnaviiii",
-						"linkedin": "https://www.linkedin.com/in/pilla-jhahnavi-667002217",
-						"twitter": "https://twitter.com/PJhahnavi?s=08",
-						"mail": "I20PH043@phy.svnit.ac.in",
-						"image": "jhahnavi.jpg"
-					},
-
-					{
 						"name": "Disha Hegde",
 						"insta": "https://www.instagram.com/disharhegde/",
 						"linkedin": "https://www.linkedin.com/in/disha-hegde/",
@@ -170,15 +94,6 @@
 		]
 
 	},
-
-
-
-
-
-
-
-
-
 
 
 	{
@@ -204,9 +119,68 @@
 
 			{
 
+				"batch": "2017-22",
+
+				"members":[
+
+					{
+						"name":"Tiyasa Kar",
+						"batch":"2017-22",
+						"fb":"https://www.facebook.com/tiyasa.kar.12",
+						"image":"tiyasa.jpg",
+						"mail":"tiyasakar.102@gmail.com"
+					},
+
+					{
+						"name":"Ramkumar Radhakrishnan",
+						"batch":"2017-22",
+						"fb":"https://www.facebook.com/ramkumar0808",
+						"image":"ram.jpg",
+						"linkedin": "https://www.linkedin.com/in/ramkumar-radhakrishnan-1a8572174/",
+						"twitter": "https://twitter.com/rramkumar1997",
+						"insta": "https://www.instagram.com/rramkumar.radhakrishnan/",
+						"mail": "rramkumar081997@gmail.com"
+
+					},
+
+					{
+						"name":"Rahul Nene",
+						"batch":"2017-22",
+						"insta": "https://www.instagram.com/rahultnene/",
+						"fb":"https://www.facebook.com/rahulnene99",
+						"image":"rahul.jpg"
+					},
+
+					{
+						"name":"Nithin Kumar",
+						"batch":"2017-22",
+						"insta":"https://www.instagram.com/my_day_my_pics/",
+						"fb":"https://www.facebook.com/m.nithin01031997",
+						"image":"nithin.jpg"
+					},
+
+					{
+						"name":"Deepak Kumar",
+						"batch":"2017-22",
+						"insta": "https://www.instagram.com/deepakd_kkumar/",
+						"fb":"https://www.facebook.com/deepakd.kkumar17",
+						"image":"deepak.jpg"
+					}
+				]
+			},
+
+			{
+
 				"batch": "2018-23",
 
 				"members":[
+
+					{
+						"name":"Surya Shankar",
+						"batch":"2018-23",
+						"insta":"https://www.instagram.com/_.surya_shankar._/",
+						"image":"surya.jpg"
+					},
 
 					{
 						"name":"Shashank Kashyap",
@@ -232,13 +206,28 @@
 						"name":"Bhavya Jaiman",
 						"batch":"2019-24",
 						"image":"bhavya.jpg",
-						"linkedin":"https://www.linkedin.com/in/bhavyajaiman/",
+						"linkedin":"https://www.linkedin.com/in/bhavyajaiman/"
 					}
 
 				]
 
-			}
+			},
 
+			{
+				"batch": "2020-25",
+
+				"members":[
+					
+					{
+						"name": "Pilla Jhahnavi",
+						"insta": "https://www.instagram.com/jhahnaviiii",
+						"linkedin": "https://www.linkedin.com/in/pilla-jhahnavi-667002217",
+						"twitter": "https://twitter.com/PJhahnavi?s=08",
+						"mail": "I20PH043@phy.svnit.ac.in",
+						"image": "jhahnavi.jpg"
+					}
+				]
+			}
 		]
 	}
 
