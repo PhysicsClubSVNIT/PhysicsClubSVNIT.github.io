@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 .timeline{
 	color:#fff;
@@ -36,6 +36,7 @@
 .timeline ul li .content p{
 	padding:5px 0px 5px 0px;
 	font-size:15px;
+    font-family: 'quicksand';
 }
 .timeline ul li:before{
 	position:absolute;
