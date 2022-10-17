@@ -9,7 +9,6 @@ function docload(){
     id('descr').style.transform = 'translateY(0)';
     id('research').style.transform = 'translateY(0)';
 }
-setTimeout(docload, 100)
 
 function textin(){
     
