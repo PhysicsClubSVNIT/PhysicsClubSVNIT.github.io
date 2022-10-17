@@ -11,6 +11,22 @@
 "events":[
 
 	{
+		"name": "Logo Design Competition",
+		"date": "",
+		"poster": "logo",
+		"descr": "Representation Matters!<br>The first thing you notice is not the brand but the representation of the brand. A strong logo grabs attention, makes a strong first impression and provides foundation to the brand.<br>Physics Club invites you to showcase the best of your creativity in creating an eye-catching and refined logo for the Department of Physics (DoP). The best logo received might become the official logo for the Department of Physics.<br>This is the time to boost your design career, so what are you waiting for?",
+		"youtube": " "
+	},
+
+	{
+		"name": "Physics: A Logical Analysis",
+		"date": "06 September 2022",
+		"poster": "060922",
+		"descr": "Mathematics has always hidden the wildest secrets of the universe and we are still scraping details off the surface.<br> Physics club brings you a talk by Dr. Abhishek Majhi from ISI, Kolkata where we set out to explore some of the failures of Maxwell's Electromagnetism leading to Heisenberg's Uncertainty Principle. We will tackle Maxwell's theories through basic concepts of differentiation laid by Cauchy himself and we will talk about various problems that arise in physics due to semantics and misnomers. All this will finally connect to the famous paper by Einstein, Podolsky and Rosen and talk about incompleteness as a general feature of any physics theory and not just limited to Quantum Physics.",
+		"youtube": " "
+	},
+
+	{
 		"name": "Story of Stars: Spectral and Luminosity Classification of Stars",
 		"date": "18 June 2022",
 		"poster": "180622-t",
