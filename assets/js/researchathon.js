@@ -82,4 +82,5 @@ window.addEventListener('load',() =>{
 	id('spinner').remove()}
 	catch(err){ }
 	document.body.style.overflowY= "auto";
+    setTimeout(docload, 100);
 });
