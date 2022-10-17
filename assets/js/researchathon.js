@@ -75,3 +75,11 @@ function chnext(){
     }
 }
 requestAnimationFrame(chnext);
+
+window.addEventListener('load',() =>{
+	try{id('spinner').style.display = "none";
+	id('spinner').style.pointerEvents = "none";
+	id('spinner').remove()}
+	catch(err){ }
+	document.body.style.overflowY= "auto";
+});
