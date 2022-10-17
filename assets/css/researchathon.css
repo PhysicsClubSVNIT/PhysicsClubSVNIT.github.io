@@ -27,11 +27,15 @@
     src: url("/assets/fonts/Dublin-Bold.ttf");
     }
 
+
 #research{
     font-family: 'metropolis';
     color: #f8db85;
     font-size: calc(10vw);
     padding-top: 29vh;
+    opacity: 0;
+    transition: all 2s;
+    transform: translateY(-50px);
 }
 
 body{
@@ -63,6 +67,9 @@ body{
     padding-top: 10vh;
     padding-bottom: 10vh;
     font-weight: bold;
+    opacity: 0;
+    transition: all 2.5s;
+    transform: translateY(50px);
 }
 
 ::-webkit-scrollbar {
@@ -125,15 +132,26 @@ body{
     letter-spacing: 2px;
     padding-bottom: 5vh;
     padding-top: 5vh;
+    opacity: 0;
+    transition: all 1s;
+    transform: translateX(-50px);
 }
+
 #cal{    
     padding-bottom: 5vh;
     padding-top: 5vh;
+    opacity: 0;
+    transition: all 1s;
+    transform: translateX(50px);
 }
+
+
 #catch{
     color: #f8db85;
     font-size: calc(10px + 1vw);
     width: 100%;
+    opacity: 0;
+    transition: all 2s;
 }
 
 .desc-title{
@@ -171,12 +189,27 @@ body{
 	background: linear-gradient(rgba(10, 10, 0, 1), rgba(10,10,0,0.4));
 }
 
+#innext{
+    opacity: 0;
+    transition: all 2s;
+    transform: translateY(100px);
+}
+
 #regnow{
     font-family: 'metropolis';
     color: white;
     font-size: calc(5vw);
     padding-top: 5vh;
     padding-bottom: 5vh;
+}
+
+#logo{
+    width: 10vh;
+    height: 10vh;
+    position: fixed;
+    left:10px;
+    top:10px;
+    z-index: 10000;
 }
 
 @media screen and (max-width: 900px){
