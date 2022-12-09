@@ -167,7 +167,7 @@ body{
 
 #break{
     width: 120vw;
-    height:10vh;
+    height:15vh;
     margin: 1vh;
     background-color: rgba(10,10,0,0.99);
     position: relative;
@@ -267,4 +267,96 @@ body{
       transform: scale(1.0);
       -webkit-transform: scale(1.0);
     }
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+        flex-wrap: wrap;
+    text-align: center;
+    width: 50%;
+  /*   padding: 2em 0em; */
+  }
+  
+  .containerdiv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: none;
+    /* padding:  40px 0px; */
+    width: 240px;
+  }
+  
+  
+  
+  .btn {
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 45px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: white;
+  }
+  .btn:hover {
+    text-decoration: none;
+  }
+  
+  /*btn_background*/
+  .effect01 {
+    color: #f8db85;
+    border: 2px solid #f8db85;
+    box-shadow:0px 0px 0px 1px #000 inset;
+    background-color: none;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+  .effect01:hover {
+    border: 2px solid #f8db85;
+    background-color: #f8db85;
+    box-shadow: 0 0 0 1px #f8db85,1 1 1 1px #000, 0px 0px 0px 4px #f8db8596 inset;
+  }
+  
+  /*btn_text*/
+  .effect01 span {
+    font-size: calc(10px + 0.55vw);
+    font-weight: bold;
+    transition: all 0.2s ease-out;
+    z-index: 2;
+    color: #f8db85;
+  }
+  .effect01:hover span{
+    letter-spacing: 0.13em;
+    color: black;
+    
+  }
+  
+  /*highlight*/
+  .effect01:after {
+    background: #f8db85;
+    border: 0px solid #000;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: .8;
+    position: absolute;
+    top: -50px;
+    -webkit-transform: rotate(35deg);
+            transform: rotate(35deg);
+    width: 50px;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);/*easeOutCirc*/
+    z-index: 1;
+  }
+  .effect01:hover:after {
+    background: #f8db85;
+    border: 20px solid #000;
+    opacity: 0;
+    left: 120%;
+    -webkit-transform: rotate(40deg);
+            transform: rotate(40deg);
   }
