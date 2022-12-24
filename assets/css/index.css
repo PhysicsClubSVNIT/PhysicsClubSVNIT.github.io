@@ -145,6 +145,7 @@ html{
 	width: 100%;
 	top: 0;
 	left: 0;
+	background: rgba(0, 0, 0, 0.6);
 }
 
 #particles{
@@ -331,7 +332,7 @@ html{
 #lineholder{
 	/*	background: #0F2027;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
 	/*background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	background-image: url('/assets/images/spaceback.jpg');
+	background-image: url('/assets/images/magellan.jpg');
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -371,17 +372,8 @@ html{
 }
 
 #stateholder{
-	/*background-image: linear-gradient(258deg, rgb(59, 59, 59),rgb(197, 197, 197)),linear-gradient(303deg, rgb(159, 116, 214) 0%, rgb(159, 116, 214) 25%,rgb(130, 95, 173) 25%, rgb(130, 95, 173) 45%,rgb(101, 74, 132) 45%, rgb(101, 74, 132) 50%,rgb(72, 54, 90) 50%, rgb(72, 54, 90) 52%,rgb(43, 33, 49) 52%, rgb(43, 33, 49) 61%,rgb(14, 12, 8) 61%, rgb(14, 12, 8) 100%),linear-gradient(393deg, rgb(159, 116, 214) 0%, rgb(159, 116, 214) 25%,rgb(130, 95, 173) 25%, rgb(130, 95, 173) 45%,rgb(101, 74, 132) 45%, rgb(101, 74, 132) 50%,rgb(72, 54, 90) 50%, rgb(72, 54, 90) 52%,rgb(43, 33, 49) 52%, rgb(43, 33, 49) 61%,rgb(14, 12, 8) 61%, rgb(14, 12, 8) 100%); background-blend-mode:overlay,overlay,normal;
-	*/
-	/*background-color: black;
-	background-image: repeating-linear-gradient(180deg, rgb(3, 3, 3) 0px, rgb(3, 3, 3) 18px,rgb(11, 11, 11) 18px, rgb(11, 11, 11) 36px,rgb(0, 0, 0) 36px, rgb(0, 0, 0) 54px,rgb(5, 5, 5) 54px, rgb(5, 5, 5) 72px,rgb(8, 8, 8) 72px, rgb(8, 8, 8) 90px,rgb(14, 14, 14) 90px, rgb(14, 14, 14) 108px,rgb(19, 19, 19) 108px, rgb(19, 19, 19) 126px,rgb(16, 16, 16) 126px, rgb(16, 16, 16) 144px);
-	background-image: radial-gradient(circle at top center, rgb(235, 235, 235) 0%, rgb(235, 235, 235) 10%,rgb(229, 229, 229) 10%, rgb(229, 229, 229) 19%,rgb(222, 222, 222) 19%, rgb(222, 222, 222) 22%,rgb(216, 216, 216) 22%, rgb(216, 216, 216) 24%,rgb(209, 209, 209) 24%, rgb(209, 209, 209) 63%,rgb(203, 203, 203) 63%, rgb(203, 203, 203) 75%,rgb(196, 196, 196) 75%, rgb(196, 196, 196) 100%);
-	background-image: radial-gradient(circle at top center, rgb(235, 235, 235) 0%, rgb(235, 235, 235) 10%,rgb(229, 229, 229) 10%, rgb(229, 229, 229) 19%,rgb(222, 222, 222) 19%, rgb(222, 222, 222) 22%,rgb(212,210,210) 22%, rgb(212,210,210) 24%,rgb(195,194,194) 24%, rgb(195,194,194) 63%,rgb(171,171,171) 63%, rgb(171,171,171) 75%,rgb(144,144,144) 75%, rgb(144,144,144) 100%);
-	background-image: repeating-linear-gradient(135deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(135deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(157.5deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(180deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(180deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(225deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(225deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(180deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),linear-gradient(180deg, rgb(0,0,0),rgb(82,86,150));
-	background-image: radial-gradient(circle at top center, rgb(143, 39, 176) 0%, rgb(143, 39, 176) 11%,rgb(128, 38, 169) 11%, rgb(128, 38, 169) 13%,rgb(113, 38, 163) 13%, rgb(113, 38, 163) 17%,rgb(98, 37, 156) 17%, rgb(98, 37, 156) 28%,rgb(83, 37, 150) 28%, rgb(83, 37, 150) 40%,rgb(68, 36, 143) 40%, rgb(68, 36, 143) 72%,rgb(53, 36, 137) 72%, rgb(53, 36, 137) 81%,rgb(38, 35, 130) 81%, rgb(38, 35, 130) 100%);
-	*/
-	background-image: radial-gradient(circle at top center, rgb(33, 29, 75) 0%, rgb(33, 29, 75) 4%,rgb(29, 39, 97) 4%, rgb(29, 39, 97) 39%,rgb(24, 49, 120) 39%, rgb(24, 49, 120) 45%,rgb(20, 59, 142) 45%, rgb(20, 59, 142) 69%,rgb(15, 69, 164) 69%, rgb(15, 69, 164) 71%,rgb(11, 79, 186) 71%, rgb(11, 79, 186) 75%,rgb(6, 89, 209) 75%, rgb(6, 89, 209) 79%,rgb(2, 99, 231) 79%, rgb(2, 99, 231) 100%);
-	background-attachment: scroll;
+	background-image: url(/assets/images/astro.jpg);
+	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;

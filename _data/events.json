@@ -1,6 +1,6 @@
 {	"upcomingevents":[
 	{
-		"name":" ", 
+		"name":"", 
 		"date":"26-27 March 2022", 
 		"poster":"260322", 
 		"descr": "Hey there! Do you feel the online semester has been boring and unproductive so far? Don't you worry, we are here with an opportunity for you to expand your skillset - a two-day offline workshop on <b>ORIGIN</b>! <br><br> Origin is the data analysis and graphing software of choice for over half a million scientists and engineers in commercial industries, academia, and government laboratories worldwide.<br><br>The workshop is aimed at introducing beginners to the Origin software and will be held offline in 3 sessions over the course of 2 days.<br><br><b>Instructor: </b>Dr. Himanshu Pandey,<br>Dept. of Physics, NIT Surat",
@@ -9,6 +9,13 @@
 	}
 ],
 "events":[
+	{
+		"name": "Researchathon 2.0",
+		"date": "24 December 2022",
+		"poster": "241222",
+		"descr": "<i>'The mind that opens to a new idea never returns to its original size'<i> - Albert Einstein<br><br>To all the inquisitive minds out there, get ready to fuel your intellectual curiosity, as Physics Club, NIT Surat is back with Researchathon - 2.0!<br><br>Gear up to test your skills with mind-boggling quizzes and physics problems. The icing on the cake is delivered by solving a 30-hour final round research problem in a field of your choice*. The final problem's results will be attested by top notch judges- professors who have immense experience in their respective fields.<br><br>The Researchathon will be held in two preliminary stages and one final 30-hour final round.",
+		"youtube": " "
+	},
 
 	{
 		"name": "Logo Design Competition",

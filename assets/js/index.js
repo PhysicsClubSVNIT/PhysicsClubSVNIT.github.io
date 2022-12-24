@@ -2,94 +2,94 @@ bgs = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg','7.jpg', '9.jpg', '11.jpg', '
 
 isnoti = true;
 
-particlesJS('particles',{
-	"particles": {
-		"number": {
-			"value": 70,
-			"density": {
-				"enable": true,
-				"value_area": 1000
-			}
-		},
-		"color": {
-			"value": "#ffffff"
-		},
-		"shape": {
-			"type": "circle",
-			"stroke": {
-				"width": 0,
-				"color": "#000000"
-			},
-			"image": {
-				"src": "img/github.svg",
-				"width": 100,
-				"height": 100
-			}
-		},
-		"opacity": {
-			"value": 0.7536036686067957,
-			"random": false,
-			"anim": {
-				"enable": false
-			}
-		},
-		"size": {
-			"value": 3,
-			"random": true,
-			"anim": {
-				"enable": false
-			}
-		},
-		"line_linked": {
-			"enable": true,
-			"distance": 150,
-			"color": "#ffffff",
-			"opacity": 0.4,
-			"width": 1
-		},
-		"move": {
-			"enable": true,
-			"speed": 3,
-			"direction": "none",
-			"random": false,
-			"straight": false,
-			"out_mode": "out",
-			"bounce": false,
-			"attract": {
-				"enable": false,
-				"rotateX": 600,
-				"rotateY": 1200
-			}
-		}
-	},
-	"interactivity": {
-		"detect_on": "window",
-		"events": {
-			"onhover": {
-				"enable": true,
-				"mode": "bubble"
-			},
-			"onclick": {
-				"enable": true,
-				"mode": "push"
-			},
-			"resize": true
-		},
-		"modes": {
-			"bubble": {
-				"distance": 400,
-				"size": 4,
-				"duration": 3,
-				"opacity": 8,
-				"speed": 3
-			},
-			"push": {
-				"particles_nb": 4
-			}
-		}
-	},
-	"retina_detect": false
-});
+// particlesJS('particles',{
+// 	"particles": {
+// 		"number": {
+// 			"value": 70,
+// 			"density": {
+// 				"enable": true,
+// 				"value_area": 1000
+// 			}
+// 		},
+// 		"color": {
+// 			"value": "#ffffff"
+// 		},
+// 		"shape": {
+// 			"type": "circle",
+// 			"stroke": {
+// 				"width": 0,
+// 				"color": "#000000"
+// 			},
+// 			"image": {
+// 				"src": "img/github.svg",
+// 				"width": 100,
+// 				"height": 100
+// 			}
+// 		},
+// 		"opacity": {
+// 			"value": 0.7536036686067957,
+// 			"random": false,
+// 			"anim": {
+// 				"enable": false
+// 			}
+// 		},
+// 		"size": {
+// 			"value": 3,
+// 			"random": true,
+// 			"anim": {
+// 				"enable": false
+// 			}
+// 		},
+// 		"line_linked": {
+// 			"enable": true,
+// 			"distance": 150,
+// 			"color": "#ffffff",
+// 			"opacity": 0.4,
+// 			"width": 1
+// 		},
+// 		"move": {
+// 			"enable": true,
+// 			"speed": 3,
+// 			"direction": "none",
+// 			"random": false,
+// 			"straight": false,
+// 			"out_mode": "out",
+// 			"bounce": false,
+// 			"attract": {
+// 				"enable": false,
+// 				"rotateX": 600,
+// 				"rotateY": 1200
+// 			}
+// 		}
+// 	},
+// 	"interactivity": {
+// 		"detect_on": "window",
+// 		"events": {
+// 			"onhover": {
+// 				"enable": true,
+// 				"mode": "bubble"
+// 			},
+// 			"onclick": {
+// 				"enable": true,
+// 				"mode": "push"
+// 			},
+// 			"resize": true
+// 		},
+// 		"modes": {
+// 			"bubble": {
+// 				"distance": 400,
+// 				"size": 4,
+// 				"duration": 3,
+// 				"opacity": 8,
+// 				"speed": 3
+// 			},
+// 			"push": {
+// 				"particles_nb": 4
+// 			}
+// 		}
+// 	},
+// 	"retina_detect": false
+// });
 
 
 
@@ -203,7 +203,7 @@ window.addEventListener('load',()=>{
 		if (id('new').getBoundingClientRect().top <=0.65*screen.height) { isnoti = false;}
 			else{setTimeout(function(){opennoti();},1500);}
 	}
-	catch(e){id('noti').style.display = 'none'; isnoti = false; document.getElementsByClassName('stategrad')[0].style.display = 'none';}
+	catch(e){id('noti').style.display = 'none'; isnoti = false;}
 });
 
 
