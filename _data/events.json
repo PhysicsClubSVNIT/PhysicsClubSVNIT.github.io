@@ -1,6 +1,6 @@
 {	"upcomingevents":[
 	{
-		"name":"", 
+		"name":" ", 
 		"date":"26-27 March 2022", 
 		"poster":"260322", 
 		"descr": "Hey there! Do you feel the online semester has been boring and unproductive so far? Don't you worry, we are here with an opportunity for you to expand your skillset - a two-day offline workshop on <b>ORIGIN</b>! <br><br> Origin is the data analysis and graphing software of choice for over half a million scientists and engineers in commercial industries, academia, and government laboratories worldwide.<br><br>The workshop is aimed at introducing beginners to the Origin software and will be held offline in 3 sessions over the course of 2 days.<br><br><b>Instructor: </b>Dr. Himanshu Pandey,<br>Dept. of Physics, NIT Surat",
@@ -10,10 +10,94 @@
 ],
 "events":[
 	{
+		"name": "October Sky",
+		"date": "21 January 2024",
+		"poster": "210124",
+		"descr": "Sometimes one dream is enough to light up the whole sky 💫<br><br>Embark on a nostalgic journey to the heart of 1950s Coalwood, where dreams defy gravity!<br>Reach for the stars with 'October Sky', a captivating true tale of Homer's rocket-fueled quest, defying gravity and expectations. Join us for a cinematic journey that will ignite your passion for the extraordinary!",
+		"youtube": " "
+	},
+	{
+		"name": "Pratyaksha 2024",
+		"date": "20-21 January 2024",
+		"poster": "200124",
+		"descr": "Hola physics enthusiasts👋, We are back with our flagship event PRATYAKSHA, with four exciting events! Explore physics like never before and get amused by it. When it comes to physics why should it be only quiz and debate, let's watch a movie together.<br><br> Phyctionary : Let's find out who's the boss when it comes to guessing, Put on your guessing caps and connect the dots to win prizes!<br><br> Quiz : Show your team spirit and start the brainstorming, get excited by this mixed bag of questions<br><br> AC vs DC : In this fiery🔥 debate, teams or individuals oppose and support the hypothesis and the one who proves their point gets the glory",
+		"youtube": " "
+	},
+	{
+		"name": "CO2 Lasers from ISP to ISRO",
+		"date": "26 October 2023",
+		"poster": "261023",
+		"descr": "Do you know that India is the world's top importer of laser equipment, primarily from China, the US, and Germany. Ever wondered what happens to these lasers when they become non-functional? Find out on October 26, 2023, in a talk by <b>Dr. Manoj Kumar</b>, a renowned physicist from RRCAT, Indore. He'll share insights on 'Realizing the Dream of Lab to Land: CO2 Lasers from ISP to ISRO' and his remarkable work in laser refurbishment, recognized by prestigious awards.<br><br><b>About the Event:</b>CO2 lasers are widely used in India across various sectors, but a lesser-known fact is that most of them are imported, resulting in high operational expenses due to frequent replacements. This presentation will highlight the success stories of refurbishing non-functional CO2 lasers at India Security Press (ISP) in Nashik and Vikram Sarabhai Space Centre (VSSC) in Trivandrum.",
+		"youtube": " "
+	},
+	{
+		"name": "Mock-Solvay Conference",
+		"date": "08 October 2023",
+		"poster": "081023",
+		"descr": "Ever questioned Newton's gravity in the galactic arena? What if Dark Matter does not hold the key?<br>Dive into the Cosmos with a poster quest and answers to some big questions!<br>Be prepared to uncover the cosmic mysteries, and to explore the mysterious universe of gravitational forces. We have Dr. Tejinder Pal Singh from TIFR, Mumbai who'll be speaking on the topic: 'Dark matter or a new law of gravitation?'<br><br>And...there is something more to the fun!<br><br>We also invite you to an amalgamation of Art and Science. A stage for you to explore ideas, discoveries, bending of your imagination all at one place in a 'Poster Presentation' arena!",
+		"youtube": " "
+	},
+	{
+		"name": "Quantum Internet",
+		"date": "12 August 2023",
+		"poster": "120823",
+		"descr": "'What good are quantum computers if they cannot talk to each other?'<br><br>Are you interested in quantum internet ? The world of quantum tech will be opened for you. The Physics Club of SVNIT will be organizing a seminar titled 'Moving towards a Quantum Internet' by SVNIT Alumnus Suyash Gaikwad. And that's not it, it'll be followed by a seminar on Research Opportunities Abroad and proper guidance will be provided for all of you having a heart for physics.<br><br>Abstract by Speaker:<br>Quantum states can't just be copied and reinforced. Entanglement is a powerful resource that helps to get around this problem. A quantum network is realised by a set of entangled quantum nodes (aka repeaters) that enable efficient transfer of quantum information between let's say two remote quantum computers. In this talk, Suyash will show how such a quantum network can be realised using a solid state system based on erbium dopants in silicon.",
+		"youtube": " "
+	},
+	{
+		"name": "Pratyaksha 2023",
+		"date": "25-26 March 2023",
+		"poster": "250323",
+		"descr": "The Physics Club, SVNIT is presenting you the fun of exploration and conquest. Yes, that's right, we are bringing to you our flagship event- Pratyaksha! It consists of four spectacular events, that you can participate in, to win prizes worth 8k!<br><br>Xplore the Xhibit 🧐:<br>Guess the experiment from the setup, and win awesome prizes!<br><br>Phyctionary 🌌:<br>A Physics Dumb Charade!<br><br>Treasure hunt 🏴‍☠️:<br>A series of clues and questions all around the campus that will lead to a final treasure!<br><br>General Quiz 🤔:<br>An exciting quiz of mixed bag questions.",
+		"youtube": " "
+	},
+	{
+		"name": "COMSOL",
+		"date": "26 February 2023",
+		"poster": "260223",
+		"descr": "Have you ever scratched your head, and cried out in frustration-over a clunky integral? Or has your mind gone on a jizz looking at a Differential equation? Fear not. Physics Club brings to you a hands on workshop on COMSOL Multiphysics software, which will remove all these problems for you.<br>COMSOL Multiphysics is a finite element analysis, solver, and simulation software package for various physics and engineering applications, especially coupled phenomena and multiphysics. This will be covered under the efficient guidance of our faculty, Dr.Shail Pandey.",
+		"youtube": " "
+	},
+	{
+		"name": "Resonance of Reality",
+		"date": "16 February 2023",
+		"poster": "160223",
+		"descr": "Are there more dimensions in the universe than the ones that we see? Does a unified theory that might be able to describe all of nature’s forces from one set of ideas exist? And does it actually work when we try to apply it to the real world?<br>These are some of the problems that Europe’s most prestigious physicists had been working on.<br>String Theory is a new theoretical framework which tells about the fundamental constituents of the universe. Its idea is that deep inside these indivisible constituents is something which looks like vibrating strings, which vibrate in different patterns, producing different particles.<br>Physics Club, NIT Surat presents the final talk of Science Sabha by Siddharth Tiwari, a fourth-year student at the Department of Physics, who will be speaking on the topic: <b>Resonance of Reality</b>",
+		"youtube": " "
+	},
+	{
+		"name": "Qubit Queries",
+		"date": "13 February 2023",
+		"poster": "130223",
+		"descr": "Since the 1960s, the power of our machines has kept growing exponentially, allowing computers to get smaller and more efficient at the same time. Quantum computing is a rapidly-emerging technology that works on the laws of quantum physics to solve problems too complex for classical computers. Quantum computers help us to probe the mysteries of nature.<br>How amazing that we humans, with our relatively limited access to the universe, can still see far beyond our horizons just using our imagination and ingenuity!<br>Physics Club, NIT Surat presents the fourth talk of Science Sabha by Rohan Umesh, a third-year student at the Department of Physics, who will be speaking on the topic: - <b>Qubit Queries</b>",
+		"youtube": " "
+	},
+	{
+		"name": "The Plasma Perception",
+		"date": "06 February 2023",
+		"poster": "060223",
+		"descr": "Have you ever seen static electricity cause a spark of light? What is that spark? What glows in nebulae, stars, and auroras?<br>All of those things, and many others, are made of plasma. Plasma is the fourth state of matter, after solid, liquid, and gas. It is an electrically charged gas that only exists when there is enough energy in the system to strip atoms apart!<br>Physics Club, NIT Surat presents the third talk of Science Sabha by Vinit Pandya, a third-year student at the Department of Physics, who will be speaking on the topic:<br><br><b>The Plasma Perception</b><br>Abstract by the speaker:<br>Discussion on how plasma is made, where it is found, and the difference between gas and plasma. Explanation on the need of plasma and applications of Plasma Physics, with the future prospects.",
+		"youtube": " "
+	},
+	{
+		"name": "The Multimessenger Myriad",
+		"date": "03 February 2023",
+		"poster": "030223",
+		"descr": "Have you ever wondered, while looking out at the sea on a sunny day - what strange phenomenon are waves? What will happen if they travel at the speed of light, throughout free space?<br>This exciting and rapidly developing area of astronomy uses multiple sources of information, such as gravitational waves, light, and cosmic rays, to paint a more complete picture of the universe!<br>So what are you waiting for? Join us for an interesting session covering Gravitational waves, Neutrino and Multimessenger astronomy titled <b>The Multimessenger Myriad</b>",
+		"youtube": " "
+	},
+	{
+		"name": "The Particle Problem",
+		"date": "01 February 2023",
+		"poster": "010223",
+		"descr": "What are the fundamental building blocks from which you, the stars, and everything else is constructed? You guessed it right. But is the atom truly indivisible? What are neutrinos which still carry the flavour of the Big Bang? What is a God particle, and does God really play favourites among the elementary particles?<br>Physics Club, NIT Surat presents the first talk of Science Sabha by Adithya Rao, a fourth-year student at the Department of Physics, who will be speaking on the topic:-<br><br><b>The Particle Problem</b><br>Abstract by the speaker:<br>Discussion of the fundamental particles before the advent of accelerators and detectors and how the demography of particle physics changed with coming of accelerators and new detection techniques. Explanation of the Standard Model, origin of neutrinos, and neutrino oscillations.",
+		"youtube": " "
+	},
+	{
 		"name": "Researchathon 2.0",
 		"date": "24 December 2022",
 		"poster": "241222",
-		"descr": "<i>'The mind that opens to a new idea never returns to its original size'<i> - Albert Einstein<br><br>To all the inquisitive minds out there, get ready to fuel your intellectual curiosity, as Physics Club, NIT Surat is back with Researchathon - 2.0!<br><br>Gear up to test your skills with mind-boggling quizzes and physics problems. The icing on the cake is delivered by solving a 30-hour final round research problem in a field of your choice*. The final problem's results will be attested by top notch judges- professors who have immense experience in their respective fields.<br><br>The Researchathon will be held in two preliminary stages and one final 30-hour final round.",
+		"descr": "'The mind that opens to a new idea never returns to its original size'<i> - Albert Einstein<br><br>To all the inquisitive minds out there, get ready to fuel your intellectual curiosity, as Physics Club, NIT Surat is back with Researchathon - 2.0!<br><br>Gear up to test your skills with mind-boggling quizzes and physics problems. The icing on the cake is delivered by solving a 30-hour final round research problem in a field of your choice*. The final problem's results will be attested by top notch judges- professors who have immense experience in their respective fields.<br><br>The Researchathon will be held in two preliminary stages and one final 30-hour final round.",
 		"youtube": " "
 	},
 

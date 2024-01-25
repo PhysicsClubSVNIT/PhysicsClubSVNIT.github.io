@@ -113,6 +113,7 @@ blablablablablablablabla
 .descr{
   text-align: justify;
   padding-top: 10px;
+  padding-left: 10px;
   font-size: calc(4px + 0.55vw);
   line-height: 150%;
   /*height: 36vh;*/
