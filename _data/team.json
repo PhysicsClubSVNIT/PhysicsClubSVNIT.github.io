@@ -7,6 +7,132 @@
 
 			
 			{
+				"batch": "2020-25",
+
+				"members":[
+					
+					{
+						"name": "Disha Hegde",
+						"insta": "https://www.instagram.com/disharhegde/",
+						"linkedin": "https://www.linkedin.com/in/disha-hegde/",
+						"mail": "disharhegde@gmail.com",
+						"image": "disha.jpg"
+					},
+					
+					{
+						"name": "Vinit Pandya",
+						"linkedin": "https://www.linkedin.com/in/vinit-pandya",
+						"mail": "vdpandya2002@gmail.com",
+						"image": "disha.jpg"
+					},
+					
+					{
+						"name": "Rohan Umesh",
+						"batch": "2020-25",
+						"insta": "https://www.instagram.com/221btogo/",
+						"linkedin": "https://www.linkedin.com/in/rohan-umesh-75a389211/",
+						"image": "rohan.jpg"
+					},
+
+					{
+						"name": "Pulkit Mundotiya",
+						"insta": "https://www.instagram.com/pulkit8800/",
+						"fb":"https://www.facebook.com/pulkit.mundotiya",
+						"linkedin": "https://www.linkedin.com/in/pulkit-mundotiya-53ab06203/",
+						"image": "pulkit.jpg"
+					},
+
+					{
+						"name": "Navya Saraswat",
+						"insta": "https://www.instagram.com/stifledlaughs/",
+						"image": "disha.jpg"
+					}
+
+				]
+			},
+
+			{
+				"batch": "2021-26",
+
+				"members":[
+					
+					{
+						"name": "Aastha Tripathi",
+						"batch": "2021-26",
+						"insta": "https://www.instagram.com/art.sthaaa",
+						"linkedin": "https://www.linkedin.com/in/aasthatripathi1210",
+						"image": "rohan.jpg"
+					}
+
+				]
+			},
+
+			{
+				"batch": "2022-27",
+
+				"members":[
+					
+					{
+						"name": "Aditya Kumar",
+						"batch": "2022-27",
+						"linkedin": "https://www.linkedin.com/in/adityak1911",
+						"image": "rohan.jpg"
+					},
+					
+					{
+						"name": "Mohammad Sameer",
+						"batch": "2022-27",
+						"linkedin": "https://www.linkedin.com/in/mohammad-sameer-a72827211/",
+						"image": "rohan.jpg"
+					},
+					
+					{
+						"name": "Dhairya Vaidya",
+						"batch": "2022-27",
+						"linkedin": "https://www.linkedin.com/in/dhairya-vaidya-a46a21282",
+						"insta": "https://www.instagram.com/dhairya_vaidya",
+						"image": "rohan.jpg"
+					},
+					
+					{
+						"name": "Drashtant H. Jethva",
+						"batch": "2022-27",
+						"insta": "https://www.instagram.com/drashtantjethva",
+						"image": "rohan.jpg"
+					},
+					
+					{
+						"name": "Satyam Singh",
+						"batch": "2022-27",
+						"linkedin": "https://www.linkedin.com/in/satyam-singh-41b7a224b",
+						"insta": "https://www.instagram.com/satyam.2k0402/",
+						"image": "rohan.jpg"
+					},
+					
+					{
+						"name": "Mihirsinh Chauhan",
+						"batch": "2022-27",
+						"linkedin": "https://www.linkedin.com/in/mihirsinh-chauhan-b2361a292",
+						"insta": "https://www.instagram.com/woamihir",
+						"image": "rohan.jpg"
+					},
+
+				]
+			},
+
+			
+			
+
+		]
+
+	},
+
+
+	{
+		"type":"Alumni",
+
+		"batches":[
+			{
 
 				"batch": "2019-24",
 
@@ -55,67 +181,46 @@
 						"mail":"adithyarao3132001@gmail.com",
 						"image":"adithya.jpg",
 						"linkedin":"https://www.linkedin.com/in/adithya-a-rao-3103"
-					}
-				]
-			},
-
-			{
-				"batch": "2020-25",
-
-				"members":[
+					},
 					
 					{
-						"name": "Rohan Umesh",
-						"batch": "2020-25",
-						"insta": "https://www.instagram.com/221btogo/",
-						"linkedin": "https://www.linkedin.com/in/rohan-umesh-75a389211/",
-						"image": "rohan.jpg"
-					},
-
-					{
-						"name": "Pulkit Mundotiya",
-						"insta": "https://www.instagram.com/pulkit8800/",
-						"fb":"https://www.facebook.com/pulkit.mundotiya",
-						"linkedin": "https://www.linkedin.com/in/pulkit-mundotiya-53ab06203/",
-						"image": "pulkit.jpg"
-					},
-
-					{
-						"name": "Disha Hegde",
-						"insta": "https://www.instagram.com/disharhegde/",
-						"linkedin": "https://www.linkedin.com/in/disha-hegde/",
-						"mail": "disharhegde@gmail.com",
-						"image": "disha.jpg"
+						"name":"Bhavya Jaiman",
+						"batch":"2019-24",
+						"image":"bhavya.jpg",
+						"linkedin":"https://www.linkedin.com/in/bhavyajaiman/"
 					}
-
 				]
-			}			
-
-		]
-
-	},
-
-
-	{
-		"type":"Alumni",
-
-		"batches":[
+			},
 
 			{
 
-				"batch": "2016-21",
+				"batch": "2018-23",
 
 				"members":[
 
 					{
-						"name":"Parth Thakkar",
-						"batch":"2016-21",
-						"fb":"https://www.facebook.com/parth.thakkar.77715",
-						"insta":"https://www.instagram.com/parthakkar.pt/",
-						"image":"parth.jpg"
+						"name":"Surya Shankar",
+						"batch":"2018-23",
+						"insta":"https://www.instagram.com/_.surya_shankar._/",
+						"image":"surya.jpg"
+					},
+
+					{
+						"name":"Shashank Kashyap",
+						"batch":"2018-23",
+						"insta":"https://instagram.com/shashankkashyap16",
+						"image":"shashank.jpeg"
+					},
+
+					{
+						"name":"Foram Fanasia",
+						"batch":"2018-23",
+						"insta":"https://instagram.com/caesar.saladxx",
+						"image":"foram.jpg"
 					}
 				]
 			},
+			
 
 			{
 
@@ -169,65 +274,24 @@
 				]
 			},
 
+			
+			
 			{
 
-				"batch": "2018-23",
+				"batch": "2016-21",
 
 				"members":[
 
 					{
-						"name":"Surya Shankar",
-						"batch":"2018-23",
-						"insta":"https://www.instagram.com/_.surya_shankar._/",
-						"image":"surya.jpg"
-					},
-
-					{
-						"name":"Shashank Kashyap",
-						"batch":"2018-23",
-						"insta":"https://instagram.com/shashankkashyap16",
-						"image":"shashank.jpeg"
-					},
-
-					{
-						"name":"Foram Fanasia",
-						"batch":"2018-23",
-						"insta":"https://instagram.com/caesar.saladxx",
-						"image":"foram.jpg"
+						"name":"Parth Thakkar",
+						"batch":"2016-21",
+						"fb":"https://www.facebook.com/parth.thakkar.77715",
+						"insta":"https://www.instagram.com/parthakkar.pt/",
+						"image":"parth.jpg"
 					}
 				]
 			},
-
-			{
-				"batch": "2019-24",
-
-				"members":[
-					{
-						"name":"Bhavya Jaiman",
-						"batch":"2019-24",
-						"image":"bhavya.jpg",
-						"linkedin":"https://www.linkedin.com/in/bhavyajaiman/"
-					}
-
-				]
-
-			},
-
-			{
-				"batch": "2020-25",
-
-				"members":[
-					
-					{
-						"name": "Pilla Jhahnavi",
-						"insta": "https://www.instagram.com/jhahnaviiii",
-						"linkedin": "https://www.linkedin.com/in/pilla-jhahnavi-667002217",
-						"twitter": "https://twitter.com/PJhahnavi?s=08",
-						"mail": "I20PH043@phy.svnit.ac.in",
-						"image": "jhahnavi.jpg"
-					}
-				]
-			}
+			
 		]
 	}
 
