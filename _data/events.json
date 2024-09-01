@@ -10,6 +10,13 @@
 ],
 "events":[
 	{
+		"name": "National Space Day",
+		"date": "23 August 2024",
+		"poster": "230824",
+		"descr": "The Physics Club at SVNIT is excited to invite you to celebrate National Space Day with us! Get ready for an enthralling experience as we dive into the wonders of astronomy and space science.<br><br>🗓 Date: 23rd August 2024<br>📍Venue: 402 Seminar Hall, DoCSE, SVNIT<br><br>Event Schedule:<br>4:00 PM - <b>Past to Present: Journey of Indian Astronomy</b><br>Join Charitarth Vyas as he takes us through the rich history and evolution of Indian astronomy, from ancient times to today.<br>5:00 PM - <b>India's Blooming Space Industry</b><br>Explore the future of India's space sector in this session with Star Labs, highlighting the latest developments and opportunities.",
+		"youtube": " "
+	},
+	{
 		"name": "October Sky",
 		"date": "21 January 2024",
 		"poster": "210124",
