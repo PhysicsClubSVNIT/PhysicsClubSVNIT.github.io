@@ -1,4 +1,4 @@
-bgs = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg','7.jpg', '9.jpg', '11.jpg', '12.jpg', '13.jpg'];
+bgs = ['1-min.webp', '2-min.webp', '3-min.webp', '4-min.webp', '5-min.webp','7-min.webp', '9-min.webp', '11-min.webp', '12-min.webp', '13-min.webp'];
 
 isnoti = true;
 
