@@ -4,11 +4,8 @@ permalink: /team
 title: Team | Physics Club NIT Surat
 navtitle: Team 
 extra_css:
-- https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css
 - /assets/css/team.css
 extra_js:
-- https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js
-- /assets/js/team.js
 ---
 
 <div id="main-container">
@@ -30,15 +27,15 @@ extra_js:
 
     <div class="holder">
 
-        <div class="splide slider">
-            <div class="splide__track">
-                <div class="splide__list">
+        
+            
+                
                     {% for member in batch.members %}
 
-                    <div class="splide__slide">
+                    
                         <div class="member">
                             <center>
-                                <img class="image" data-splide-lazy="/assets/Team/{{ member.image }}">
+                                <img class="image" src="/assets/Team/{{ member.image }}">
                                 <div class="name">{{ member.name }}</div>
                                 <div class="soc">
                                     {% if member.insta %}
@@ -59,13 +56,13 @@ extra_js:
                                 </div>
                             </center>
                         </div>
-                    </div>
+                    
 
                     {% endfor %}                             
 
-                </div>
-            </div>
-        </div>
+                
+            
+        
     </div>
 
     {% endfor %}

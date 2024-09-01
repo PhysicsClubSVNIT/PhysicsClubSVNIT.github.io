@@ -5,26 +5,10 @@
 
 		"batches":[
 
-			
 			{
 				"batch": "2020-25",
 
 				"members":[
-					
-					{
-						"name": "Disha Hegde",
-						"insta": "https://www.instagram.com/disharhegde/",
-						"linkedin": "https://www.linkedin.com/in/disha-hegde/",
-						"mail": "disharhegde@gmail.com",
-						"image": "disha.jpg"
-					},
-					
-					{
-						"name": "Vinit Pandya",
-						"linkedin": "https://www.linkedin.com/in/vinit-pandya",
-						"mail": "vdpandya2002@gmail.com",
-						"image": "disha.jpg"
-					},
 					
 					{
 						"name": "Rohan Umesh",
@@ -43,85 +27,15 @@
 					},
 
 					{
-						"name": "Navya Saraswat",
-						"insta": "https://www.instagram.com/stifledlaughs/",
+						"name": "Disha Hegde",
+						"insta": "https://www.instagram.com/disharhegde/",
+						"linkedin": "https://www.linkedin.com/in/disha-hegde/",
+						"mail": "disharhegde@gmail.com",
 						"image": "disha.jpg"
 					}
 
 				]
-			},
-
-			{
-				"batch": "2021-26",
-
-				"members":[
-					
-					{
-						"name": "Aastha Tripathi",
-						"batch": "2021-26",
-						"insta": "https://www.instagram.com/art.sthaaa",
-						"linkedin": "https://www.linkedin.com/in/aasthatripathi1210",
-						"image": "rohan.jpg"
-					}
-
-				]
-			},
-
-			{
-				"batch": "2022-27",
-
-				"members":[
-					
-					{
-						"name": "Aditya Kumar",
-						"batch": "2022-27",
-						"linkedin": "https://www.linkedin.com/in/adityak1911",
-						"image": "rohan.jpg"
-					},
-					
-					{
-						"name": "Mohammad Sameer",
-						"batch": "2022-27",
-						"linkedin": "https://www.linkedin.com/in/mohammad-sameer-a72827211/",
-						"image": "rohan.jpg"
-					},
-					
-					{
-						"name": "Dhairya Vaidya",
-						"batch": "2022-27",
-						"linkedin": "https://www.linkedin.com/in/dhairya-vaidya-a46a21282",
-						"insta": "https://www.instagram.com/dhairya_vaidya",
-						"image": "rohan.jpg"
-					},
-					
-					{
-						"name": "Drashtant H. Jethva",
-						"batch": "2022-27",
-						"insta": "https://www.instagram.com/drashtantjethva",
-						"image": "rohan.jpg"
-					},
-					
-					{
-						"name": "Satyam Singh",
-						"batch": "2022-27",
-						"linkedin": "https://www.linkedin.com/in/satyam-singh-41b7a224b",
-						"insta": "https://www.instagram.com/satyam.2k0402/",
-						"image": "rohan.jpg"
-					},
-					
-					{
-						"name": "Mihirsinh Chauhan",
-						"batch": "2022-27",
-						"linkedin": "https://www.linkedin.com/in/mihirsinh-chauhan-b2361a292",
-						"insta": "https://www.instagram.com/woamihir",
-						"image": "rohan.jpg"
-					},
-
-				]
-			},
-
-			
-			
+			}			
 
 		]
 
@@ -132,12 +46,109 @@
 		"type":"Alumni",
 
 		"batches":[
+
 			{
 
-				"batch": "2019-24",
+				"batch": "2016-21",
 
 				"members":[
 
+					{
+						"name":"Parth Thakkar",
+						"batch":"2016-21",
+						"fb":"https://www.facebook.com/parth.thakkar.77715",
+						"insta":"https://www.instagram.com/parthakkar.pt/",
+						"image":"parth.jpg"
+					}
+				]
+			},
+
+			{
+
+				"batch": "2017-22",
+
+				"members":[
+
+					{
+						"name":"Tiyasa Kar",
+						"batch":"2017-22",
+						"fb":"https://www.facebook.com/tiyasa.kar.12",
+						"image":"tiyasa.jpg",
+						"mail":"tiyasakar.102@gmail.com"
+					},
+
+					{
+						"name":"Ramkumar R.",
+						"batch":"2017-22",
+						"fb":"https://www.facebook.com/ramkumar0808",
+						"image":"ram.jpg",
+						"linkedin": "https://www.linkedin.com/in/ramkumar-radhakrishnan-1a8572174/",
+						"twitter": "https://twitter.com/rramkumar1997",
+						"insta": "https://www.instagram.com/rramkumar.radhakrishnan/",
+						"mail": "rramkumar081997@gmail.com"
+
+					},
+
+					{
+						"name":"Rahul Nene",
+						"batch":"2017-22",
+						"insta": "https://www.instagram.com/rahultnene/",
+						"fb":"https://www.facebook.com/rahulnene99",
+						"image":"rahul.jpg"
+					},
+
+					{
+						"name":"Nithin Kumar",
+						"batch":"2017-22",
+						"insta":"https://www.instagram.com/my_day_my_pics/",
+						"fb":"https://www.facebook.com/m.nithin01031997",
+						"image":"nithin.jpg"
+					},
+
+					{
+						"name":"Deepak Kumar",
+						"batch":"2017-22",
+						"insta": "https://www.instagram.com/deepakd_kkumar/",
+						"fb":"https://www.facebook.com/deepakd.kkumar17",
+						"image":"deepak.jpg"
+					}
+				]
+			},
+
+			{
+
+				"batch": "2018-23",
+
+				"members":[
+
+					{
+						"name":"Surya Shankar",
+						"batch":"2018-23",
+						"insta":"https://www.instagram.com/_.surya_shankar._/",
+						"image":"surya.jpg"
+					},
+
+					{
+						"name":"Shashank Kashyap",
+						"batch":"2018-23",
+						"insta":"https://instagram.com/shashankkashyap16",
+						"image":"shashank.jpeg"
+					},
+
+					{
+						"name":"Foram Fanasia",
+						"batch":"2018-23",
+						"insta":"https://instagram.com/caesar.saladxx",
+						"image":"foram.jpg"
+					}
+				]
+			},
+
+			{
+				"batch": "2019-24",
+
+				"members":[
+					
 					{
 						"name":"Siddharth Tiwari",
 						"batch":"2019-24",
@@ -182,116 +193,33 @@
 						"image":"adithya.jpg",
 						"linkedin":"https://www.linkedin.com/in/adithya-a-rao-3103"
 					},
-					
+
 					{
 						"name":"Bhavya Jaiman",
 						"batch":"2019-24",
 						"image":"bhavya.jpg",
 						"linkedin":"https://www.linkedin.com/in/bhavyajaiman/"
 					}
+
 				]
+
 			},
 
 			{
-
-				"batch": "2018-23",
-
-				"members":[
-
-					{
-						"name":"Surya Shankar",
-						"batch":"2018-23",
-						"insta":"https://www.instagram.com/_.surya_shankar._/",
-						"image":"surya.jpg"
-					},
-
-					{
-						"name":"Shashank Kashyap",
-						"batch":"2018-23",
-						"insta":"https://instagram.com/shashankkashyap16",
-						"image":"shashank.jpeg"
-					},
-
-					{
-						"name":"Foram Fanasia",
-						"batch":"2018-23",
-						"insta":"https://instagram.com/caesar.saladxx",
-						"image":"foram.jpg"
-					}
-				]
-			},
-			
-
-			{
-
-				"batch": "2017-22",
+				"batch": "2020-25",
 
 				"members":[
-
+					
 					{
-						"name":"Tiyasa Kar",
-						"batch":"2017-22",
-						"fb":"https://www.facebook.com/tiyasa.kar.12",
-						"image":"tiyasa.jpg",
-						"mail":"tiyasakar.102@gmail.com"
-					},
-
-					{
-						"name":"Ramkumar Radhakrishnan",
-						"batch":"2017-22",
-						"fb":"https://www.facebook.com/ramkumar0808",
-						"image":"ram.jpg",
-						"linkedin": "https://www.linkedin.com/in/ramkumar-radhakrishnan-1a8572174/",
-						"twitter": "https://twitter.com/rramkumar1997",
-						"insta": "https://www.instagram.com/rramkumar.radhakrishnan/",
-						"mail": "rramkumar081997@gmail.com"
-
-					},
-
-					{
-						"name":"Rahul Nene",
-						"batch":"2017-22",
-						"insta": "https://www.instagram.com/rahultnene/",
-						"fb":"https://www.facebook.com/rahulnene99",
-						"image":"rahul.jpg"
-					},
-
-					{
-						"name":"Nithin Kumar",
-						"batch":"2017-22",
-						"insta":"https://www.instagram.com/my_day_my_pics/",
-						"fb":"https://www.facebook.com/m.nithin01031997",
-						"image":"nithin.jpg"
-					},
-
-					{
-						"name":"Deepak Kumar",
-						"batch":"2017-22",
-						"insta": "https://www.instagram.com/deepakd_kkumar/",
-						"fb":"https://www.facebook.com/deepakd.kkumar17",
-						"image":"deepak.jpg"
+						"name": "Pilla Jhahnavi",
+						"insta": "https://www.instagram.com/jhahnaviiii",
+						"linkedin": "https://www.linkedin.com/in/pilla-jhahnavi-667002217",
+						"twitter": "https://twitter.com/PJhahnavi?s=08",
+						"mail": "I20PH043@phy.svnit.ac.in",
+						"image": "jhahnavi.jpg"
 					}
 				]
-			},
-
-			
-			
-			{
-
-				"batch": "2016-21",
-
-				"members":[
-
-					{
-						"name":"Parth Thakkar",
-						"batch":"2016-21",
-						"fb":"https://www.facebook.com/parth.thakkar.77715",
-						"insta":"https://www.instagram.com/parthakkar.pt/",
-						"image":"parth.jpg"
-					}
-				]
-			},
-			
+			}
 		]
 	}
 
