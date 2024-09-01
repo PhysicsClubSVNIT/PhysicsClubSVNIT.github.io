@@ -22,15 +22,21 @@ body{
 	background-image: repeating-linear-gradient(90deg, hsla(284,43%,48%,0.05) 0px, hsla(284,43%,48%,0.05) 1px,transparent 1px, transparent 11px,hsla(284,43%,48%,0.05) 11px, hsla(284,43%,48%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(225deg, hsla(284,43%,48%,0.05) 0px, hsla(284,43%,48%,0.05) 1px,transparent 1px, transparent 11px,hsla(284,43%,48%,0.05) 11px, hsla(284,43%,48%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(284,43%,48%,0.05) 0px, hsla(284,43%,48%,0.05) 1px,transparent 1px, transparent 11px,hsla(284,43%,48%,0.05) 11px, hsla(284,43%,48%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(284,43%,48%,0.05) 0px, hsla(284,43%,48%,0.05) 1px,transparent 1px, transparent 11px,hsla(284,43%,48%,0.05) 11px, hsla(284,43%,48%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(180deg, rgb(60, 9, 75),rgb(139, 70, 200));
 	background-image: radial-gradient(circle at 47% 32%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 59% 32%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 93% 9%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 3%,transparent 3%, transparent 100%),radial-gradient(circle at 43% 9%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 60% 67%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 90% 81%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 35% 43%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 96% 100%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 76% 23%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 67% 68%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 7%,transparent 7%, transparent 100%),radial-gradient(circle at 72% 2%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 61% 18%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 48% 10%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 10% 49%, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.01) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 17% 80%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 93% 2%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 36% 24%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 13% 49%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 4% 93%, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.02) 5%,transparent 5%, transparent 100%),linear-gradient(180deg, rgb(0,0,0),rgb(52, 78, 204));
 	*/
-	background-image: repeating-linear-gradient(135deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(135deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(157.5deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(180deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(180deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(225deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(225deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(180deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),linear-gradient(180deg, rgb(5,0,56),rgb(165,166,255));
-	background-attachment: fixed;
+	/* background-image: repeating-linear-gradient(135deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(135deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(157.5deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(180deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(180deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(225deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(225deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(180deg, rgba(255,255,255, 0.03) 0px, rgba(255,255,255, 0.03) 1px,transparent 1px, transparent 12px),linear-gradient(180deg, rgb(5,0,56),rgb(165,166,255)); */
+	background-image: url(/assets/Team/bg.jpeg);
+    background-attachment: fixed;
 }
 
 .holder{
-	width: 100vw;
+	width: 90vw;
 	position: relative;
 	left: 50%;
 	transform: translateX(calc(-50% - 5px));
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .member{
@@ -41,7 +47,7 @@ body{
 	transition: all 0.25s;
 	margin: 10px;
 	background: rgba(0, 0, 0, 0.8);
-	filter: brightness(50%) blur(0);
+	/* filter: brightness(50%) blur(0); */
 	margin-bottom: 20px;
 }
 
@@ -113,11 +119,11 @@ body{
 
 #phys, #club{
 	color: transparent;
-	font-size: calc(50px + 12.5vw);
+	font-size: calc(60px + 12.5vw);
 	position:  fixed;
-	font-weight: 800;
+	font-weight: 1000;
 	font-family: Roboto Condensed, Rubik;
-	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -203,4 +209,29 @@ body{
 	transform: translateX(-50%) translateY(-50%);
 	mix-blend-mode: soft-light;
 	filter: blur(2px) brightness(1);
+}
+
+
+@media screen and (max-width: 1100px){
+    .holder{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .holder{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .holder{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .holder{
+        grid-template-columns: 1fr;
+    }
 }

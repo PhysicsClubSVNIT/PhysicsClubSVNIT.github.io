@@ -5,60 +5,6 @@
 
 		"batches":[
 
-			
-			{
-
-				"batch": "2019-24",
-
-				"members":[
-
-					{
-						"name":"Siddharth Tiwari",
-						"batch":"2019-24",
-						"insta":"https://www.instagram.com/sid_y2k/",
-						"fb": "https://www.facebook.com/profile.php?id=100009034306703",
-						"image":"siddharth.jpg",
-						"linkedin": "https://www.linkedin.com/in/siddharth-kumar-tiwari",
-						"twitter": "https://twitter.com/sid_y2k",
-						"mail": "sidkt2015@gmail.com"
-					},
-
-					{
-						"name":"Shreyan Goswami",
-						"batch":"2019-24",
-						"insta":"https://www.instagram.com/shreyan.goswami/",
-						"image":"shreyan.jpg",
-						"mail": "goswamishreyan@gmail.com"
-					},
-
-					{
-						"name":"Hershini Gadaria",
-						"batch":"2019-24",
-						"insta":"https://www.instagram.com/hershey_ni/",
-						"fb":"https://www.facebook.com/hershini.gadaria.3",
-						"image":"hershini.jpg"
-					},
-
-					{
-						"name": "Aum Patel",
-						"batch": "2019-24",
-						"image": "aum.jpg",
-						"fb": "https://m.facebook.com/100004745610161/",
-						"insta": "https://www.instagram.com/aumpatel.18/",
-						"mail":"aumcpatel@gmail.com"
-					},
-
-					{
-						"name":"Adithya Rao",
-						"batch":"2019-24",
-						"insta":"https://www.instagram.com/rao__adithya/",
-						"mail":"adithyarao3132001@gmail.com",
-						"image":"adithya.jpg",
-						"linkedin":"https://www.linkedin.com/in/adithya-a-rao-3103"
-					}
-				]
-			},
-
 			{
 				"batch": "2020-25",
 
@@ -132,7 +78,7 @@
 					},
 
 					{
-						"name":"Ramkumar Radhakrishnan",
+						"name":"Ramkumar R.",
 						"batch":"2017-22",
 						"fb":"https://www.facebook.com/ramkumar0808",
 						"image":"ram.jpg",
@@ -202,6 +148,52 @@
 				"batch": "2019-24",
 
 				"members":[
+					
+					{
+						"name":"Siddharth Tiwari",
+						"batch":"2019-24",
+						"insta":"https://www.instagram.com/sid_y2k/",
+						"fb": "https://www.facebook.com/profile.php?id=100009034306703",
+						"image":"siddharth.jpg",
+						"linkedin": "https://www.linkedin.com/in/siddharth-kumar-tiwari",
+						"twitter": "https://twitter.com/sid_y2k",
+						"mail": "sidkt2015@gmail.com"
+					},
+
+					{
+						"name":"Shreyan Goswami",
+						"batch":"2019-24",
+						"insta":"https://www.instagram.com/shreyan.goswami/",
+						"image":"shreyan.jpg",
+						"mail": "goswamishreyan@gmail.com"
+					},
+
+					{
+						"name":"Hershini Gadaria",
+						"batch":"2019-24",
+						"insta":"https://www.instagram.com/hershey_ni/",
+						"fb":"https://www.facebook.com/hershini.gadaria.3",
+						"image":"hershini.jpg"
+					},
+
+					{
+						"name": "Aum Patel",
+						"batch": "2019-24",
+						"image": "aum.jpg",
+						"fb": "https://m.facebook.com/100004745610161/",
+						"insta": "https://www.instagram.com/aumpatel.18/",
+						"mail":"aumcpatel@gmail.com"
+					},
+
+					{
+						"name":"Adithya Rao",
+						"batch":"2019-24",
+						"insta":"https://www.instagram.com/rao__adithya/",
+						"mail":"adithyarao3132001@gmail.com",
+						"image":"adithya.jpg",
+						"linkedin":"https://www.linkedin.com/in/adithya-a-rao-3103"
+					},
+
 					{
 						"name":"Bhavya Jaiman",
 						"batch":"2019-24",
