@@ -6,6 +6,8 @@ navtitle: Alumni
 extra_css:
 - /assets/css/team.css
 extra_js:
+- https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js
+- /assets/js/team.js
 ---
 
 <div id="main-container">
@@ -35,7 +37,7 @@ extra_js:
                     
                         <div class="member">
                             <center>
-                                <img class="image" src="/assets/Team/{{ member.image }}">
+                                <img class="image lozad" src="/assets/Team/placeholder.jpg" data-src="/assets/Team/{{ member.image }}">
                                 <div class="name">{{ member.name }}</div>
                                 <div class="soc">
                                     {% if member.insta %}
