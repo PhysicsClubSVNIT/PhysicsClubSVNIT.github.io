@@ -6,3 +6,5 @@ A club of National Insitute of Technology Surat, aiming at propogating the inter
 <p align="center">
 	<img width="250" src="https://github.com/PhysicsClubSVNIT/PhysicsClubSVNIT.github.io/blob/main/assets/images/pc.png?raw=true">
 </p>
+
+![visitors](https://visitor-counter-adithyarao3103.vercel.app/show?name=physics-club&tb=000000&cf=000000&cb=ffffff)
